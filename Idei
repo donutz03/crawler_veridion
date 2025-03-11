@@ -1,0 +1,13 @@
+o alta chestie e timpul de incarcare al site-urilor
+
+fac un script separat care vede cat dureaza sa se incarce fiecare site
+sau mai degraba la care dureaza mai mult de 2 secunde (maxim 2h15 minute ruleaza scriptul)
+
+il rulez o data (ideal ar fi de mai multe ori dar nu am puterea de calcul)
+
+site urile care trec de 2 secunde le salvez domainul, si la fel si la cele care dureaza sub 2secunde. 
+
+de fapt salvez timpii de load (la cele care dureaza mai mult de 2 secunde step over si scriu undeva in fisier ca a durat peste 2 secunde)
+
+pot sa incep incremental cu 0.1 s, apoi 0.2 s apoi 0.3 s apoi 0.4 s apoi 0.5 s si mereu sar peste domeniile care s au incarcat repede 
+cand trec de la un increment la altul
