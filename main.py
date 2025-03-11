@@ -16,6 +16,13 @@ def citeste_parquet(fisier_parquet):
         print(f"Eroare la citirea fișierului: {e}")
         return None
 
+#idei: imaginile nu sunt incarcate doar cu tagul img
+# pot fi si cu tag a poate
+# sau pot fi setate din JS/CSS ca background-image (il gasesc la computed styles) si atasate
+# unui alt element, cum ar fi un div, span, etc
+# atunci eu cat dupa url(link imagine) in CSS -> computed. Si il iau de acolo
+# intrebarea e cum gasesc fisierul CSS bun
+# Mai mult, poate sunt mai multe img, cum ma asigur ca ceea ce descarc e un logo si nu altceva
 
 if __name__ == "__main__":
     fisier_parquet = "logos.snappy.parquet"
