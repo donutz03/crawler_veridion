@@ -1,0 +1,22 @@
+import pandas as pd
+#e nevoie de pyarrow : pip install pyarrow
+
+def citeste_parquet(fisier_parquet):
+    try:
+        df = pd.read_parquet(fisier_parquet)
+
+        print(f"Fișierul conține {len(df)} înregistrări și {len(df.columns)} coloane.")
+        print(f"Coloanele din fișier: {df.columns.tolist()}")
+
+        print("\nConținutul fișierului:")
+        print(df)
+
+        return df
+    except Exception as e:
+        print(f"Eroare la citirea fișierului: {e}")
+        return None
+
+
+if __name__ == "__main__":
+    fisier_parquet = "logos.snappy.parquet"
+    citeste_parquet(fisier_parquet)
