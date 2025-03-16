@@ -234,26 +234,30 @@ def process_websites(websites, max_workers=10, limit=200):
     
     return results
 
-def read_website_list(file_path):
-    """Read website URLs from a file."""
-    with open(file_path, 'r') as f:
-        return [line.strip() for line in f if line.strip()]
+# Removed read_website_list function since it's now handled in parquet_reader.py
 
 def main():
+    # This is just for standalone execution
+    # The main workflow now uses parquet_reader.py to get websites
     try:
-        # Try to read from a file first
-        websites = read_website_list('logos_list')
-        logger.info(f"Read {len(websites)} websites from logos_list file")
+        # Try to read from a parquet file first
+        from parquet_reader import read_websites_from_parquet
+        websites = read_websites_from_parquet('logos.snappy.parquet')
+        logger.info(f"Read {len(websites)} websites from Parquet file")
     except:
         # Fallback to a sample list
-        logger.info("logos_list file not found, using sample websites")
+        logger.info("Parquet file not found or error reading it, using sample websites")
         websites = [
             "google.com",
             "facebook.com",
             "amazon.com",
             "apple.com",
             "microsoft.com",
-            # Add more websites to make up 200...
+            "youtube.com",
+            "twitter.com",
+            "instagram.com",
+            "linkedin.com",
+            "netflix.com"
         ]
     
     start_time = time.time()

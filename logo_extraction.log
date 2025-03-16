@@ -1,0 +1,553 @@
+2025-03-16 10:43:33,588 - LogoAnalysisWorkflow - ERROR - Error reading website list: [Errno 2] No such file or directory: 'logos_list'
+2025-03-16 10:43:33,589 - LogoAnalysisWorkflow - INFO - Using default sample websites
+2025-03-16 10:43:33,589 - LogoAnalysisWorkflow - INFO - Extracting logos from 10 websites
+2025-03-16 10:43:33,591 - LogoExtractor - INFO - [0] Processing https://google.com (google.com)
+2025-03-16 10:43:33,592 - LogoExtractor - INFO - [1] Processing https://facebook.com (facebook.com)
+2025-03-16 10:43:33,593 - LogoExtractor - INFO - [2] Processing https://amazon.com (amazon.com)
+2025-03-16 10:43:33,593 - LogoExtractor - INFO - [3] Processing https://apple.com (apple.com)
+2025-03-16 10:43:33,593 - LogoExtractor - INFO - [4] Processing https://microsoft.com (microsoft.com)
+2025-03-16 10:43:33,594 - LogoExtractor - INFO - [5] Processing https://youtube.com (youtube.com)
+2025-03-16 10:43:33,594 - LogoExtractor - INFO - [6] Processing https://twitter.com (twitter.com)
+2025-03-16 10:43:33,595 - LogoExtractor - INFO - [7] Processing https://instagram.com (instagram.com)
+2025-03-16 10:43:33,595 - LogoExtractor - INFO - [8] Processing https://linkedin.com (linkedin.com)
+2025-03-16 10:43:33,596 - LogoExtractor - INFO - [9] Processing https://netflix.com (netflix.com)
+2025-03-16 10:43:33,936 - LogoExtractor - WARNING - Failed to get https://facebook.com: Status code 400
+2025-03-16 10:43:34,164 - LogoExtractor - INFO - Saved logo to extracted_logos\youtube.com_0_3a2926e473.ico
+2025-03-16 10:43:34,174 - LogoExtractor - INFO - Saved logo to extracted_logos\apple.com_0_8ecbbb4253.ico
+2025-03-16 10:43:34,222 - LogoExtractor - INFO - Saved logo to extracted_logos\instagram.com_0_257f8c1476.png
+2025-03-16 10:43:34,262 - LogoExtractor - INFO - Saved logo to extracted_logos\linkedin.com_0_06c2473252.png
+2025-03-16 10:43:34,419 - LogoExtractor - INFO - Saved logo to extracted_logos\twitter.com_0_60621521b1.png
+2025-03-16 10:43:34,528 - LogoExtractor - INFO - Saved logo to extracted_logos\netflix.com_0_41fa3ab692.png
+2025-03-16 10:43:34,573 - LogoExtractor - INFO - Saved logo to extracted_logos\netflix.com_1_11b56ad1ab.ico
+2025-03-16 10:43:34,736 - LogoExtractor - INFO - Saved logo to extracted_logos\google.com_2_2a809b3676.ico
+2025-03-16 10:43:35,473 - LogoExtractor - INFO - Saved logo to extracted_logos\amazon.com_0_c169daaf86.ico
+2025-03-16 10:43:39,391 - LogoExtractor - INFO - Saved logo to extracted_logos\microsoft.com_0_e0a4954ae2.png
+2025-03-16 10:43:39,393 - LogoAnalysisWorkflow - INFO - Extracted 10 logos
+2025-03-16 10:43:39,393 - LogoAnalysisWorkflow - INFO - Analyzing logo similarities
+2025-03-16 10:43:39,394 - LogoSimilarity - ERROR - Error loading logo data: [Errno 2] No such file or directory: 'extracted_logos_info.csv'
+2025-03-16 10:43:39,394 - LogoSimilarity - INFO - Computed features for 0 logos
+2025-03-16 10:43:39,394 - LogoSimilarity - WARNING - No features provided for clustering
+2025-03-16 10:43:39,395 - LogoAnalysisWorkflow - ERROR - Error in workflow: 'list' object has no attribute 'items'
+2025-03-16 10:49:02,689 - ParquetReader - INFO - Reading websites from Parquet file: logos.snappy.parquet
+2025-03-16 10:49:02,747 - ParquetReader - INFO - Parquet file columns: ['domain']
+2025-03-16 10:49:02,747 - ParquetReader - INFO - Number of records: 4384
+2025-03-16 10:49:02,747 - ParquetReader - INFO - Using column 'domain' for website URLs
+2025-03-16 10:49:02,749 - ParquetReader - INFO - Extracted 4384 website URLs
+2025-03-16 10:49:02,749 - ParquetReader - INFO - Sample websites: ['stanbicbank.co.zw', 'astrazeneca.ua', 'autosecuritas-ct-seysses.fr', 'ovb.ro', 'mazda-autohaus-hellwig-hoyerswerda.de']
+2025-03-16 10:49:02,749 - LogoAnalysisWorkflow - INFO - Read 4384 websites from Parquet file logos.snappy.parquet
+2025-03-16 10:49:02,750 - LogoAnalysisWorkflow - INFO - Extracting logos from 200 websites
+2025-03-16 10:49:02,750 - LogoExtractor - INFO - [0] Processing https://stanbicbank.co.zw (stanbicbank.co.zw)
+2025-03-16 10:49:02,751 - LogoExtractor - INFO - [1] Processing https://astrazeneca.ua (astrazeneca.ua)
+2025-03-16 10:49:02,751 - LogoExtractor - INFO - [2] Processing https://autosecuritas-ct-seysses.fr (autosecuritas-ct-seysses.fr)
+2025-03-16 10:49:02,752 - LogoExtractor - INFO - [3] Processing https://ovb.ro (ovb.ro)
+2025-03-16 10:49:02,752 - LogoExtractor - INFO - [4] Processing https://mazda-autohaus-hellwig-hoyerswerda.de (mazda-autohaus-hellwig-hoyerswerda.de)
+2025-03-16 10:49:02,753 - LogoExtractor - INFO - [5] Processing https://toyota-buchreiter-eisenstadt.at (toyota-buchreiter-eisenstadt.at)
+2025-03-16 10:49:02,753 - LogoExtractor - INFO - [6] Processing https://ebay.cn (ebay.cn)
+2025-03-16 10:49:02,754 - LogoExtractor - INFO - [7] Processing https://greatplacetowork.com.bo (greatplacetowork.com.bo)
+2025-03-16 10:49:02,754 - LogoExtractor - INFO - [8] Processing https://wurth-international.com (wurth-international.com)
+2025-03-16 10:49:02,755 - LogoExtractor - INFO - [9] Processing https://plameco-hannover.de (plameco-hannover.de)
+2025-03-16 10:49:03,176 - LogoExtractor - ERROR - Error processing https://greatplacetowork.com.bo: HTTPSConnectionPool(host='greatplacetowork.com.bo', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)')))
+2025-03-16 10:49:03,176 - LogoExtractor - INFO - [10] Processing https://kia-moeller-wunstorf.de (kia-moeller-wunstorf.de)
+2025-03-16 10:49:03,548 - LogoExtractor - INFO - Saved logo to extracted_logos\plameco-hannover.de_0_bc7d27db63.png
+2025-03-16 10:49:03,637 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-hellwig-hoyerswerda.de_0_def3a004d3.png
+2025-03-16 10:49:03,638 - LogoExtractor - INFO - [11] Processing https://ccusa.co.nz (ccusa.co.nz)
+2025-03-16 10:49:03,709 - LogoExtractor - INFO - Saved logo to extracted_logos\toyota-buchreiter-eisenstadt.at_1_706892305b.jpg
+2025-03-16 10:49:03,718 - LogoExtractor - INFO - Saved logo to extracted_logos\ovb.ro_0_a4080a0d92.jpg
+2025-03-16 10:49:03,824 - LogoExtractor - INFO - Saved logo to extracted_logos\toyota-buchreiter-eisenstadt.at_2_a292965f95.png
+2025-03-16 10:49:03,825 - LogoExtractor - INFO - [12] Processing https://tupperware.at (tupperware.at)
+2025-03-16 10:49:03,916 - LogoExtractor - INFO - Saved logo to extracted_logos\plameco-hannover.de_1_00c87cf2ea.ico
+2025-03-16 10:49:03,916 - LogoExtractor - INFO - [13] Processing https://zalando.cz (zalando.cz)
+2025-03-16 10:49:03,992 - LogoExtractor - INFO - Saved logo to extracted_logos\autosecuritas-ct-seysses.fr_1_986dd63b6c.png
+2025-03-16 10:49:04,090 - LogoExtractor - INFO - Saved logo to extracted_logos\kia-moeller-wunstorf.de_0_307a8bb9f8.png
+2025-03-16 10:49:04,280 - LogoExtractor - INFO - Saved logo to extracted_logos\ovb.ro_1_dde559c74f.jpg
+2025-03-16 10:49:04,306 - LogoExtractor - INFO - Saved logo to extracted_logos\autosecuritas-ct-seysses.fr_2_2b72fa8d98.png
+2025-03-16 10:49:04,307 - LogoExtractor - INFO - [14] Processing https://crocs.com.uy (crocs.com.uy)
+2025-03-16 10:49:04,359 - LogoExtractor - ERROR - Error processing https://tupperware.at: HTTPSConnectionPool(host='www.tupperware.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tupperware.at'. (_ssl.c:1018)")))
+2025-03-16 10:49:04,359 - LogoExtractor - INFO - [15] Processing https://ymcasteuben.org (ymcasteuben.org)
+2025-03-16 10:49:04,374 - LogoExtractor - INFO - Saved logo to extracted_logos\kia-moeller-wunstorf.de_1_93a9aba4fc.png
+2025-03-16 10:49:04,419 - LogoExtractor - INFO - Saved logo to extracted_logos\wurth-international.com_1_722d3148b0.png
+2025-03-16 10:49:04,420 - LogoExtractor - INFO - [16] Processing https://engie.co.uk (engie.co.uk)
+2025-03-16 10:49:04,472 - LogoExtractor - ERROR - Error processing https://ymcasteuben.org: HTTPSConnectionPool(host='ymcasteuben.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1018)')))
+2025-03-16 10:49:04,472 - LogoExtractor - INFO - [17] Processing https://ibc-solar.jp (ibc-solar.jp)
+2025-03-16 10:49:04,677 - LogoExtractor - INFO - Saved logo to extracted_logos\kia-moeller-wunstorf.de_2_f734762f09.jpg
+2025-03-16 10:49:04,678 - LogoExtractor - INFO - [18] Processing https://lidl.com.cy (lidl.com.cy)
+2025-03-16 10:49:04,761 - LogoExtractor - INFO - Saved logo to extracted_logos\ovb.ro_2_de27a6bd00.jpg
+2025-03-16 10:49:04,762 - LogoExtractor - INFO - [19] Processing https://nobleprog.mx (nobleprog.mx)
+2025-03-16 10:49:05,671 - LogoExtractor - INFO - Saved logo to extracted_logos\ibc-solar.jp_1_53c042afce.png
+2025-03-16 10:49:05,672 - LogoExtractor - INFO - [20] Processing https://freseniusmedicalcare.ca (freseniusmedicalcare.ca)
+2025-03-16 10:49:05,737 - LogoExtractor - INFO - [21] Processing https://synlab.com.tr (synlab.com.tr)
+2025-03-16 10:49:06,158 - LogoExtractor - INFO - Saved logo to extracted_logos\freseniusmedicalcare.ca_0_05c2803572.png
+2025-03-16 10:49:06,289 - LogoExtractor - INFO - Saved logo to extracted_logos\ccusa.co.nz_0_b0bfdcd314.jpg
+2025-03-16 10:49:06,479 - LogoExtractor - INFO - Saved logo to extracted_logos\crocs.com.uy_1_a6d88f8d2a.jpg
+2025-03-16 10:49:06,548 - LogoExtractor - INFO - Saved logo to extracted_logos\crocs.com.uy_2_75795fef47.jpg
+2025-03-16 10:49:06,549 - LogoExtractor - INFO - [22] Processing https://avis.cr (avis.cr)
+2025-03-16 10:49:06,555 - LogoExtractor - INFO - Saved logo to extracted_logos\freseniusmedicalcare.ca_1_5eba646eac.png
+2025-03-16 10:49:06,556 - LogoExtractor - INFO - [23] Processing https://ebayglobalshipping.com (ebayglobalshipping.com)
+2025-03-16 10:49:06,602 - LogoExtractor - INFO - [24] Processing https://cafelasmargaritas.es (cafelasmargaritas.es)
+2025-03-16 10:49:06,649 - LogoExtractor - INFO - Saved logo to extracted_logos\synlab.com.tr_1_41be9ed51d.png
+2025-03-16 10:49:06,767 - LogoExtractor - INFO - Saved logo to extracted_logos\synlab.com.tr_2_8f8125660e.ico
+2025-03-16 10:49:06,767 - LogoExtractor - INFO - [25] Processing https://affidea.ba (affidea.ba)
+2025-03-16 10:49:07,159 - LogoExtractor - INFO - Saved logo to extracted_logos\cafelasmargaritas.es_1_5815bca375.png
+2025-03-16 10:49:07,236 - LogoExtractor - INFO - Saved logo to extracted_logos\nobleprog.mx_0_b5a18d07d7.png
+2025-03-16 10:49:07,261 - LogoExtractor - INFO - Saved logo to extracted_logos\ccusa.co.nz_1_cee74f11a0.png
+2025-03-16 10:49:07,302 - LogoExtractor - INFO - [26] Processing https://bakertilly.lu (bakertilly.lu)
+2025-03-16 10:49:07,560 - LogoExtractor - INFO - Saved logo to extracted_logos\affidea.ba_2_32d40b2607.png
+2025-03-16 10:49:07,561 - LogoExtractor - INFO - [27] Processing https://spitex-wasseramt.ch (spitex-wasseramt.ch)
+2025-03-16 10:49:07,824 - LogoExtractor - INFO - Saved logo to extracted_logos\engie.co.uk_1_783b909501.png
+2025-03-16 10:49:07,824 - LogoExtractor - INFO - Saved logo to extracted_logos\nobleprog.mx_1_b245d45d71.png
+2025-03-16 10:49:07,825 - LogoExtractor - INFO - [28] Processing https://aamcoanaheim.net (aamcoanaheim.net)
+2025-03-16 10:49:08,384 - LogoExtractor - INFO - Saved logo to extracted_logos\ebay.cn_0_2cb81dbc20.png
+2025-03-16 10:49:08,495 - LogoExtractor - INFO - Saved logo to extracted_logos\bakertilly.lu_1_ff244a1dbb.png
+2025-03-16 10:49:08,614 - LogoExtractor - INFO - Saved logo to extracted_logos\nobleprog.mx_2_c62ad5bc7d.png
+2025-03-16 10:49:08,615 - LogoExtractor - INFO - [29] Processing https://deheus.com.vn (deheus.com.vn)
+2025-03-16 10:49:08,683 - LogoExtractor - INFO - [30] Processing https://veolia.com.ru (veolia.com.ru)
+2025-03-16 10:49:08,715 - LogoExtractor - INFO - Saved logo to extracted_logos\bakertilly.lu_2_d3b77a1cce.png
+2025-03-16 10:49:08,716 - LogoExtractor - INFO - [31] Processing https://julis-sh.de (julis-sh.de)
+2025-03-16 10:49:09,004 - LogoExtractor - INFO - Saved logo to extracted_logos\spitex-wasseramt.ch_1_b24beaea8d.ico
+2025-03-16 10:49:09,005 - LogoExtractor - INFO - [32] Processing https://aamcoconyersga.com (aamcoconyersga.com)
+2025-03-16 10:49:09,582 - LogoExtractor - INFO - [33] Processing https://renault-tortosa.es (renault-tortosa.es)
+2025-03-16 10:49:09,673 - LogoExtractor - INFO - Saved logo to extracted_logos\julis-sh.de_0_1ef73e9bf1.png
+2025-03-16 10:49:09,904 - LogoExtractor - INFO - Saved logo to extracted_logos\julis-sh.de_1_372bff14de.png
+2025-03-16 10:49:09,959 - LogoExtractor - INFO - Saved logo to extracted_logos\ebay.cn_1_0c8c585332.ico
+2025-03-16 10:49:09,960 - LogoExtractor - INFO - [34] Processing https://oil-testing.de (oil-testing.de)
+2025-03-16 10:49:10,024 - LogoExtractor - INFO - Saved logo to extracted_logos\julis-sh.de_2_ec71ece498.png
+2025-03-16 10:49:10,024 - LogoExtractor - INFO - [35] Processing https://baywa-re.es (baywa-re.es)
+2025-03-16 10:49:10,322 - LogoExtractor - INFO - [36] Processing https://menschenfuermenschen.at (menschenfuermenschen.at)
+2025-03-16 10:49:10,514 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcoanaheim.net_0_64805d534e.png
+2025-03-16 10:49:10,633 - LogoExtractor - INFO - Saved logo to extracted_logos\veolia.com.ru_0_6e1471cab7.png
+2025-03-16 10:49:10,786 - LogoExtractor - INFO - Saved logo to extracted_logos\veolia.com.ru_1_6d8ca9694b.png
+2025-03-16 10:49:10,920 - LogoExtractor - INFO - Saved logo to extracted_logos\veolia.com.ru_2_e0943db0dd.ico
+2025-03-16 10:49:10,921 - LogoExtractor - INFO - [37] Processing https://europa-union-sachsen-anhalt.de (europa-union-sachsen-anhalt.de)
+2025-03-16 10:49:11,139 - LogoExtractor - INFO - Saved logo to extracted_logos\baywa-re.es_0_69e3a442dc.png
+2025-03-16 10:49:11,280 - LogoExtractor - INFO - Saved logo to extracted_logos\deheus.com.vn_0_b5e49035c6.png
+2025-03-16 10:49:11,339 - LogoExtractor - INFO - Saved logo to extracted_logos\baywa-re.es_1_a1fd84e3f7.ico
+2025-03-16 10:49:11,340 - LogoExtractor - INFO - [38] Processing https://wurthsaudi.com (wurthsaudi.com)
+2025-03-16 10:49:11,382 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcoconyersga.com_0_ed41534e07.png
+2025-03-16 10:49:11,644 - LogoExtractor - INFO - Saved logo to extracted_logos\oil-testing.de_0_b13c07f287.png
+2025-03-16 10:49:11,666 - LogoExtractor - INFO - Saved logo to extracted_logos\deheus.com.vn_1_0f51bb3995.png
+2025-03-16 10:49:11,743 - LogoExtractor - INFO - [39] Processing https://pirtek.be (pirtek.be)
+2025-03-16 10:49:12,213 - LogoExtractor - INFO - Saved logo to extracted_logos\pirtek.be_0_22bb555a93.png
+2025-03-16 10:49:12,331 - LogoExtractor - INFO - Saved logo to extracted_logos\pirtek.be_1_6abaa6e87f.jpg
+2025-03-16 10:49:12,387 - LogoExtractor - INFO - Saved logo to extracted_logos\europa-union-sachsen-anhalt.de_0_b87bdfab41.png
+2025-03-16 10:49:12,387 - LogoExtractor - INFO - Saved logo to extracted_logos\pirtek.be_2_e46e6a517d.png
+2025-03-16 10:49:12,388 - LogoExtractor - INFO - [40] Processing https://aamcoseguin.com (aamcoseguin.com)
+2025-03-16 10:49:12,391 - LogoExtractor - INFO - Saved logo to extracted_logos\deheus.com.vn_2_e1487a842b.png
+2025-03-16 10:49:12,392 - LogoExtractor - INFO - [41] Processing https://bakertilly.es (bakertilly.es)
+2025-03-16 10:49:12,458 - LogoExtractor - INFO - Saved logo to extracted_logos\ebayglobalshipping.com_1_f12541d0dd.ico
+2025-03-16 10:49:12,459 - LogoExtractor - INFO - [42] Processing https://mazda-autohaus-kaschmieder-waren.de (mazda-autohaus-kaschmieder-waren.de)
+2025-03-16 10:49:12,557 - LogoExtractor - INFO - [43] Processing https://zkteco.vn (zkteco.vn)
+2025-03-16 10:49:12,625 - LogoExtractor - INFO - [44] Processing https://allianz.nl (allianz.nl)
+2025-03-16 10:49:12,725 - LogoExtractor - INFO - Saved logo to extracted_logos\wurthsaudi.com_0_cecbe1e413.png
+2025-03-16 10:49:12,792 - LogoExtractor - ERROR - Error processing https://stanbicbank.co.zw: HTTPSConnectionPool(host='stanbicbank.co.zw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025DAFE2D450>, 'Connection to stanbicbank.co.zw timed out. (connect timeout=10)'))
+2025-03-16 10:49:12,792 - LogoExtractor - INFO - [45] Processing https://xella-colloquium.berlin (xella-colloquium.berlin)
+2025-03-16 10:49:12,810 - LogoExtractor - INFO - Saved logo to extracted_logos\europa-union-sachsen-anhalt.de_1_7858ebc37a.png
+2025-03-16 10:49:12,942 - LogoExtractor - ERROR - Error processing https://xella-colloquium.berlin: HTTPSConnectionPool(host='xella-colloquium.berlin', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025DB0E60B90>: Failed to resolve 'xella-colloquium.berlin' ([Errno 11001] getaddrinfo failed)"))
+2025-03-16 10:49:12,943 - LogoExtractor - INFO - [46] Processing https://unicharm.com.br (unicharm.com.br)
+2025-03-16 10:49:13,067 - LogoExtractor - ERROR - Error processing https://unicharm.com.br: HTTPSConnectionPool(host='unicharm.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025DB0E61BD0>: Failed to resolve 'unicharm.com.br' ([Errno 11001] getaddrinfo failed)"))
+2025-03-16 10:49:13,068 - LogoExtractor - INFO - [47] Processing https://berlitz-augsburg.de (berlitz-augsburg.de)
+2025-03-16 10:49:13,134 - LogoExtractor - INFO - Saved logo to extracted_logos\oil-testing.de_2_a3dc053fed.png
+2025-03-16 10:49:13,135 - LogoExtractor - INFO - [48] Processing https://intertongn.es (intertongn.es)
+2025-03-16 10:49:13,219 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-kaschmieder-waren.de_0_def3a004d3.png
+2025-03-16 10:49:13,220 - LogoExtractor - INFO - [49] Processing https://bmw-motorrad-euromotos-lyon.fr (bmw-motorrad-euromotos-lyon.fr)
+2025-03-16 10:49:13,277 - LogoExtractor - INFO - Saved logo to extracted_logos\wurthsaudi.com_1_5e3696b7ae.png
+2025-03-16 10:49:13,590 - LogoExtractor - INFO - Saved logo to extracted_logos\europa-union-sachsen-anhalt.de_2_16108e7ed3.png
+2025-03-16 10:49:13,590 - LogoExtractor - INFO - [50] Processing https://rsmpoland.pl (rsmpoland.pl)
+2025-03-16 10:49:13,656 - LogoExtractor - INFO - Saved logo to extracted_logos\bakertilly.es_1_a37d763ddc.png
+2025-03-16 10:49:13,657 - LogoExtractor - INFO - [51] Processing https://esseskincare.sg (esseskincare.sg)
+2025-03-16 10:49:13,737 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcoseguin.com_0_03cce7cae7.png
+2025-03-16 10:49:13,923 - LogoExtractor - INFO - Saved logo to extracted_logos\wurthsaudi.com_2_acdcdf69ce.png
+2025-03-16 10:49:13,923 - LogoExtractor - INFO - [52] Processing https://secureparkinghi.com (secureparkinghi.com)
+2025-03-16 10:49:14,019 - LogoExtractor - INFO - Saved logo to extracted_logos\bmw-motorrad-euromotos-lyon.fr_0_6b07067972.jpg
+2025-03-16 10:49:14,119 - LogoExtractor - INFO - Saved logo to extracted_logos\allianz.nl_1_b12c6e883f.png
+2025-03-16 10:49:14,120 - LogoExtractor - INFO - [53] Processing https://trinkgutlippstadt.de (trinkgutlippstadt.de)
+2025-03-16 10:49:14,127 - LogoExtractor - ERROR - Error processing https://zalando.cz: HTTPSConnectionPool(host='www.zalando.cz', port=443): Read timed out. (read timeout=10)
+2025-03-16 10:49:14,128 - LogoExtractor - INFO - [54] Processing https://bauder.lt (bauder.lt)
+2025-03-16 10:49:14,177 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcoseguin.com_1_ad16f9411a.png 
+2025-03-16 10:49:14,177 - LogoExtractor - INFO - [55] Processing https://savethechildren.ca (savethechildren.ca)
+2025-03-16 10:49:14,283 - LogoExtractor - INFO - Saved logo to extracted_logos\rsmpoland.pl_0_957ec7d787.webp
+2025-03-16 10:49:14,433 - LogoExtractor - INFO - Saved logo to extracted_logos\rsmpoland.pl_1_e3cca5c008.ico
+2025-03-16 10:49:14,433 - LogoExtractor - INFO - [56] Processing https://mazda-autohaus-lackmann-sendenhorst.de (mazda-autohaus-lackmann-sendenhorst.de)
+2025-03-16 10:49:14,489 - LogoExtractor - INFO - Saved logo to extracted_logos\bmw-motorrad-euromotos-lyon.fr_2_f4b68117eb.png
+2025-03-16 10:49:14,490 - LogoExtractor - INFO - [57] Processing https://avoncameroun.com (avoncameroun.com)
+2025-03-16 10:49:14,601 - LogoExtractor - ERROR - Error processing https://avoncameroun.com: HTTPSConnectionPool(host='avoncameroun.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'avoncameroun.com'. (_ssl.c:1018)")))
+2025-03-16 10:49:14,601 - LogoExtractor - INFO - [58] Processing https://menicon.de (menicon.de)
+2025-03-16 10:49:14,770 - LogoExtractor - INFO - Saved logo to extracted_logos\trinkgutlippstadt.de_0_4fdb3d4fdd.png
+2025-03-16 10:49:14,986 - LogoExtractor - INFO - Saved logo to extracted_logos\trinkgutlippstadt.de_1_91882b54ee.png
+2025-03-16 10:49:15,141 - LogoExtractor - INFO - Saved logo to extracted_logos\berlitz-augsburg.de_0_41805a71aa.jpg
+2025-03-16 10:49:15,152 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-lackmann-sendenhorst.de_0_def3a004d3.png
+2025-03-16 10:49:15,153 - LogoExtractor - INFO - [59] Processing https://linde-gas.fi (linde-gas.fi)
+2025-03-16 10:49:15,235 - LogoExtractor - INFO - Saved logo to extracted_logos\trinkgutlippstadt.de_2_f848659528.png
+2025-03-16 10:49:15,235 - LogoExtractor - INFO - [60] Processing https://mateco.nl (mateco.nl)
+2025-03-16 10:49:15,474 - LogoExtractor - INFO - Saved logo to extracted_logos\menicon.de_0_5eab6b7c7b.png
+2025-03-16 10:49:15,713 - LogoExtractor - INFO - Saved logo to extracted_logos\zkteco.vn_0_71c96bf455.png
+2025-03-16 10:49:15,821 - LogoExtractor - INFO - Saved logo to extracted_logos\menicon.de_1_4f7eab8e63.ico
+2025-03-16 10:49:15,822 - LogoExtractor - INFO - [61] Processing https://svnefird.com (svnefird.com)
+2025-03-16 10:49:15,965 - LogoExtractor - INFO - Saved logo to extracted_logos\berlitz-augsburg.de_1_163f6ed5c1.png
+2025-03-16 10:49:15,966 - LogoExtractor - INFO - [62] Processing https://svntrinity.com (svntrinity.com)
+2025-03-16 10:49:16,346 - LogoExtractor - INFO - Saved logo to extracted_logos\savethechildren.ca_0_1c69fb75ff.png
+2025-03-16 10:49:16,346 - LogoExtractor - INFO - [63] Processing https://orient-food.sk (orient-food.sk)
+2025-03-16 10:49:16,351 - LogoExtractor - INFO - Saved logo to extracted_logos\bauder.lt_1_e4502cc26c.png
+2025-03-16 10:49:16,352 - LogoExtractor - INFO - [64] Processing https://noiseassessments.org (noiseassessments.org)
+2025-03-16 10:49:16,463 - LogoExtractor - ERROR - Error processing https://svnefird.com: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-16 10:49:16,464 - LogoExtractor - INFO - [65] Processing https://equans.hu (equans.hu)
+2025-03-16 10:49:16,464 - LogoExtractor - INFO - Saved logo to extracted_logos\zkteco.vn_1_732520d03f.png
+2025-03-16 10:49:16,465 - LogoExtractor - INFO - [66] Processing https://williamblairfunds.com (williamblairfunds.com)
+2025-03-16 10:49:16,513 - LogoExtractor - INFO - Saved logo to extracted_logos\linde-gas.fi_0_8b7f021d2d.png
+2025-03-16 10:49:16,680 - LogoExtractor - INFO - Saved logo to extracted_logos\linde-gas.fi_1_cae6866bc4.ico
+2025-03-16 10:49:16,680 - LogoExtractor - INFO - [67] Processing https://mazdaofamarillo.com (mazdaofamarillo.com)
+2025-03-16 10:49:16,848 - LogoExtractor - INFO - Saved logo to extracted_logos\svntrinity.com_0_50bb2a3eaf.png
+2025-03-16 10:49:16,854 - LogoExtractor - ERROR - Error processing https://mazdaofamarillo.com: HTTPSConnectionPool(host='mazdaofamarillo.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mazdaofamarillo.com'. (_ssl.c:1018)")))
+2025-03-16 10:49:16,854 - LogoExtractor - INFO - [68] Processing https://mazda-autohaus-roessel-birkenau.de (mazda-autohaus-roessel-birkenau.de)
+2025-03-16 10:49:16,874 - LogoExtractor - INFO - Saved logo to extracted_logos\mateco.nl_2_872ee31ac8.jpg
+2025-03-16 10:49:16,874 - LogoExtractor - INFO - [69] Processing https://aamcodelran.com (aamcodelran.com)
+2025-03-16 10:49:16,895 - LogoExtractor - INFO - Saved logo to extracted_logos\svntrinity.com_1_f6932e61ac.png
+2025-03-16 10:49:16,895 - LogoExtractor - INFO - [70] Processing https://mazda-poznan-voyager.pl (mazda-poznan-voyager.pl)
+2025-03-16 10:49:17,100 - LogoExtractor - INFO - Saved logo to extracted_logos\intertongn.es_0_197361a606.png
+2025-03-16 10:49:17,260 - LogoExtractor - INFO - Saved logo to extracted_logos\orient-food.sk_0_c89e5206cc.png
+2025-03-16 10:49:17,329 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-poznan-voyager.pl_0_59a9356f2c.png
+2025-03-16 10:49:17,332 - LogoExtractor - INFO - Saved logo to extracted_logos\intertongn.es_1_ea2b220ae1.png
+2025-03-16 10:49:17,498 - LogoExtractor - INFO - Saved logo to extracted_logos\esseskincare.sg_0_cb96fce6f8.png
+2025-03-16 10:49:17,561 - LogoExtractor - INFO - Saved logo to extracted_logos\intertongn.es_2_25288289db.jpg
+2025-03-16 10:49:17,561 - LogoExtractor - INFO - [71] Processing https://kapanfastigheter.se (kapanfastigheter.se)
+2025-03-16 10:49:17,568 - LogoExtractor - INFO - Saved logo to extracted_logos\orient-food.sk_2_96e1b79988.ico
+2025-03-16 10:49:17,568 - LogoExtractor - INFO - [72] Processing https://mazda-autohaus-wassing-ahaus-wuellen.de (mazda-autohaus-wassing-ahaus-wuellen.de)
+2025-03-16 10:49:17,600 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-poznan-voyager.pl_1_ba5df41eae.png
+2025-03-16 10:49:17,601 - LogoExtractor - INFO - [73] Processing https://rheine.schule (rheine.schule)
+2025-03-16 10:49:17,628 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-roessel-birkenau.de_0_def3a004d3.png
+2025-03-16 10:49:17,629 - LogoExtractor - INFO - [74] Processing https://ford.pl.ua (ford.pl.ua)
+2025-03-16 10:49:17,739 - LogoExtractor - INFO - Saved logo to extracted_logos\equans.hu_0_4f6916af01.jpg
+2025-03-16 10:49:17,909 - LogoExtractor - INFO - Saved logo to extracted_logos\equans.hu_1_4b2ebfdfda.png
+2025-03-16 10:49:18,009 - LogoExtractor - INFO - Saved logo to extracted_logos\ford.pl.ua_1_42ded9721d.ico
+2025-03-16 10:49:18,010 - LogoExtractor - INFO - [75] Processing https://bioderma.co.za (bioderma.co.za)
+2025-03-16 10:49:18,062 - LogoExtractor - INFO - Saved logo to extracted_logos\equans.hu_2_499192f2be.png
+2025-03-16 10:49:18,062 - LogoExtractor - INFO - [76] Processing https://linexps.com (linexps.com)
+2025-03-16 10:49:18,209 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-wassing-ahaus-wuellen.de_0_def3a004d3.png
+2025-03-16 10:49:18,210 - LogoExtractor - INFO - [77] Processing https://kalyanmachines.com (kalyanmachines.com)
+2025-03-16 10:49:18,235 - LogoExtractor - INFO - Saved logo to extracted_logos\kapanfastigheter.se_0_69913c72ac.png
+2025-03-16 10:49:18,236 - LogoExtractor - INFO - [78] Processing https://kia-suedmobile-radolfzell.de (kia-suedmobile-radolfzell.de)
+2025-03-16 10:49:18,270 - LogoExtractor - INFO - Saved logo to extracted_logos\rheine.schule_1_87388dec69.jpg
+2025-03-16 10:49:18,271 - LogoExtractor - INFO - [79] Processing https://worldvision.ca (worldvision.ca)
+2025-03-16 10:49:18,431 - LogoExtractor - INFO - Saved logo to extracted_logos\secureparkinghi.com_0_0cf276923d.png
+2025-03-16 10:49:18,466 - LogoExtractor - INFO - Saved logo to extracted_logos\secureparkinghi.com_1_5204f9e70e.png
+2025-03-16 10:49:18,467 - LogoExtractor - INFO - [80] Processing https://linde-gas.at (linde-gas.at)
+2025-03-16 10:49:18,675 - LogoExtractor - INFO - Saved logo to extracted_logos\esseskincare.sg_1_5ad240a9b7.png
+2025-03-16 10:49:18,814 - LogoExtractor - INFO - Saved logo to extracted_logos\linexps.com_0_aab2646fa5.png
+2025-03-16 10:49:18,847 - LogoExtractor - WARNING - Failed to get https://worldvision.ca: Status code 404
+2025-03-16 10:49:18,847 - LogoExtractor - INFO - [81] Processing https://renaultsanzhispano.es (renaultsanzhispano.es)
+2025-03-16 10:49:18,909 - LogoExtractor - INFO - Saved logo to extracted_logos\linexps.com_1_bc0f019395.png
+2025-03-16 10:49:18,910 - LogoExtractor - INFO - [82] Processing https://avia.ch (avia.ch)
+2025-03-16 10:49:19,079 - LogoExtractor - INFO - Saved logo to extracted_logos\kia-suedmobile-radolfzell.de_0_4123470bd3.png
+2025-03-16 10:49:19,357 - LogoExtractor - INFO - Saved logo to extracted_logos\kia-suedmobile-radolfzell.de_1_5e0d65824a.png
+2025-03-16 10:49:19,368 - LogoExtractor - INFO - Saved logo to extracted_logos\williamblairfunds.com_0_fe84671d7e.png
+2025-03-16 10:49:19,590 - LogoExtractor - INFO - Saved logo to extracted_logos\kia-suedmobile-radolfzell.de_2_562d09105f.jpg
+2025-03-16 10:49:19,591 - LogoExtractor - INFO - [83] Processing https://cdviberica.com (cdviberica.com)
+2025-03-16 10:49:19,993 - LogoExtractor - INFO - Saved logo to extracted_logos\avia.ch_0_958616c4c7.png
+2025-03-16 10:49:19,994 - LogoExtractor - INFO - [84] Processing https://adecco.cl (adecco.cl)
+2025-03-16 10:49:20,250 - LogoExtractor - INFO - Saved logo to extracted_logos\linde-gas.at_0_b0d6de0e4a.png
+2025-03-16 10:49:20,294 - LogoExtractor - INFO - Saved logo to extracted_logos\esseskincare.sg_2_133c1305d8.png
+2025-03-16 10:49:20,294 - LogoExtractor - INFO - [85] Processing https://wurth.co (wurth.co)
+2025-03-16 10:49:20,518 - LogoExtractor - INFO - Saved logo to extracted_logos\williamblairfunds.com_1_268160b9d1.png
+2025-03-16 10:49:20,519 - LogoExtractor - INFO - [86] Processing https://nestle.com.vn (nestle.com.vn)
+2025-03-16 10:49:20,566 - LogoExtractor - ERROR - Error processing https://nestle.com.vn: HTTPSConnectionPool(host='nestle.com.vn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1018)')))
+2025-03-16 10:49:20,566 - LogoExtractor - INFO - [87] Processing https://daikin.ge (daikin.ge)
+2025-03-16 10:49:20,729 - LogoExtractor - INFO - Saved logo to extracted_logos\linde-gas.at_1_fd223abfeb.jpg
+2025-03-16 10:49:20,816 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcodelran.com_0_d02cc3d895.png
+2025-03-16 10:49:20,919 - LogoExtractor - INFO - [88] Processing https://ibc-solar.pl (ibc-solar.pl)
+2025-03-16 10:49:21,403 - LogoExtractor - INFO - Saved logo to extracted_logos\kalyanmachines.com_0_53354a3ed4.png
+2025-03-16 10:49:21,404 - LogoExtractor - INFO - [89] Processing https://toyotanatas.com.tr (toyotanatas.com.tr)
+2025-03-16 10:49:21,473 - LogoExtractor - INFO - Saved logo to extracted_logos\cdviberica.com_1_b4edec7257.jpg
+2025-03-16 10:49:21,570 - LogoExtractor - INFO - Saved logo to extracted_logos\cdviberica.com_2_9de38a3797.png
+2025-03-16 10:49:21,570 - LogoExtractor - INFO - [90] Processing https://mazda-autohaus-henseler-schwedt.de (mazda-autohaus-henseler-schwedt.de)
+2025-03-16 10:49:21,701 - LogoExtractor - INFO - [91] Processing https://aamcobloomfield.com (aamcobloomfield.com)
+2025-03-16 10:49:21,984 - LogoExtractor - INFO - [92] Processing https://zalando.dk (zalando.dk)
+2025-03-16 10:49:22,140 - LogoExtractor - INFO - Saved logo to extracted_logos\ibc-solar.pl_1_c139b82797.png
+2025-03-16 10:49:22,141 - LogoExtractor - INFO - [93] Processing https://mazda.de (mazda.de)
+2025-03-16 10:49:22,346 - LogoExtractor - WARNING - Failed to get https://zalando.dk: Status code 403
+2025-03-16 10:49:22,346 - LogoExtractor - INFO - [94] Processing https://crocs.co.id (crocs.co.id)
+2025-03-16 10:49:22,348 - LogoExtractor - INFO - Saved logo to extracted_logos\renaultsanzhispano.es_1_de3ff4f5dc.png
+2025-03-16 10:49:22,349 - LogoExtractor - INFO - [95] Processing https://daikinkuwait.com (daikinkuwait.com)
+2025-03-16 10:49:22,526 - LogoExtractor - ERROR - Error processing https://daikinkuwait.com: HTTPSConnectionPool(host='daikinkuwait.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+2025-03-16 10:49:22,526 - LogoExtractor - INFO - [96] Processing https://bbraun.rs (bbraun.rs)
+2025-03-16 10:49:22,586 - LogoExtractor - INFO - Saved logo to extracted_logos\toyotanatas.com.tr_0_c974acf19b.png
+2025-03-16 10:49:22,743 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-henseler-schwedt.de_0_def3a004d3.png
+2025-03-16 10:49:22,744 - LogoExtractor - INFO - [97] Processing https://daikin.com.sg (daikin.com.sg)
+2025-03-16 10:49:22,802 - LogoExtractor - WARNING - Failed to get https://crocs.co.id: Status code 406
+2025-03-16 10:49:22,802 - LogoExtractor - INFO - [98] Processing https://aamcosalemor.com (aamcosalemor.com)
+2025-03-16 10:49:23,101 - LogoExtractor - INFO - Saved logo to extracted_logos\toyotanatas.com.tr_2_5d22c9385c.png
+2025-03-16 10:49:23,102 - LogoExtractor - INFO - [99] Processing https://spitex-regionbirs.ch (spitex-regionbirs.ch)
+2025-03-16 10:49:23,174 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda.de_0_294d44f9d1.png
+2025-03-16 10:49:23,175 - LogoExtractor - INFO - [100] Processing https://mazda-autohaus-hansmann-kassel.de (mazda-autohaus-hansmann-kassel.de)
+2025-03-16 10:49:23,621 - LogoExtractor - INFO - Saved logo to extracted_logos\bioderma.co.za_0_688bb7d903.png
+2025-03-16 10:49:23,883 - LogoExtractor - ERROR - Error processing https://daikin.com.sg: HTTPSConnectionPool(host='daikin.com.sg', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025DB0397D90>: Failed to resolve 'daikin.com.sg' ([Errno 11001] getaddrinfo failed)"))
+2025-03-16 10:49:23,883 - LogoExtractor - INFO - Saved logo to extracted_logos\wurth.co_0_d922a2811b.png
+2025-03-16 10:49:23,884 - LogoExtractor - INFO - [101] Processing https://einhell.ba (einhell.ba)
+2025-03-16 10:49:23,884 - LogoExtractor - INFO - [102] Processing https://linexofschererville.com (linexofschererville.com)
+2025-03-16 10:49:23,888 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-hansmann-kassel.de_0_def3a004d3.png
+2025-03-16 10:49:23,889 - LogoExtractor - INFO - [103] Processing https://webster.nl (webster.nl)
+2025-03-16 10:49:23,976 - LogoExtractor - INFO - Saved logo to extracted_logos\bioderma.co.za_1_061e1d2c51.ico
+2025-03-16 10:49:23,977 - LogoExtractor - INFO - [104] Processing https://flashbay.ca (flashbay.ca)
+2025-03-16 10:49:24,020 - LogoExtractor - INFO - Saved logo to extracted_logos\bbraun.rs_0_a2be0da39a.png
+2025-03-16 10:49:24,044 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcobloomfield.com_0_36fa080434.png
+2025-03-16 10:49:24,280 - LogoExtractor - INFO - Saved logo to extracted_logos\bbraun.rs_1_e57e98d31a.ico
+2025-03-16 10:49:24,281 - LogoExtractor - INFO - [105] Processing https://pingusenglish.com.tr (pingusenglish.com.tr)
+2025-03-16 10:49:24,355 - LogoExtractor - ERROR - Error processing https://linexofschererville.com: HTTPSConnectionPool(host='linexofschererville.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-16 10:49:24,355 - LogoExtractor - INFO - [106] Processing https://compo.de (compo.de)
+2025-03-16 10:49:24,625 - LogoExtractor - INFO - Saved logo to extracted_logos\spitex-regionbirs.ch_1_73ee00a024.ico
+2025-03-16 10:49:24,626 - LogoExtractor - INFO - [107] Processing https://aamcowilliamsportpa.com (aamcowilliamsportpa.com)
+2025-03-16 10:49:24,653 - LogoExtractor - ERROR - Error processing https://daikin.ge: HTTPSConnectionPool(host='daikin.ge', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'daikin.ge'. (_ssl.c:1018)")))
+2025-03-16 10:49:24,654 - LogoExtractor - INFO - [108] Processing https://pkf-hk.com (pkf-hk.com)
+2025-03-16 10:49:25,098 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcosalemor.com_0_09e93e820a.png
+2025-03-16 10:49:25,201 - LogoExtractor - INFO - Saved logo to extracted_logos\flashbay.ca_0_a88a3b9ba9.png
+2025-03-16 10:49:25,218 - LogoExtractor - INFO - [109] Processing https://linde-electronics.com (linde-electronics.com)
+2025-03-16 10:49:25,236 - LogoExtractor - INFO - Saved logo to extracted_logos\compo.de_0_56248d7b64.png
+2025-03-16 10:49:25,293 - LogoExtractor - INFO - Saved logo to extracted_logos\flashbay.ca_1_1f7b89e15b.png
+2025-03-16 10:49:25,311 - LogoExtractor - INFO - Saved logo to extracted_logos\webster.nl_0_b9aa028c29.png
+2025-03-16 10:49:25,372 - LogoExtractor - INFO - Saved logo to extracted_logos\compo.de_1_003a278bd0.png
+2025-03-16 10:49:25,372 - LogoExtractor - INFO - Saved logo to extracted_logos\flashbay.ca_2_6985fcdc89.png
+2025-03-16 10:49:25,373 - LogoExtractor - INFO - [110] Processing https://pingusenglish.com.tr (pingusenglish.com.tr)
+2025-03-16 10:49:25,582 - LogoExtractor - INFO - Saved logo to extracted_logos\compo.de_2_7a762440da.png
+2025-03-16 10:49:25,583 - LogoExtractor - INFO - [111] Processing https://besins-healthcare.se (besins-healthcare.se)
+2025-03-16 10:49:25,592 - LogoExtractor - WARNING - Failed to get https://pingusenglish.com.tr: Status code 503
+2025-03-16 10:49:25,593 - LogoExtractor - INFO - [112] Processing https://subaru.jp (subaru.jp)
+2025-03-16 10:49:25,594 - LogoExtractor - INFO - Saved logo to extracted_logos\pkf-hk.com_1_58e9de1655.ico
+2025-03-16 10:49:25,595 - LogoExtractor - INFO - [113] Processing https://renaultmerida.com.mx (renaultmerida.com.mx)
+2025-03-16 10:49:25,961 - LogoExtractor - INFO - Saved logo to extracted_logos\webster.nl_1_c5936756d5.png
+2025-03-16 10:49:26,256 - LogoExtractor - INFO - [114] Processing https://cvjm-pfalz.de (cvjm-pfalz.de)
+2025-03-16 10:49:26,350 - LogoExtractor - INFO - Saved logo to extracted_logos\subaru.jp_0_2cb9d14e92.png
+2025-03-16 10:49:26,536 - LogoExtractor - WARNING - Failed to get https://pingusenglish.com.tr: Status code 503
+2025-03-16 10:49:26,536 - LogoExtractor - INFO - [115] Processing https://medef-alsace.com (medef-alsace.com)
+2025-03-16 10:49:26,705 - LogoExtractor - INFO - Saved logo to extracted_logos\webster.nl_2_bf5d88cfd2.png
+2025-03-16 10:49:26,705 - LogoExtractor - INFO - [116] Processing https://allianz-kuhlemann.de (allianz-kuhlemann.de)
+2025-03-16 10:49:26,870 - LogoExtractor - WARNING - Failed to get https://renaultmerida.com.mx: Status code 403
+2025-03-16 10:49:26,951 - LogoExtractor - INFO - [117] Processing https://tbwa.co.za (tbwa.co.za)
+2025-03-16 10:49:26,957 - LogoExtractor - INFO - Saved logo to extracted_logos\linde-electronics.com_0_897bfd7f1e.png
+2025-03-16 10:49:26,959 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcowilliamsportpa.com_0_1e992c0077.png
+2025-03-16 10:49:27,102 - LogoExtractor - INFO - Saved logo to extracted_logos\besins-healthcare.se_0_29737c37de.png
+2025-03-16 10:49:27,120 - LogoExtractor - INFO - Saved logo to extracted_logos\cvjm-pfalz.de_0_a564d83b7e.png
+2025-03-16 10:49:27,126 - LogoExtractor - INFO - Saved logo to extracted_logos\linde-electronics.com_1_83c000b9ff.ico
+2025-03-16 10:49:27,127 - LogoExtractor - INFO - [118] Processing https://veolia.fr (veolia.fr)
+2025-03-16 10:49:27,241 - LogoExtractor - INFO - Saved logo to extracted_logos\einhell.ba_0_7bcfb376db.png
+2025-03-16 10:49:27,378 - LogoExtractor - INFO - Saved logo to extracted_logos\cvjm-pfalz.de_1_4887f205bb.png
+2025-03-16 10:49:27,489 - LogoExtractor - INFO - Saved logo to extracted_logos\besins-healthcare.se_1_0099c2a67d.png
+2025-03-16 10:49:27,490 - LogoExtractor - INFO - Saved logo to extracted_logos\subaru.jp_1_4ccd613a1c.png
+2025-03-16 10:49:27,532 - LogoExtractor - INFO - Saved logo to extracted_logos\cvjm-pfalz.de_2_36f25071ff.ico
+2025-03-16 10:49:27,533 - LogoExtractor - INFO - [119] Processing https://engie.pt (engie.pt)
+2025-03-16 10:49:27,778 - LogoExtractor - INFO - Saved logo to extracted_logos\einhell.ba_1_6f44e7e697.jpg
+2025-03-16 10:49:27,974 - LogoExtractor - INFO - [120] Processing https://subaru.nc (subaru.nc)
+2025-03-16 10:49:28,050 - LogoExtractor - INFO - Saved logo to extracted_logos\besins-healthcare.se_2_a5b60ed046.png
+2025-03-16 10:49:28,051 - LogoExtractor - INFO - [121] Processing https://peugeot.sk (peugeot.sk)
+2025-03-16 10:49:28,063 - LogoExtractor - INFO - Saved logo to extracted_logos\subaru.jp_2_b9ac537b3f.png
+2025-03-16 10:49:28,064 - LogoExtractor - INFO - [122] Processing https://siebtechnik-tema.cn (siebtechnik-tema.cn)
+2025-03-16 10:49:28,066 - LogoExtractor - INFO - Saved logo to extracted_logos\engie.pt_0_008819486e.png
+2025-03-16 10:49:28,235 - LogoExtractor - INFO - [123] Processing https://santillana.com.hn (santillana.com.hn)
+2025-03-16 10:49:28,352 - LogoExtractor - INFO - Saved logo to extracted_logos\einhell.ba_2_ab1a13a9d5.jpg
+2025-03-16 10:49:28,352 - LogoExtractor - INFO - [124] Processing https://intersport-rent.fr (intersport-rent.fr)
+2025-03-16 10:49:28,590 - LogoExtractor - INFO - Saved logo to extracted_logos\veolia.fr_0_b1ac4c09b2.png
+2025-03-16 10:49:28,591 - LogoExtractor - INFO - Saved logo to extracted_logos\engie.pt_2_e45cd369f9.png
+2025-03-16 10:49:28,591 - LogoExtractor - INFO - [125] Processing https://mazdabali.co.id (mazdabali.co.id)
+2025-03-16 10:49:28,781 - LogoExtractor - INFO - Saved logo to extracted_logos\medef-alsace.com_0_f5ddfabb8e.png
+2025-03-16 10:49:28,892 - LogoExtractor - WARNING - Failed to get https://intersport-rent.fr: Status code 403
+2025-03-16 10:49:28,893 - LogoExtractor - INFO - [126] Processing https://rsmthailand.com (rsmthailand.com)
+2025-03-16 10:49:28,990 - LogoExtractor - INFO - Saved logo to extracted_logos\medef-alsace.com_1_20aa750924.png
+2025-03-16 10:49:28,991 - LogoExtractor - INFO - [127] Processing https://spitex-wiggertal.ch (spitex-wiggertal.ch)
+2025-03-16 10:49:29,083 - LogoExtractor - INFO - Saved logo to extracted_logos\tbwa.co.za_2_b73ac01b79.png
+2025-03-16 10:49:29,084 - LogoExtractor - INFO - [128] Processing https://aamcocatonsvillemd.com (aamcocatonsvillemd.com)
+2025-03-16 10:49:29,130 - LogoExtractor - INFO - Saved logo to extracted_logos\veolia.fr_1_a5f0523a34.png
+2025-03-16 10:49:29,232 - LogoExtractor - INFO - Saved logo to extracted_logos\peugeot.sk_0_bb8546c8df.png
+2025-03-16 10:49:29,468 - LogoExtractor - INFO - Saved logo to extracted_logos\siebtechnik-tema.cn_0_f14cb075c6.png
+2025-03-16 10:49:29,672 - LogoExtractor - INFO - Saved logo to extracted_logos\veolia.fr_2_a254898571.ico
+2025-03-16 10:49:29,672 - LogoExtractor - INFO - [129] Processing https://strabag-pfs.com (strabag-pfs.com)
+2025-03-16 10:49:29,693 - LogoExtractor - INFO - Saved logo to extracted_logos\peugeot.sk_1_e93c1116a9.png
+2025-03-16 10:49:29,694 - LogoExtractor - INFO - Saved logo to extracted_logos\siebtechnik-tema.cn_1_e2f254f46d.jpg
+2025-03-16 10:49:29,885 - LogoExtractor - INFO - Saved logo to extracted_logos\siebtechnik-tema.cn_2_547b4705ba.jpg
+2025-03-16 10:49:29,886 - LogoExtractor - INFO - [130] Processing https://autosecuritas-barlin.fr (autosecuritas-barlin.fr)
+2025-03-16 10:49:29,947 - LogoExtractor - INFO - Saved logo to extracted_logos\peugeot.sk_2_a2bd2687ff.ico
+2025-03-16 10:49:29,948 - LogoExtractor - INFO - [131] Processing https://aamco-councilbluffs.com (aamco-councilbluffs.com)
+2025-03-16 10:49:30,397 - LogoExtractor - INFO - Saved logo to extracted_logos\rsmthailand.com_0_72d12f2506.png
+2025-03-16 10:49:30,453 - LogoExtractor - INFO - Saved logo to extracted_logos\rsmthailand.com_1_f71f6faebb.png
+2025-03-16 10:49:30,454 - LogoExtractor - INFO - [132] Processing https://meggle-bakery.com (meggle-bakery.com)
+2025-03-16 10:49:30,766 - LogoExtractor - INFO - Saved logo to extracted_logos\strabag-pfs.com_0_d795ae3c5e.webp
+2025-03-16 10:49:30,938 - LogoExtractor - INFO - Saved logo to extracted_logos\meggle-bakery.com_0_41617651b3.png
+2025-03-16 10:49:30,962 - LogoExtractor - INFO - Saved logo to extracted_logos\meggle-bakery.com_1_8787357524.png
+2025-03-16 10:49:30,962 - LogoExtractor - INFO - [133] Processing https://nutriciababy.be (nutriciababy.be)
+2025-03-16 10:49:30,969 - LogoExtractor - INFO - Saved logo to extracted_logos\santillana.com.hn_0_102fca2938.png
+2025-03-16 10:49:31,087 - LogoExtractor - INFO - Saved logo to extracted_logos\spitex-wiggertal.ch_1_c2c4778ce4.ico
+2025-03-16 10:49:31,088 - LogoExtractor - INFO - [134] Processing https://pcllawyersfrankston.com.au (pcllawyersfrankston.com.au)
+2025-03-16 10:49:31,145 - LogoExtractor - INFO - Saved logo to extracted_logos\strabag-pfs.com_1_c9db8045df.webp
+2025-03-16 10:49:31,230 - LogoExtractor - INFO - Saved logo to extracted_logos\aamco-councilbluffs.com_0_be5d9c7adb.png
+2025-03-16 10:49:31,292 - LogoExtractor - INFO - Saved logo to extracted_logos\subaru.nc_0_9361ed27b0.png
+2025-03-16 10:49:31,311 - LogoExtractor - INFO - Saved logo to extracted_logos\autosecuritas-barlin.fr_1_6c63a0752d.png
+2025-03-16 10:49:31,362 - LogoExtractor - INFO - Saved logo to extracted_logos\aamco-councilbluffs.com_1_4994a68a33.jpg
+2025-03-16 10:49:31,462 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcocatonsvillemd.com_0_99a5fb893c.png
+2025-03-16 10:49:31,532 - LogoExtractor - INFO - Saved logo to extracted_logos\santillana.com.hn_1_93485acff4.png
+2025-03-16 10:49:31,558 - LogoExtractor - INFO - Saved logo to extracted_logos\strabag-pfs.com_2_3b22f4ae7c.webp
+2025-03-16 10:49:31,558 - LogoExtractor - INFO - [135] Processing https://adra.org.pe (adra.org.pe)
+2025-03-16 10:49:31,566 - LogoExtractor - INFO - Saved logo to extracted_logos\aamco-councilbluffs.com_2_719ead9357.jpg
+2025-03-16 10:49:31,566 - LogoExtractor - INFO - [136] Processing https://nestle.ch (nestle.ch)
+2025-03-16 10:49:31,593 - LogoExtractor - INFO - Saved logo to extracted_logos\autosecuritas-barlin.fr_2_40c8e46bb5.png
+2025-03-16 10:49:31,594 - LogoExtractor - INFO - [137] Processing https://mazda-autohaus-sturne-rochlitz.de (mazda-autohaus-sturne-rochlitz.de)
+2025-03-16 10:49:31,624 - LogoExtractor - ERROR - Error processing https://nestle.ch: HTTPSConnectionPool(host='nestle.ch', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1018)')))
+2025-03-16 10:49:31,625 - LogoExtractor - INFO - [138] Processing https://inductotherm.co.kr (inductotherm.co.kr)
+2025-03-16 10:49:31,700 - LogoExtractor - INFO - Saved logo to extracted_logos\santillana.com.hn_2_33354f885d.png
+2025-03-16 10:49:31,701 - LogoExtractor - INFO - [139] Processing https://adecco.cl (adecco.cl)
+2025-03-16 10:49:31,900 - LogoExtractor - INFO - Saved logo to extracted_logos\nutriciababy.be_2_e9d32e8d47.png
+2025-03-16 10:49:31,901 - LogoExtractor - INFO - [140] Processing https://renault.dk (renault.dk)
+2025-03-16 10:49:32,191 - LogoExtractor - INFO - Saved logo to extracted_logos\adra.org.pe_0_03e7dc65a6.png
+2025-03-16 10:49:32,325 - LogoExtractor - INFO - [141] Processing https://wurth.com.uy (wurth.com.uy)
+2025-03-16 10:49:32,463 - LogoExtractor - WARNING - Failed to get https://pcllawyersfrankston.com.au: Status code 520
+2025-03-16 10:49:32,464 - LogoExtractor - INFO - [142] Processing https://renaultchiva.com (renaultchiva.com)
+2025-03-16 10:49:32,621 - LogoExtractor - INFO - [143] Processing https://culliganwi.com (culliganwi.com)
+2025-03-16 10:49:32,755 - LogoExtractor - ERROR - Error processing https://wurth.com.uy: HTTPSConnectionPool(host='wurth.com.uy', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1018)')))
+2025-03-16 10:49:32,755 - LogoExtractor - INFO - [144] Processing https://mazda-autohaus-blank-dinkelsbuehl.de (mazda-autohaus-blank-dinkelsbuehl.de)
+2025-03-16 10:49:32,794 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-sturne-rochlitz.de_0_def3a004d3.png
+2025-03-16 10:49:32,794 - LogoExtractor - INFO - [145] Processing https://veolia.ca (veolia.ca)
+2025-03-16 10:49:32,830 - LogoExtractor - INFO - Saved logo to extracted_logos\adra.org.pe_1_e88e54a9a8.png
+2025-03-16 10:49:32,972 - LogoExtractor - INFO - Saved logo to extracted_logos\renault.dk_1_55f37d9de4.png
+2025-03-16 10:49:33,110 - LogoExtractor - INFO - Saved logo to extracted_logos\inductotherm.co.kr_1_9b98e002b1.png
+2025-03-16 10:49:33,111 - LogoExtractor - INFO - [146] Processing https://vitalimages.com (vitalimages.com)
+2025-03-16 10:49:33,176 - LogoExtractor - INFO - [147] Processing https://amnesty.is (amnesty.is)
+2025-03-16 10:49:33,308 - LogoExtractor - INFO - Saved logo to extracted_logos\adra.org.pe_2_3e0c6a1849.png
+2025-03-16 10:49:33,308 - LogoExtractor - INFO - [148] Processing https://meggle.co.jp (meggle.co.jp)
+2025-03-16 10:49:33,323 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-blank-dinkelsbuehl.de_0_def3a004d3.png
+2025-03-16 10:49:33,324 - LogoExtractor - INFO - [149] Processing https://engie.cl (engie.cl)
+2025-03-16 10:49:33,333 - LogoExtractor - INFO - Saved logo to extracted_logos\renault.dk_2_0fe35211d9.png
+2025-03-16 10:49:33,333 - LogoExtractor - INFO - [150] Processing https://linde-finance.com (linde-finance.com)
+2025-03-16 10:49:33,531 - LogoExtractor - INFO - Saved logo to extracted_logos\meggle.co.jp_0_8787357524.png
+2025-03-16 10:49:33,531 - LogoExtractor - INFO - [151] Processing https://linde.pe (linde.pe)
+2025-03-16 10:49:33,611 - LogoExtractor - ERROR - Error processing https://linde-finance.com: HTTPSConnectionPool(host='linde-finance.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'linde-finance.com'. (_ssl.c:1018)")))
+2025-03-16 10:49:33,612 - LogoExtractor - INFO - [152] Processing https://narscosmetics.es (narscosmetics.es)
+2025-03-16 10:49:34,090 - LogoExtractor - INFO - Saved logo to extracted_logos\amnesty.is_1_3271173775.png
+2025-03-16 10:49:34,091 - LogoExtractor - INFO - [153] Processing https://brother.com.pe (brother.com.pe)
+2025-03-16 10:49:34,219 - LogoExtractor - INFO - Saved logo to extracted_logos\veolia.ca_0_afd0357cce.png
+2025-03-16 10:49:34,242 - LogoExtractor - INFO - Saved logo to extracted_logos\mazdabali.co.id_0_72a2bd87cf.png
+2025-03-16 10:49:34,466 - LogoExtractor - INFO - [154] Processing https://renaultrycauto.es (renaultrycauto.es)
+2025-03-16 10:49:34,482 - LogoExtractor - INFO - Saved logo to extracted_logos\subaru.nc_1_732a3f84ae.jpg
+2025-03-16 10:49:34,600 - LogoExtractor - INFO - Saved logo to extracted_logos\veolia.ca_1_4d637739dc.png
+2025-03-16 10:49:34,906 - LogoExtractor - INFO - Saved logo to extracted_logos\veolia.ca_2_84d187d0c7.png
+2025-03-16 10:49:34,906 - LogoExtractor - INFO - [155] Processing https://kia-gorny-eislingen.de (kia-gorny-eislingen.de)
+2025-03-16 10:49:35,150 - LogoExtractor - INFO - Saved logo to extracted_logos\linde.pe_0_aa6cb007b2.png
+2025-03-16 10:49:35,196 - LogoExtractor - INFO - Saved logo to extracted_logos\mazdabali.co.id_1_114f01ddfe.png
+2025-03-16 10:49:35,196 - LogoExtractor - INFO - [156] Processing https://ikea.com.hk (ikea.com.hk)
+2025-03-16 10:49:35,331 - LogoExtractor - INFO - [157] Processing https://mazda-autohaus-becker-homburg-bruchhof.de (mazda-autohaus-becker-homburg-bruchhof.de)
+2025-03-16 10:49:35,582 - LogoExtractor - INFO - Saved logo to extracted_logos\linde.pe_1_5229b5d2a5.png
+2025-03-16 10:49:35,593 - LogoExtractor - INFO - [158] Processing https://catsprotectionshop.co.uk (catsprotectionshop.co.uk)
+2025-03-16 10:49:35,784 - LogoExtractor - INFO - Saved logo to extracted_logos\engie.cl_0_88708a8e99.png
+2025-03-16 10:49:35,818 - LogoExtractor - INFO - Saved logo to extracted_logos\linde.pe_2_0c55a1e074.png
+2025-03-16 10:49:35,818 - LogoExtractor - INFO - [159] Processing https://culliganheartland.com (culliganheartland.com)
+2025-03-16 10:49:35,899 - LogoExtractor - INFO - Saved logo to extracted_logos\kia-gorny-eislingen.de_0_3a4d33f3ed.png
+2025-03-16 10:49:36,018 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-becker-homburg-bruchhof.de_0_def3a004d3.png
+2025-03-16 10:49:36,019 - LogoExtractor - INFO - [160] Processing https://wurth-international.com.cn (wurth-international.com.cn)
+2025-03-16 10:49:36,103 - LogoExtractor - INFO - Saved logo to extracted_logos\catsprotectionshop.co.uk_0_40d85674c0.png
+2025-03-16 10:49:36,204 - LogoExtractor - ERROR - Error processing https://wurth-international.com.cn: HTTPSConnectionPool(host='wurth-international.com.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1018)')))
+2025-03-16 10:49:36,204 - LogoExtractor - INFO - [161] Processing https://medef-artois.fr (medef-artois.fr)
+2025-03-16 10:49:36,205 - LogoExtractor - INFO - [162] Processing https://sephora.pl (sephora.pl)
+2025-03-16 10:49:36,214 - LogoExtractor - INFO - Saved logo to extracted_logos\kia-gorny-eislingen.de_1_6f9ed7f174.png
+2025-03-16 10:49:36,267 - LogoExtractor - INFO - Saved logo to extracted_logos\vitalimages.com_1_395cf04d98.ico
+2025-03-16 10:49:36,268 - LogoExtractor - INFO - [163] Processing https://daikin-ksa.com (daikin-ksa.com)
+2025-03-16 10:49:36,330 - LogoExtractor - INFO - Saved logo to extracted_logos\catsprotectionshop.co.uk_1_1081803ceb.png
+2025-03-16 10:49:36,367 - LogoExtractor - ERROR - Error processing https://medef-artois.fr: HTTPSConnectionPool(host='medef-artois.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-16 10:49:36,368 - LogoExtractor - INFO - [164] Processing https://sherwin-williams.com.ec (sherwin-williams.com.ec)
+2025-03-16 10:49:36,424 - LogoExtractor - ERROR - Error processing https://daikin-ksa.com: HTTPSConnectionPool(host='daikin-ksa.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+2025-03-16 10:49:36,424 - LogoExtractor - INFO - [165] Processing https://culligantotalwater.com (culligantotalwater.com)
+2025-03-16 10:49:36,449 - LogoExtractor - ERROR - Error processing https://noiseassessments.org: HTTPSConnectionPool(host='noiseassessments.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025DB0394050>, 'Connection to noiseassessments.org timed out. (connect timeout=10)'))
+2025-03-16 10:49:36,449 - LogoExtractor - INFO - [166] Processing https://ecslupsk.pl (ecslupsk.pl)
+2025-03-16 10:49:36,517 - LogoExtractor - INFO - Saved logo to extracted_logos\kia-gorny-eislingen.de_2_14df550d56.png
+2025-03-16 10:49:36,517 - LogoExtractor - INFO - [167] Processing https://kierpensions.co.uk (kierpensions.co.uk)
+2025-03-16 10:49:36,604 - LogoExtractor - INFO - Saved logo to extracted_logos\catsprotectionshop.co.uk_2_807b8d5f8e.jpg
+2025-03-16 10:49:36,605 - LogoExtractor - INFO - [168] Processing https://bakertilly.ci (bakertilly.ci)
+2025-03-16 10:49:36,757 - LogoExtractor - INFO - Saved logo to extracted_logos\subaru.nc_2_936d1f7c38.jpg
+2025-03-16 10:49:36,758 - LogoExtractor - INFO - [169] Processing https://allianz-rose.info (allianz-rose.info)
+2025-03-16 10:49:36,875 - LogoExtractor - INFO - Saved logo to extracted_logos\sephora.pl_0_e0cb1c7a95.ico
+2025-03-16 10:49:36,875 - LogoExtractor - INFO - [170] Processing https://linak.nl (linak.nl)
+2025-03-16 10:49:37,042 - LogoExtractor - INFO - Saved logo to extracted_logos\kierpensions.co.uk_0_67753106ee.png
+2025-03-16 10:49:37,195 - LogoExtractor - INFO - Saved logo to extracted_logos\kierpensions.co.uk_1_64de6100d5.png
+2025-03-16 10:49:37,196 - LogoExtractor - INFO - [171] Processing https://taylorfarmsdeli.com (taylorfarmsdeli.com)
+2025-03-16 10:49:37,452 - LogoExtractor - INFO - Saved logo to extracted_logos\ecslupsk.pl_1_200254f157.png
+2025-03-16 10:49:37,452 - LogoExtractor - INFO - [172] Processing https://actemium.ch (actemium.ch)
+2025-03-16 10:49:38,093 - LogoExtractor - INFO - [173] Processing https://bakertilly.ky (bakertilly.ky)
+2025-03-16 10:49:38,303 - LogoExtractor - INFO - [174] Processing https://chip.pl (chip.pl)
+2025-03-16 10:49:38,568 - LogoExtractor - INFO - Saved logo to extracted_logos\taylorfarmsdeli.com_0_ba881a181b.png
+2025-03-16 10:49:38,643 - LogoExtractor - INFO - Saved logo to extracted_logos\engie.cl_1_eff6d0889c.jpg
+2025-03-16 10:49:38,643 - LogoExtractor - INFO - Saved logo to extracted_logos\chip.pl_0_6b64cdbd80.png
+2025-03-16 10:49:38,644 - LogoExtractor - INFO - [175] Processing https://grantthornton.com.sv (grantthornton.com.sv)
+2025-03-16 10:49:38,653 - LogoExtractor - INFO - Saved logo to extracted_logos\bakertilly.ci_1_b0d09b1a0a.png
+2025-03-16 10:49:38,654 - LogoExtractor - INFO - [176] Processing https://bakertilly.com.pa (bakertilly.com.pa)
+2025-03-16 10:49:39,159 - LogoExtractor - INFO - [177] Processing https://vkf-renzel.com.tr (vkf-renzel.com.tr)
+2025-03-16 10:49:39,210 - LogoExtractor - INFO - Saved logo to extracted_logos\bakertilly.ky_1_1231e3d5f5.png
+2025-03-16 10:49:39,211 - LogoExtractor - INFO - [178] Processing https://fleishmanhillard.cn (fleishmanhillard.cn)
+2025-03-16 10:49:39,400 - LogoExtractor - INFO - Saved logo to extracted_logos\engie.cl_2_f2989ece5d.png
+2025-03-16 10:49:39,401 - LogoExtractor - INFO - [179] Processing https://isover.hu (isover.hu)
+2025-03-16 10:49:40,023 - LogoExtractor - INFO - [180] Processing https://bauder.at (bauder.at)
+2025-03-16 10:49:40,046 - LogoExtractor - INFO - [181] Processing https://renaulttersa.com.mx (renaulttersa.com.mx)
+2025-03-16 10:49:40,052 - LogoExtractor - INFO - Saved logo to extracted_logos\vkf-renzel.com.tr_0_42f8e758ee.png
+2025-03-16 10:49:40,078 - LogoExtractor - INFO - Saved logo to extracted_logos\actemium.ch_0_62838046b9.png
+2025-03-16 10:49:40,141 - LogoExtractor - INFO - Saved logo to extracted_logos\grantthornton.com.sv_0_4177378365.png
+2025-03-16 10:49:40,142 - LogoExtractor - INFO - [182] Processing https://zktecoma.com (zktecoma.com)
+2025-03-16 10:49:40,174 - LogoExtractor - INFO - Saved logo to extracted_logos\fleishmanhillard.cn_0_7a0a2074f2.png
+2025-03-16 10:49:40,241 - LogoExtractor - INFO - Saved logo to extracted_logos\fleishmanhillard.cn_1_0b200a9b32.jpg
+2025-03-16 10:49:40,265 - LogoExtractor - INFO - Saved logo to extracted_logos\actemium.ch_1_a37131a132.png
+2025-03-16 10:49:40,312 - LogoExtractor - INFO - Saved logo to extracted_logos\fleishmanhillard.cn_2_9f53de9142.png
+2025-03-16 10:49:40,313 - LogoExtractor - INFO - [183] Processing https://aamcotulsa-memorial.com (aamcotulsa-memorial.com)
+2025-03-16 10:49:40,355 - LogoExtractor - INFO - Saved logo to extracted_logos\vkf-renzel.com.tr_1_f9626ee6dd.jpg
+2025-03-16 10:49:40,623 - LogoExtractor - INFO - Saved logo to extracted_logos\actemium.ch_2_27c4eee2b7.png
+2025-03-16 10:49:40,624 - LogoExtractor - INFO - [184] Processing https://azets.ie (azets.ie)
+2025-03-16 10:49:40,646 - LogoExtractor - INFO - Saved logo to extracted_logos\vkf-renzel.com.tr_2_efa61a6c75.png
+2025-03-16 10:49:40,646 - LogoExtractor - INFO - [185] Processing https://lidl.lt (lidl.lt)
+2025-03-16 10:49:40,760 - LogoExtractor - INFO - Saved logo to extracted_logos\sherwin-williams.com.ec_2_e09640c83d.ico
+2025-03-16 10:49:40,761 - LogoExtractor - INFO - [186] Processing https://mooresingapore.com (mooresingapore.com)
+2025-03-16 10:49:41,071 - LogoExtractor - INFO - Saved logo to extracted_logos\zktecoma.com_0_c50c31e2af.png
+2025-03-16 10:49:41,071 - LogoExtractor - INFO - [187] Processing https://urmet.com.br (urmet.com.br)
+2025-03-16 10:49:41,533 - LogoExtractor - ERROR - Error processing https://mooresingapore.com: HTTPSConnectionPool(host='mooresingapore.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mooresingapore.com'. (_ssl.c:1018)")))
+2025-03-16 10:49:41,534 - LogoExtractor - INFO - [188] Processing https://ccusa.com.au (ccusa.com.au)
+2025-03-16 10:49:41,732 - LogoExtractor - INFO - Saved logo to extracted_logos\isover.hu_0_32958d77af.jpg
+2025-03-16 10:49:41,740 - LogoExtractor - INFO - Saved logo to extracted_logos\urmet.com.br_0_b09244d232.png
+2025-03-16 10:49:41,937 - LogoExtractor - INFO - Saved logo to extracted_logos\urmet.com.br_1_cd3a450af7.png
+2025-03-16 10:49:41,975 - LogoExtractor - INFO - Saved logo to extracted_logos\isover.hu_1_f5f9938411.png
+2025-03-16 10:49:41,989 - LogoExtractor - INFO - Saved logo to extracted_logos\azets.ie_0_8d264534e8.png
+2025-03-16 10:49:42,092 - LogoExtractor - INFO - Saved logo to extracted_logos\urmet.com.br_2_d4f70bc83a.png
+2025-03-16 10:49:42,092 - LogoExtractor - INFO - [189] Processing https://toysrus.com.sg (toysrus.com.sg)
+2025-03-16 10:49:42,171 - LogoExtractor - INFO - Saved logo to extracted_logos\isover.hu_2_05680c6090.png
+2025-03-16 10:49:42,172 - LogoExtractor - INFO - [190] Processing https://aamcopasadenatx.com (aamcopasadenatx.com)
+2025-03-16 10:49:42,492 - LogoExtractor - INFO - [191] Processing https://manpowergroup.no (manpowergroup.no)
+2025-03-16 10:49:42,524 - LogoExtractor - INFO - Saved logo to extracted_logos\azets.ie_1_602b30a5cd.ico
+2025-03-16 10:49:42,524 - LogoExtractor - INFO - [192] Processing https://mapfre.pr (mapfre.pr)
+2025-03-16 10:49:42,671 - LogoExtractor - INFO - Saved logo to extracted_logos\renaulttersa.com.mx_0_fb60b401cc.png
+2025-03-16 10:49:42,763 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcotulsa-memorial.com_0_50ded8ea9a.png
+2025-03-16 10:49:43,388 - LogoExtractor - INFO - [193] Processing https://medef-bearnetsoule.com (medef-bearnetsoule.com)
+2025-03-16 10:49:43,435 - LogoExtractor - INFO - Saved logo to extracted_logos\renaulttersa.com.mx_1_ed47e8209d.png
+2025-03-16 10:49:43,660 - LogoExtractor - INFO - Saved logo to extracted_logos\bauder.at_0_8ee33d3c07.png
+2025-03-16 10:49:43,676 - LogoExtractor - ERROR - Error processing https://medef-bearnetsoule.com: HTTPSConnectionPool(host='medef-bearnetsoule.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-16 10:49:43,676 - LogoExtractor - INFO - [194] Processing https://moore.swiss (moore.swiss)
+2025-03-16 10:49:43,944 - LogoExtractor - INFO - [195] Processing https://ccusa.hu (ccusa.hu)
+2025-03-16 10:49:44,019 - LogoExtractor - INFO - Saved logo to extracted_logos\renaulttersa.com.mx_2_08d0caf173.png
+2025-03-16 10:49:44,020 - LogoExtractor - INFO - [196] Processing https://modshair-nuernberg.de (modshair-nuernberg.de)
+2025-03-16 10:49:44,086 - LogoExtractor - INFO - Saved logo to extracted_logos\bauder.at_1_2c944f2248.png
+2025-03-16 10:49:44,233 - LogoExtractor - INFO - Saved logo to extracted_logos\mapfre.pr_1_4ebf76e67c.png
+2025-03-16 10:49:44,273 - LogoExtractor - INFO - Saved logo to extracted_logos\ccusa.com.au_0_ad3c36625a.jpg
+2025-03-16 10:49:44,364 - LogoExtractor - INFO - Saved logo to extracted_logos\ccusa.hu_0_b863674538.jpg
+2025-03-16 10:49:44,499 - LogoExtractor - INFO - Saved logo to extracted_logos\ccusa.hu_1_f03afcebf0.png
+2025-03-16 10:49:44,510 - LogoExtractor - INFO - Saved logo to extracted_logos\bauder.at_2_2e11aad8ac.png
+2025-03-16 10:49:44,510 - LogoExtractor - INFO - [197] Processing https://cdu-aldenhoven.de (cdu-aldenhoven.de)
+2025-03-16 10:49:44,548 - LogoExtractor - INFO - Saved logo to extracted_logos\aamcopasadenatx.com_0_040986f813.png
+2025-03-16 10:49:44,814 - LogoExtractor - INFO - Saved logo to extracted_logos\mapfre.pr_2_30a233a2fa.png
+2025-03-16 10:49:44,815 - LogoExtractor - INFO - [198] Processing https://axabreakdown.co.uk (axabreakdown.co.uk)
+2025-03-16 10:49:44,997 - LogoExtractor - INFO - [199] Processing https://mazda-autohaus-roessel-birkenau.de (mazda-autohaus-roessel-birkenau.de)
+2025-03-16 10:49:45,079 - LogoExtractor - INFO - Saved logo to extracted_logos\modshair-nuernberg.de_0_4803ae3b2f.png
+2025-03-16 10:49:45,194 - LogoExtractor - INFO - Saved logo to extracted_logos\cdu-aldenhoven.de_0_a73b3f480f.png
+2025-03-16 10:49:45,276 - LogoExtractor - INFO - Saved logo to extracted_logos\modshair-nuernberg.de_1_7898af0e16.png
+2025-03-16 10:49:45,314 - LogoExtractor - INFO - Saved logo to extracted_logos\cdu-aldenhoven.de_1_bbcf8052d6.png
+2025-03-16 10:49:45,446 - LogoExtractor - INFO - Saved logo to extracted_logos\modshair-nuernberg.de_2_95dfce52f8.png
+2025-03-16 10:49:45,531 - LogoExtractor - INFO - Saved logo to extracted_logos\mazda-autohaus-roessel-birkenau.de_0_def3a004d3.png
+2025-03-16 10:49:45,544 - LogoExtractor - INFO - Saved logo to extracted_logos\ccusa.com.au_1_49aec724e7.png
+2025-03-16 10:49:45,625 - LogoExtractor - INFO - Saved logo to extracted_logos\axabreakdown.co.uk_1_dfa25e4f1b.png
+2025-03-16 10:49:45,828 - LogoExtractor - INFO - Saved logo to extracted_logos\axabreakdown.co.uk_2_cae281368d.ico
+2025-03-16 10:49:45,914 - LogoExtractor - INFO - Saved logo to extracted_logos\toysrus.com.sg_1_fe80c2101f.png
+2025-03-16 10:49:45,971 - LogoExtractor - INFO - Saved logo to extracted_logos\toysrus.com.sg_2_120b0198eb.png
+2025-03-16 10:49:47,258 - LogoExtractor - ERROR - Error processing https://linak.nl: HTTPSConnectionPool(host='www.linak.nl', port=443): Read timed out. (read timeout=10)
+2025-03-16 10:49:48,760 - LogoExtractor - ERROR - Error processing https://bakertilly.com.pa: HTTPSConnectionPool(host='bakertilly.com.pa', port=443): Read timed out. (read timeout=10)
+2025-03-16 10:49:54,694 - LogoAnalysisWorkflow - INFO - Extracted 275 logos
+2025-03-16 10:49:54,695 - LogoAnalysisWorkflow - INFO - Analyzing logo similarities
+2025-03-16 10:49:54,695 - LogoSimilarity - ERROR - Error loading logo data: [Errno 2] No such file or directory: 'extracted_logos_info.csv'
+2025-03-16 10:49:54,695 - LogoSimilarity - INFO - Computed features for 0 logos
+2025-03-16 10:49:54,695 - LogoSimilarity - WARNING - No features provided for clustering
+2025-03-16 10:49:54,696 - LogoAnalysisWorkflow - ERROR - Error in workflow: 'list' object has no attribute 'items'

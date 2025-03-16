@@ -3,8 +3,9 @@ import argparse
 import logging
 import time
 import sys
-from website_logo_extractor import process_websites, read_website_list
+from website_logo_extractor import process_websites
 from logo_grouping import LogoSimilarityAnalyzer
+from parquet_reader import read_websites_from_parquet
 
 # Setup logging
 logging.basicConfig(
@@ -20,8 +21,10 @@ logger = logging.getLogger("LogoAnalysisWorkflow")
 def parse_arguments():
     """Parse command line arguments."""
     parser = argparse.ArgumentParser(description='Logo Analysis Workflow')
-    parser.add_argument('--input', '-i', default='logos_list',
-                      help='Input file with list of websites (default: logos_list)')
+    parser.add_argument('--parquet', '-p', default='logos.snappy.parquet',
+                      help='Input Parquet file with website data (default: logos.snappy.parquet)')
+    parser.add_argument('--input', '-i', default=None,
+                      help='Input text file with list of websites (optional, overrides Parquet)')
     parser.add_argument('--limit', '-l', type=int, default=200,
                       help='Limit the number of websites to process (default: 200)')
     parser.add_argument('--workers', '-w', type=int, default=10,
@@ -56,11 +59,27 @@ def main():
     
     try:
         # Step 1: Read website list
-        try:
-            websites = read_website_list(args.input)
-            logger.info(f"Read {len(websites)} websites from {args.input}")
-        except Exception as e:
-            logger.error(f"Error reading website list: {e}")
+        websites = []
+        
+        # First try input text file if provided
+        if args.input and os.path.exists(args.input):
+            try:
+                with open(args.input, 'r') as f:
+                    websites = [line.strip() for line in f if line.strip()]
+                logger.info(f"Read {len(websites)} websites from text file {args.input}")
+            except Exception as e:
+                logger.error(f"Error reading website list from text file: {e}")
+        
+        # If no websites yet, try Parquet file
+        if not websites and os.path.exists(args.parquet):
+            try:
+                websites = read_websites_from_parquet(args.parquet)
+                logger.info(f"Read {len(websites)} websites from Parquet file {args.parquet}")
+            except Exception as e:
+                logger.error(f"Error reading website list from Parquet file: {e}")
+        
+        # If still no websites, use default sample
+        if not websites:
             logger.info("Using default sample websites")
             websites = [
                 "google.com",
