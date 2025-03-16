@@ -1,3 +1,1374 @@
 {
-  "error": "No clusters found"
+  "cluster_0": [
+    {
+      "domain": "mazda-autohaus-hellwig-hoyerswerda.de",
+      "url": "https://mazda-autohaus-hellwig-hoyerswerda.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-hellwig-hoyerswerda.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "toyota-buchreiter-eisenstadt.at",
+      "url": "https://toyota-buchreiter-eisenstadt.at",
+      "filepath": "results\\extracted_logos\\toyota-buchreiter-eisenstadt.at_1_706892305b.jpg"
+    },
+    {
+      "domain": "toyota-buchreiter-eisenstadt.at",
+      "url": "https://toyota-buchreiter-eisenstadt.at",
+      "filepath": "results\\extracted_logos\\toyota-buchreiter-eisenstadt.at_2_a292965f95.png"
+    },
+    {
+      "domain": "plameco-hannover.de",
+      "url": "https://plameco-hannover.de",
+      "filepath": "results\\extracted_logos\\plameco-hannover.de_1_00c87cf2ea.ico"
+    },
+    {
+      "domain": "autosecuritas-ct-seysses.fr",
+      "url": "https://autosecuritas-ct-seysses.fr",
+      "filepath": "results\\extracted_logos\\autosecuritas-ct-seysses.fr_1_986dd63b6c.png"
+    },
+    {
+      "domain": "autosecuritas-ct-seysses.fr",
+      "url": "https://autosecuritas-ct-seysses.fr",
+      "filepath": "results\\extracted_logos\\autosecuritas-ct-seysses.fr_2_2b72fa8d98.png"
+    },
+    {
+      "domain": "wurth-international.com",
+      "url": "https://wurth-international.com",
+      "filepath": "results\\extracted_logos\\wurth-international.com_1_722d3148b0.png"
+    },
+    {
+      "domain": "kia-moeller-wunstorf.de",
+      "url": "https://kia-moeller-wunstorf.de",
+      "filepath": "results\\extracted_logos\\kia-moeller-wunstorf.de_0_307a8bb9f8.png"
+    },
+    {
+      "domain": "kia-moeller-wunstorf.de",
+      "url": "https://kia-moeller-wunstorf.de",
+      "filepath": "results\\extracted_logos\\kia-moeller-wunstorf.de_1_93a9aba4fc.png"
+    },
+    {
+      "domain": "kia-moeller-wunstorf.de",
+      "url": "https://kia-moeller-wunstorf.de",
+      "filepath": "results\\extracted_logos\\kia-moeller-wunstorf.de_2_f734762f09.jpg"
+    },
+    {
+      "domain": "ovb.ro",
+      "url": "https://ovb.ro",
+      "filepath": "results\\extracted_logos\\ovb.ro_0_a4080a0d92.jpg"
+    },
+    {
+      "domain": "ovb.ro",
+      "url": "https://ovb.ro",
+      "filepath": "results\\extracted_logos\\ovb.ro_1_dde559c74f.jpg"
+    },
+    {
+      "domain": "ovb.ro",
+      "url": "https://ovb.ro",
+      "filepath": "results\\extracted_logos\\ovb.ro_2_de27a6bd00.jpg"
+    },
+    {
+      "domain": "freseniusmedicalcare.ca",
+      "url": "https://freseniusmedicalcare.ca",
+      "filepath": "results\\extracted_logos\\freseniusmedicalcare.ca_0_05c2803572.png"
+    },
+    {
+      "domain": "freseniusmedicalcare.ca",
+      "url": "https://freseniusmedicalcare.ca",
+      "filepath": "results\\extracted_logos\\freseniusmedicalcare.ca_1_5eba646eac.png"
+    },
+    {
+      "domain": "ibc-solar.jp",
+      "url": "https://ibc-solar.jp",
+      "filepath": "results\\extracted_logos\\ibc-solar.jp_1_53c042afce.png"
+    },
+    {
+      "domain": "synlab.com.tr",
+      "url": "https://synlab.com.tr",
+      "filepath": "results\\extracted_logos\\synlab.com.tr_1_41be9ed51d.png"
+    },
+    {
+      "domain": "cafelasmargaritas.es",
+      "url": "https://cafelasmargaritas.es",
+      "filepath": "results\\extracted_logos\\cafelasmargaritas.es_1_5815bca375.png"
+    },
+    {
+      "domain": "crocs.com.uy",
+      "url": "https://crocs.com.uy",
+      "filepath": "results\\extracted_logos\\crocs.com.uy_1_a6d88f8d2a.jpg"
+    },
+    {
+      "domain": "crocs.com.uy",
+      "url": "https://crocs.com.uy",
+      "filepath": "results\\extracted_logos\\crocs.com.uy_2_75795fef47.jpg"
+    },
+    {
+      "domain": "affidea.ba",
+      "url": "https://affidea.ba",
+      "filepath": "results\\extracted_logos\\affidea.ba_2_32d40b2607.png"
+    },
+    {
+      "domain": "engie.co.uk",
+      "url": "https://engie.co.uk",
+      "filepath": "results\\extracted_logos\\engie.co.uk_1_783b909501.png"
+    },
+    {
+      "domain": "spitex-wasseramt.ch",
+      "url": "https://spitex-wasseramt.ch",
+      "filepath": "results\\extracted_logos\\spitex-wasseramt.ch_1_b24beaea8d.ico"
+    },
+    {
+      "domain": "nobleprog.mx",
+      "url": "https://nobleprog.mx",
+      "filepath": "results\\extracted_logos\\nobleprog.mx_0_b5a18d07d7.png"
+    },
+    {
+      "domain": "nobleprog.mx",
+      "url": "https://nobleprog.mx",
+      "filepath": "results\\extracted_logos\\nobleprog.mx_1_b245d45d71.png"
+    },
+    {
+      "domain": "nobleprog.mx",
+      "url": "https://nobleprog.mx",
+      "filepath": "results\\extracted_logos\\nobleprog.mx_2_c62ad5bc7d.png"
+    },
+    {
+      "domain": "ccusa.co.nz",
+      "url": "https://ccusa.co.nz",
+      "filepath": "results\\extracted_logos\\ccusa.co.nz_0_b0bfdcd314.jpg"
+    },
+    {
+      "domain": "ccusa.co.nz",
+      "url": "https://ccusa.co.nz",
+      "filepath": "results\\extracted_logos\\ccusa.co.nz_1_cee74f11a0.png"
+    },
+    {
+      "domain": "veolia.com.ru",
+      "url": "https://veolia.com.ru",
+      "filepath": "results\\extracted_logos\\veolia.com.ru_0_6e1471cab7.png"
+    },
+    {
+      "domain": "veolia.com.ru",
+      "url": "https://veolia.com.ru",
+      "filepath": "results\\extracted_logos\\veolia.com.ru_1_6d8ca9694b.png"
+    },
+    {
+      "domain": "veolia.com.ru",
+      "url": "https://veolia.com.ru",
+      "filepath": "results\\extracted_logos\\veolia.com.ru_2_e0943db0dd.ico"
+    },
+    {
+      "domain": "julis-sh.de",
+      "url": "https://julis-sh.de",
+      "filepath": "results\\extracted_logos\\julis-sh.de_0_1ef73e9bf1.png"
+    },
+    {
+      "domain": "julis-sh.de",
+      "url": "https://julis-sh.de",
+      "filepath": "results\\extracted_logos\\julis-sh.de_1_372bff14de.png"
+    },
+    {
+      "domain": "julis-sh.de",
+      "url": "https://julis-sh.de",
+      "filepath": "results\\extracted_logos\\julis-sh.de_2_ec71ece498.png"
+    },
+    {
+      "domain": "bakertilly.lu",
+      "url": "https://bakertilly.lu",
+      "filepath": "results\\extracted_logos\\bakertilly.lu_1_ff244a1dbb.png"
+    },
+    {
+      "domain": "bakertilly.lu",
+      "url": "https://bakertilly.lu",
+      "filepath": "results\\extracted_logos\\bakertilly.lu_2_d3b77a1cce.png"
+    },
+    {
+      "domain": "deheus.com.vn",
+      "url": "https://deheus.com.vn",
+      "filepath": "results\\extracted_logos\\deheus.com.vn_0_b5e49035c6.png"
+    },
+    {
+      "domain": "deheus.com.vn",
+      "url": "https://deheus.com.vn",
+      "filepath": "results\\extracted_logos\\deheus.com.vn_1_0f51bb3995.png"
+    },
+    {
+      "domain": "deheus.com.vn",
+      "url": "https://deheus.com.vn",
+      "filepath": "results\\extracted_logos\\deheus.com.vn_2_e1487a842b.png"
+    },
+    {
+      "domain": "pirtek.be",
+      "url": "https://pirtek.be",
+      "filepath": "results\\extracted_logos\\pirtek.be_0_22bb555a93.png"
+    },
+    {
+      "domain": "pirtek.be",
+      "url": "https://pirtek.be",
+      "filepath": "results\\extracted_logos\\pirtek.be_1_6abaa6e87f.jpg"
+    },
+    {
+      "domain": "aamcoanaheim.net",
+      "url": "https://aamcoanaheim.net",
+      "filepath": "results\\extracted_logos\\aamcoanaheim.net_0_64805d534e.png"
+    },
+    {
+      "domain": "ebayglobalshipping.com",
+      "url": "https://ebayglobalshipping.com",
+      "filepath": "results\\extracted_logos\\ebayglobalshipping.com_1_f12541d0dd.ico"
+    },
+    {
+      "domain": "europa-union-sachsen-anhalt.de",
+      "url": "https://europa-union-sachsen-anhalt.de",
+      "filepath": "results\\extracted_logos\\europa-union-sachsen-anhalt.de_0_b87bdfab41.png"
+    },
+    {
+      "domain": "europa-union-sachsen-anhalt.de",
+      "url": "https://europa-union-sachsen-anhalt.de",
+      "filepath": "results\\extracted_logos\\europa-union-sachsen-anhalt.de_1_7858ebc37a.png"
+    },
+    {
+      "domain": "europa-union-sachsen-anhalt.de",
+      "url": "https://europa-union-sachsen-anhalt.de",
+      "filepath": "results\\extracted_logos\\europa-union-sachsen-anhalt.de_2_16108e7ed3.png"
+    },
+    {
+      "domain": "mazda-autohaus-kaschmieder-waren.de",
+      "url": "https://mazda-autohaus-kaschmieder-waren.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-kaschmieder-waren.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "aamcoseguin.com",
+      "url": "https://aamcoseguin.com",
+      "filepath": "results\\extracted_logos\\aamcoseguin.com_0_03cce7cae7.png"
+    },
+    {
+      "domain": "aamcoseguin.com",
+      "url": "https://aamcoseguin.com",
+      "filepath": "results\\extracted_logos\\aamcoseguin.com_1_ad16f9411a.png "
+    },
+    {
+      "domain": "bakertilly.es",
+      "url": "https://bakertilly.es",
+      "filepath": "results\\extracted_logos\\bakertilly.es_1_a37d763ddc.png"
+    },
+    {
+      "domain": "aamcoconyersga.com",
+      "url": "https://aamcoconyersga.com",
+      "filepath": "results\\extracted_logos\\aamcoconyersga.com_0_ed41534e07.png"
+    },
+    {
+      "domain": "wurthsaudi.com",
+      "url": "https://wurthsaudi.com",
+      "filepath": "results\\extracted_logos\\wurthsaudi.com_0_cecbe1e413.png"
+    },
+    {
+      "domain": "wurthsaudi.com",
+      "url": "https://wurthsaudi.com",
+      "filepath": "results\\extracted_logos\\wurthsaudi.com_1_5e3696b7ae.png"
+    },
+    {
+      "domain": "wurthsaudi.com",
+      "url": "https://wurthsaudi.com",
+      "filepath": "results\\extracted_logos\\wurthsaudi.com_2_acdcdf69ce.png"
+    },
+    {
+      "domain": "allianz.nl",
+      "url": "https://allianz.nl",
+      "filepath": "results\\extracted_logos\\allianz.nl_1_b12c6e883f.png"
+    },
+    {
+      "domain": "oil-testing.de",
+      "url": "https://oil-testing.de",
+      "filepath": "results\\extracted_logos\\oil-testing.de_0_b13c07f287.png"
+    },
+    {
+      "domain": "oil-testing.de",
+      "url": "https://oil-testing.de",
+      "filepath": "results\\extracted_logos\\oil-testing.de_2_a3dc053fed.png"
+    },
+    {
+      "domain": "bmw-motorrad-euromotos-lyon.fr",
+      "url": "https://bmw-motorrad-euromotos-lyon.fr",
+      "filepath": "results\\extracted_logos\\bmw-motorrad-euromotos-lyon.fr_0_6b07067972.jpg"
+    },
+    {
+      "domain": "bmw-motorrad-euromotos-lyon.fr",
+      "url": "https://bmw-motorrad-euromotos-lyon.fr",
+      "filepath": "results\\extracted_logos\\bmw-motorrad-euromotos-lyon.fr_2_f4b68117eb.png"
+    },
+    {
+      "domain": "rsmpoland.pl",
+      "url": "https://rsmpoland.pl",
+      "filepath": "results\\extracted_logos\\rsmpoland.pl_0_957ec7d787.webp"
+    },
+    {
+      "domain": "mazda-autohaus-lackmann-sendenhorst.de",
+      "url": "https://mazda-autohaus-lackmann-sendenhorst.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-lackmann-sendenhorst.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "trinkgutlippstadt.de",
+      "url": "https://trinkgutlippstadt.de",
+      "filepath": "results\\extracted_logos\\trinkgutlippstadt.de_0_4fdb3d4fdd.png"
+    },
+    {
+      "domain": "trinkgutlippstadt.de",
+      "url": "https://trinkgutlippstadt.de",
+      "filepath": "results\\extracted_logos\\trinkgutlippstadt.de_1_91882b54ee.png"
+    },
+    {
+      "domain": "trinkgutlippstadt.de",
+      "url": "https://trinkgutlippstadt.de",
+      "filepath": "results\\extracted_logos\\trinkgutlippstadt.de_2_f848659528.png"
+    },
+    {
+      "domain": "berlitz-augsburg.de",
+      "url": "https://berlitz-augsburg.de",
+      "filepath": "results\\extracted_logos\\berlitz-augsburg.de_0_41805a71aa.jpg"
+    },
+    {
+      "domain": "intertongn.es",
+      "url": "https://intertongn.es",
+      "filepath": "results\\extracted_logos\\intertongn.es_0_197361a606.png"
+    },
+    {
+      "domain": "intertongn.es",
+      "url": "https://intertongn.es",
+      "filepath": "results\\extracted_logos\\intertongn.es_1_ea2b220ae1.png"
+    },
+    {
+      "domain": "menicon.de",
+      "url": "https://menicon.de",
+      "filepath": "results\\extracted_logos\\menicon.de_0_5eab6b7c7b.png"
+    },
+    {
+      "domain": "menicon.de",
+      "url": "https://menicon.de",
+      "filepath": "results\\extracted_logos\\menicon.de_1_4f7eab8e63.ico"
+    },
+    {
+      "domain": "bauder.lt",
+      "url": "https://bauder.lt",
+      "filepath": "results\\extracted_logos\\bauder.lt_1_e4502cc26c.png"
+    },
+    {
+      "domain": "savethechildren.ca",
+      "url": "https://savethechildren.ca",
+      "filepath": "results\\extracted_logos\\savethechildren.ca_0_1c69fb75ff.png"
+    },
+    {
+      "domain": "linde-gas.fi",
+      "url": "https://linde-gas.fi",
+      "filepath": "results\\extracted_logos\\linde-gas.fi_0_8b7f021d2d.png"
+    },
+    {
+      "domain": "mateco.nl",
+      "url": "https://mateco.nl",
+      "filepath": "results\\extracted_logos\\mateco.nl_2_872ee31ac8.jpg"
+    },
+    {
+      "domain": "svntrinity.com",
+      "url": "https://svntrinity.com",
+      "filepath": "results\\extracted_logos\\svntrinity.com_0_50bb2a3eaf.png"
+    },
+    {
+      "domain": "svntrinity.com",
+      "url": "https://svntrinity.com",
+      "filepath": "results\\extracted_logos\\svntrinity.com_1_f6932e61ac.png"
+    },
+    {
+      "domain": "zkteco.vn",
+      "url": "https://zkteco.vn",
+      "filepath": "results\\extracted_logos\\zkteco.vn_1_732520d03f.png"
+    },
+    {
+      "domain": "orient-food.sk",
+      "url": "https://orient-food.sk",
+      "filepath": "results\\extracted_logos\\orient-food.sk_0_c89e5206cc.png"
+    },
+    {
+      "domain": "orient-food.sk",
+      "url": "https://orient-food.sk",
+      "filepath": "results\\extracted_logos\\orient-food.sk_2_96e1b79988.ico"
+    },
+    {
+      "domain": "mazda-autohaus-roessel-birkenau.de",
+      "url": "https://mazda-autohaus-roessel-birkenau.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-roessel-birkenau.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "mazda-poznan-voyager.pl",
+      "url": "https://mazda-poznan-voyager.pl",
+      "filepath": "results\\extracted_logos\\mazda-poznan-voyager.pl_0_59a9356f2c.png"
+    },
+    {
+      "domain": "mazda-poznan-voyager.pl",
+      "url": "https://mazda-poznan-voyager.pl",
+      "filepath": "results\\extracted_logos\\mazda-poznan-voyager.pl_1_ba5df41eae.png"
+    },
+    {
+      "domain": "kapanfastigheter.se",
+      "url": "https://kapanfastigheter.se",
+      "filepath": "results\\extracted_logos\\kapanfastigheter.se_0_69913c72ac.png"
+    },
+    {
+      "domain": "mazda-autohaus-wassing-ahaus-wuellen.de",
+      "url": "https://mazda-autohaus-wassing-ahaus-wuellen.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-wassing-ahaus-wuellen.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "ford.pl.ua",
+      "url": "https://ford.pl.ua",
+      "filepath": "results\\extracted_logos\\ford.pl.ua_1_42ded9721d.ico"
+    },
+    {
+      "domain": "equans.hu",
+      "url": "https://equans.hu",
+      "filepath": "results\\extracted_logos\\equans.hu_0_4f6916af01.jpg"
+    },
+    {
+      "domain": "equans.hu",
+      "url": "https://equans.hu",
+      "filepath": "results\\extracted_logos\\equans.hu_2_499192f2be.png"
+    },
+    {
+      "domain": "secureparkinghi.com",
+      "url": "https://secureparkinghi.com",
+      "filepath": "results\\extracted_logos\\secureparkinghi.com_0_0cf276923d.png"
+    },
+    {
+      "domain": "secureparkinghi.com",
+      "url": "https://secureparkinghi.com",
+      "filepath": "results\\extracted_logos\\secureparkinghi.com_1_5204f9e70e.png"
+    },
+    {
+      "domain": "linexps.com",
+      "url": "https://linexps.com",
+      "filepath": "results\\extracted_logos\\linexps.com_0_aab2646fa5.png"
+    },
+    {
+      "domain": "linexps.com",
+      "url": "https://linexps.com",
+      "filepath": "results\\extracted_logos\\linexps.com_1_bc0f019395.png"
+    },
+    {
+      "domain": "esseskincare.sg",
+      "url": "https://esseskincare.sg",
+      "filepath": "results\\extracted_logos\\esseskincare.sg_0_cb96fce6f8.png"
+    },
+    {
+      "domain": "esseskincare.sg",
+      "url": "https://esseskincare.sg",
+      "filepath": "results\\extracted_logos\\esseskincare.sg_2_133c1305d8.png"
+    },
+    {
+      "domain": "avia.ch",
+      "url": "https://avia.ch",
+      "filepath": "results\\extracted_logos\\avia.ch_0_958616c4c7.png"
+    },
+    {
+      "domain": "kia-suedmobile-radolfzell.de",
+      "url": "https://kia-suedmobile-radolfzell.de",
+      "filepath": "results\\extracted_logos\\kia-suedmobile-radolfzell.de_0_4123470bd3.png"
+    },
+    {
+      "domain": "kia-suedmobile-radolfzell.de",
+      "url": "https://kia-suedmobile-radolfzell.de",
+      "filepath": "results\\extracted_logos\\kia-suedmobile-radolfzell.de_1_5e0d65824a.png"
+    },
+    {
+      "domain": "kia-suedmobile-radolfzell.de",
+      "url": "https://kia-suedmobile-radolfzell.de",
+      "filepath": "results\\extracted_logos\\kia-suedmobile-radolfzell.de_2_562d09105f.jpg"
+    },
+    {
+      "domain": "bioderma.co.za",
+      "url": "https://bioderma.co.za",
+      "filepath": "results\\extracted_logos\\bioderma.co.za_0_688bb7d903.png"
+    },
+    {
+      "domain": "bioderma.co.za",
+      "url": "https://bioderma.co.za",
+      "filepath": "results\\extracted_logos\\bioderma.co.za_1_061e1d2c51.ico"
+    },
+    {
+      "domain": "williamblairfunds.com",
+      "url": "https://williamblairfunds.com",
+      "filepath": "results\\extracted_logos\\williamblairfunds.com_0_fe84671d7e.png"
+    },
+    {
+      "domain": "williamblairfunds.com",
+      "url": "https://williamblairfunds.com",
+      "filepath": "results\\extracted_logos\\williamblairfunds.com_1_268160b9d1.png"
+    },
+    {
+      "domain": "cdviberica.com",
+      "url": "https://cdviberica.com",
+      "filepath": "results\\extracted_logos\\cdviberica.com_2_9de38a3797.png"
+    },
+    {
+      "domain": "kalyanmachines.com",
+      "url": "https://kalyanmachines.com",
+      "filepath": "results\\extracted_logos\\kalyanmachines.com_0_53354a3ed4.png"
+    },
+    {
+      "domain": "ibc-solar.pl",
+      "url": "https://ibc-solar.pl",
+      "filepath": "results\\extracted_logos\\ibc-solar.pl_1_c139b82797.png"
+    },
+    {
+      "domain": "mazda-autohaus-henseler-schwedt.de",
+      "url": "https://mazda-autohaus-henseler-schwedt.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-henseler-schwedt.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "toyotanatas.com.tr",
+      "url": "https://toyotanatas.com.tr",
+      "filepath": "results\\extracted_logos\\toyotanatas.com.tr_2_5d22c9385c.png"
+    },
+    {
+      "domain": "linde-gas.at",
+      "url": "https://linde-gas.at",
+      "filepath": "results\\extracted_logos\\linde-gas.at_0_b0d6de0e4a.png"
+    },
+    {
+      "domain": "linde-gas.at",
+      "url": "https://linde-gas.at",
+      "filepath": "results\\extracted_logos\\linde-gas.at_1_fd223abfeb.jpg"
+    },
+    {
+      "domain": "mazda.de",
+      "url": "https://mazda.de",
+      "filepath": "results\\extracted_logos\\mazda.de_0_294d44f9d1.png"
+    },
+    {
+      "domain": "renaultsanzhispano.es",
+      "url": "https://renaultsanzhispano.es",
+      "filepath": "results\\extracted_logos\\renaultsanzhispano.es_1_de3ff4f5dc.png"
+    },
+    {
+      "domain": "bbraun.rs",
+      "url": "https://bbraun.rs",
+      "filepath": "results\\extracted_logos\\bbraun.rs_0_a2be0da39a.png"
+    },
+    {
+      "domain": "bbraun.rs",
+      "url": "https://bbraun.rs",
+      "filepath": "results\\extracted_logos\\bbraun.rs_1_e57e98d31a.ico"
+    },
+    {
+      "domain": "wurth.co",
+      "url": "https://wurth.co",
+      "filepath": "results\\extracted_logos\\wurth.co_0_d922a2811b.png"
+    },
+    {
+      "domain": "mazda-autohaus-hansmann-kassel.de",
+      "url": "https://mazda-autohaus-hansmann-kassel.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-hansmann-kassel.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "aamcodelran.com",
+      "url": "https://aamcodelran.com",
+      "filepath": "results\\extracted_logos\\aamcodelran.com_0_d02cc3d895.png"
+    },
+    {
+      "domain": "spitex-regionbirs.ch",
+      "url": "https://spitex-regionbirs.ch",
+      "filepath": "results\\extracted_logos\\spitex-regionbirs.ch_1_73ee00a024.ico"
+    },
+    {
+      "domain": "flashbay.ca",
+      "url": "https://flashbay.ca",
+      "filepath": "results\\extracted_logos\\flashbay.ca_0_a88a3b9ba9.png"
+    },
+    {
+      "domain": "flashbay.ca",
+      "url": "https://flashbay.ca",
+      "filepath": "results\\extracted_logos\\flashbay.ca_1_1f7b89e15b.png"
+    },
+    {
+      "domain": "flashbay.ca",
+      "url": "https://flashbay.ca",
+      "filepath": "results\\extracted_logos\\flashbay.ca_2_6985fcdc89.png"
+    },
+    {
+      "domain": "compo.de",
+      "url": "https://compo.de",
+      "filepath": "results\\extracted_logos\\compo.de_0_56248d7b64.png"
+    },
+    {
+      "domain": "compo.de",
+      "url": "https://compo.de",
+      "filepath": "results\\extracted_logos\\compo.de_1_003a278bd0.png"
+    },
+    {
+      "domain": "compo.de",
+      "url": "https://compo.de",
+      "filepath": "results\\extracted_logos\\compo.de_2_7a762440da.png"
+    },
+    {
+      "domain": "pkf-hk.com",
+      "url": "https://pkf-hk.com",
+      "filepath": "results\\extracted_logos\\pkf-hk.com_1_58e9de1655.ico"
+    },
+    {
+      "domain": "aamcobloomfield.com",
+      "url": "https://aamcobloomfield.com",
+      "filepath": "results\\extracted_logos\\aamcobloomfield.com_0_36fa080434.png"
+    },
+    {
+      "domain": "subaru.jp",
+      "url": "https://subaru.jp",
+      "filepath": "results\\extracted_logos\\subaru.jp_0_2cb9d14e92.png"
+    },
+    {
+      "domain": "subaru.jp",
+      "url": "https://subaru.jp",
+      "filepath": "results\\extracted_logos\\subaru.jp_1_4ccd613a1c.png"
+    },
+    {
+      "domain": "subaru.jp",
+      "url": "https://subaru.jp",
+      "filepath": "results\\extracted_logos\\subaru.jp_2_b9ac537b3f.png"
+    },
+    {
+      "domain": "webster.nl",
+      "url": "https://webster.nl",
+      "filepath": "results\\extracted_logos\\webster.nl_0_b9aa028c29.png"
+    },
+    {
+      "domain": "webster.nl",
+      "url": "https://webster.nl",
+      "filepath": "results\\extracted_logos\\webster.nl_2_bf5d88cfd2.png"
+    },
+    {
+      "domain": "besins-healthcare.se",
+      "url": "https://besins-healthcare.se",
+      "filepath": "results\\extracted_logos\\besins-healthcare.se_0_29737c37de.png"
+    },
+    {
+      "domain": "besins-healthcare.se",
+      "url": "https://besins-healthcare.se",
+      "filepath": "results\\extracted_logos\\besins-healthcare.se_1_0099c2a67d.png"
+    },
+    {
+      "domain": "besins-healthcare.se",
+      "url": "https://besins-healthcare.se",
+      "filepath": "results\\extracted_logos\\besins-healthcare.se_2_a5b60ed046.png"
+    },
+    {
+      "domain": "aamcosalemor.com",
+      "url": "https://aamcosalemor.com",
+      "filepath": "results\\extracted_logos\\aamcosalemor.com_0_09e93e820a.png"
+    },
+    {
+      "domain": "einhell.ba",
+      "url": "https://einhell.ba",
+      "filepath": "results\\extracted_logos\\einhell.ba_0_7bcfb376db.png"
+    },
+    {
+      "domain": "einhell.ba",
+      "url": "https://einhell.ba",
+      "filepath": "results\\extracted_logos\\einhell.ba_1_6f44e7e697.jpg"
+    },
+    {
+      "domain": "einhell.ba",
+      "url": "https://einhell.ba",
+      "filepath": "results\\extracted_logos\\einhell.ba_2_ab1a13a9d5.jpg"
+    },
+    {
+      "domain": "cvjm-pfalz.de",
+      "url": "https://cvjm-pfalz.de",
+      "filepath": "results\\extracted_logos\\cvjm-pfalz.de_0_a564d83b7e.png"
+    },
+    {
+      "domain": "cvjm-pfalz.de",
+      "url": "https://cvjm-pfalz.de",
+      "filepath": "results\\extracted_logos\\cvjm-pfalz.de_1_4887f205bb.png"
+    },
+    {
+      "domain": "cvjm-pfalz.de",
+      "url": "https://cvjm-pfalz.de",
+      "filepath": "results\\extracted_logos\\cvjm-pfalz.de_2_36f25071ff.ico"
+    },
+    {
+      "domain": "linde-electronics.com",
+      "url": "https://linde-electronics.com",
+      "filepath": "results\\extracted_logos\\linde-electronics.com_0_897bfd7f1e.png"
+    },
+    {
+      "domain": "tbwa.co.za",
+      "url": "https://tbwa.co.za",
+      "filepath": "results\\extracted_logos\\tbwa.co.za_2_b73ac01b79.png"
+    },
+    {
+      "domain": "aamcowilliamsportpa.com",
+      "url": "https://aamcowilliamsportpa.com",
+      "filepath": "results\\extracted_logos\\aamcowilliamsportpa.com_0_1e992c0077.png"
+    },
+    {
+      "domain": "engie.pt",
+      "url": "https://engie.pt",
+      "filepath": "results\\extracted_logos\\engie.pt_0_008819486e.png"
+    },
+    {
+      "domain": "peugeot.sk",
+      "url": "https://peugeot.sk",
+      "filepath": "results\\extracted_logos\\peugeot.sk_0_bb8546c8df.png"
+    },
+    {
+      "domain": "peugeot.sk",
+      "url": "https://peugeot.sk",
+      "filepath": "results\\extracted_logos\\peugeot.sk_1_e93c1116a9.png"
+    },
+    {
+      "domain": "peugeot.sk",
+      "url": "https://peugeot.sk",
+      "filepath": "results\\extracted_logos\\peugeot.sk_2_a2bd2687ff.ico"
+    },
+    {
+      "domain": "medef-alsace.com",
+      "url": "https://medef-alsace.com",
+      "filepath": "results\\extracted_logos\\medef-alsace.com_0_f5ddfabb8e.png"
+    },
+    {
+      "domain": "medef-alsace.com",
+      "url": "https://medef-alsace.com",
+      "filepath": "results\\extracted_logos\\medef-alsace.com_1_20aa750924.png"
+    },
+    {
+      "domain": "siebtechnik-tema.cn",
+      "url": "https://siebtechnik-tema.cn",
+      "filepath": "results\\extracted_logos\\siebtechnik-tema.cn_0_f14cb075c6.png"
+    },
+    {
+      "domain": "siebtechnik-tema.cn",
+      "url": "https://siebtechnik-tema.cn",
+      "filepath": "results\\extracted_logos\\siebtechnik-tema.cn_1_e2f254f46d.jpg"
+    },
+    {
+      "domain": "siebtechnik-tema.cn",
+      "url": "https://siebtechnik-tema.cn",
+      "filepath": "results\\extracted_logos\\siebtechnik-tema.cn_2_547b4705ba.jpg"
+    },
+    {
+      "domain": "veolia.fr",
+      "url": "https://veolia.fr",
+      "filepath": "results\\extracted_logos\\veolia.fr_0_b1ac4c09b2.png"
+    },
+    {
+      "domain": "veolia.fr",
+      "url": "https://veolia.fr",
+      "filepath": "results\\extracted_logos\\veolia.fr_1_a5f0523a34.png"
+    },
+    {
+      "domain": "veolia.fr",
+      "url": "https://veolia.fr",
+      "filepath": "results\\extracted_logos\\veolia.fr_2_a254898571.ico"
+    },
+    {
+      "domain": "rsmthailand.com",
+      "url": "https://rsmthailand.com",
+      "filepath": "results\\extracted_logos\\rsmthailand.com_0_72d12f2506.png"
+    },
+    {
+      "domain": "meggle-bakery.com",
+      "url": "https://meggle-bakery.com",
+      "filepath": "results\\extracted_logos\\meggle-bakery.com_0_41617651b3.png"
+    },
+    {
+      "domain": "meggle-bakery.com",
+      "url": "https://meggle-bakery.com",
+      "filepath": "results\\extracted_logos\\meggle-bakery.com_1_8787357524.png"
+    },
+    {
+      "domain": "strabag-pfs.com",
+      "url": "https://strabag-pfs.com",
+      "filepath": "results\\extracted_logos\\strabag-pfs.com_0_d795ae3c5e.webp"
+    },
+    {
+      "domain": "strabag-pfs.com",
+      "url": "https://strabag-pfs.com",
+      "filepath": "results\\extracted_logos\\strabag-pfs.com_1_c9db8045df.webp"
+    },
+    {
+      "domain": "strabag-pfs.com",
+      "url": "https://strabag-pfs.com",
+      "filepath": "results\\extracted_logos\\strabag-pfs.com_2_3b22f4ae7c.webp"
+    },
+    {
+      "domain": "santillana.com.hn",
+      "url": "https://santillana.com.hn",
+      "filepath": "results\\extracted_logos\\santillana.com.hn_0_102fca2938.png"
+    },
+    {
+      "domain": "santillana.com.hn",
+      "url": "https://santillana.com.hn",
+      "filepath": "results\\extracted_logos\\santillana.com.hn_1_93485acff4.png"
+    },
+    {
+      "domain": "santillana.com.hn",
+      "url": "https://santillana.com.hn",
+      "filepath": "results\\extracted_logos\\santillana.com.hn_2_33354f885d.png"
+    },
+    {
+      "domain": "spitex-wiggertal.ch",
+      "url": "https://spitex-wiggertal.ch",
+      "filepath": "results\\extracted_logos\\spitex-wiggertal.ch_1_c2c4778ce4.ico"
+    },
+    {
+      "domain": "aamco-councilbluffs.com",
+      "url": "https://aamco-councilbluffs.com",
+      "filepath": "results\\extracted_logos\\aamco-councilbluffs.com_0_be5d9c7adb.png"
+    },
+    {
+      "domain": "aamco-councilbluffs.com",
+      "url": "https://aamco-councilbluffs.com",
+      "filepath": "results\\extracted_logos\\aamco-councilbluffs.com_1_4994a68a33.jpg"
+    },
+    {
+      "domain": "aamco-councilbluffs.com",
+      "url": "https://aamco-councilbluffs.com",
+      "filepath": "results\\extracted_logos\\aamco-councilbluffs.com_2_719ead9357.jpg"
+    },
+    {
+      "domain": "nutriciababy.be",
+      "url": "https://nutriciababy.be",
+      "filepath": "results\\extracted_logos\\nutriciababy.be_2_e9d32e8d47.png"
+    },
+    {
+      "domain": "autosecuritas-barlin.fr",
+      "url": "https://autosecuritas-barlin.fr",
+      "filepath": "results\\extracted_logos\\autosecuritas-barlin.fr_1_6c63a0752d.png"
+    },
+    {
+      "domain": "autosecuritas-barlin.fr",
+      "url": "https://autosecuritas-barlin.fr",
+      "filepath": "results\\extracted_logos\\autosecuritas-barlin.fr_2_40c8e46bb5.png"
+    },
+    {
+      "domain": "mazda-autohaus-sturne-rochlitz.de",
+      "url": "https://mazda-autohaus-sturne-rochlitz.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-sturne-rochlitz.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "adra.org.pe",
+      "url": "https://adra.org.pe",
+      "filepath": "results\\extracted_logos\\adra.org.pe_0_03e7dc65a6.png"
+    },
+    {
+      "domain": "adra.org.pe",
+      "url": "https://adra.org.pe",
+      "filepath": "results\\extracted_logos\\adra.org.pe_1_e88e54a9a8.png"
+    },
+    {
+      "domain": "adra.org.pe",
+      "url": "https://adra.org.pe",
+      "filepath": "results\\extracted_logos\\adra.org.pe_2_3e0c6a1849.png"
+    },
+    {
+      "domain": "inductotherm.co.kr",
+      "url": "https://inductotherm.co.kr",
+      "filepath": "results\\extracted_logos\\inductotherm.co.kr_1_9b98e002b1.png"
+    },
+    {
+      "domain": "aamcocatonsvillemd.com",
+      "url": "https://aamcocatonsvillemd.com",
+      "filepath": "results\\extracted_logos\\aamcocatonsvillemd.com_0_99a5fb893c.png"
+    },
+    {
+      "domain": "mazda-autohaus-blank-dinkelsbuehl.de",
+      "url": "https://mazda-autohaus-blank-dinkelsbuehl.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-blank-dinkelsbuehl.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "meggle.co.jp",
+      "url": "https://meggle.co.jp",
+      "filepath": "results\\extracted_logos\\meggle.co.jp_0_8787357524.png"
+    },
+    {
+      "domain": "renault.dk",
+      "url": "https://renault.dk",
+      "filepath": "results\\extracted_logos\\renault.dk_1_55f37d9de4.png"
+    },
+    {
+      "domain": "renault.dk",
+      "url": "https://renault.dk",
+      "filepath": "results\\extracted_logos\\renault.dk_2_0fe35211d9.png"
+    },
+    {
+      "domain": "amnesty.is",
+      "url": "https://amnesty.is",
+      "filepath": "results\\extracted_logos\\amnesty.is_1_3271173775.png"
+    },
+    {
+      "domain": "veolia.ca",
+      "url": "https://veolia.ca",
+      "filepath": "results\\extracted_logos\\veolia.ca_0_afd0357cce.png"
+    },
+    {
+      "domain": "veolia.ca",
+      "url": "https://veolia.ca",
+      "filepath": "results\\extracted_logos\\veolia.ca_1_4d637739dc.png"
+    },
+    {
+      "domain": "veolia.ca",
+      "url": "https://veolia.ca",
+      "filepath": "results\\extracted_logos\\veolia.ca_2_84d187d0c7.png"
+    },
+    {
+      "domain": "mazdabali.co.id",
+      "url": "https://mazdabali.co.id",
+      "filepath": "results\\extracted_logos\\mazdabali.co.id_0_72a2bd87cf.png"
+    },
+    {
+      "domain": "mazdabali.co.id",
+      "url": "https://mazdabali.co.id",
+      "filepath": "results\\extracted_logos\\mazdabali.co.id_1_114f01ddfe.png"
+    },
+    {
+      "domain": "vitalimages.com",
+      "url": "https://vitalimages.com",
+      "filepath": "results\\extracted_logos\\vitalimages.com_1_395cf04d98.ico"
+    },
+    {
+      "domain": "kia-gorny-eislingen.de",
+      "url": "https://kia-gorny-eislingen.de",
+      "filepath": "results\\extracted_logos\\kia-gorny-eislingen.de_0_3a4d33f3ed.png"
+    },
+    {
+      "domain": "kia-gorny-eislingen.de",
+      "url": "https://kia-gorny-eislingen.de",
+      "filepath": "results\\extracted_logos\\kia-gorny-eislingen.de_1_6f9ed7f174.png"
+    },
+    {
+      "domain": "kia-gorny-eislingen.de",
+      "url": "https://kia-gorny-eislingen.de",
+      "filepath": "results\\extracted_logos\\kia-gorny-eislingen.de_2_14df550d56.png"
+    },
+    {
+      "domain": "mazda-autohaus-becker-homburg-bruchhof.de",
+      "url": "https://mazda-autohaus-becker-homburg-bruchhof.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-becker-homburg-bruchhof.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "subaru.nc",
+      "url": "https://subaru.nc",
+      "filepath": "results\\extracted_logos\\subaru.nc_0_9361ed27b0.png"
+    },
+    {
+      "domain": "subaru.nc",
+      "url": "https://subaru.nc",
+      "filepath": "results\\extracted_logos\\subaru.nc_1_732a3f84ae.jpg"
+    },
+    {
+      "domain": "subaru.nc",
+      "url": "https://subaru.nc",
+      "filepath": "results\\extracted_logos\\subaru.nc_2_936d1f7c38.jpg"
+    },
+    {
+      "domain": "linde.pe",
+      "url": "https://linde.pe",
+      "filepath": "results\\extracted_logos\\linde.pe_0_aa6cb007b2.png"
+    },
+    {
+      "domain": "linde.pe",
+      "url": "https://linde.pe",
+      "filepath": "results\\extracted_logos\\linde.pe_1_5229b5d2a5.png"
+    },
+    {
+      "domain": "linde.pe",
+      "url": "https://linde.pe",
+      "filepath": "results\\extracted_logos\\linde.pe_2_0c55a1e074.png"
+    },
+    {
+      "domain": "catsprotectionshop.co.uk",
+      "url": "https://catsprotectionshop.co.uk",
+      "filepath": "results\\extracted_logos\\catsprotectionshop.co.uk_1_1081803ceb.png"
+    },
+    {
+      "domain": "catsprotectionshop.co.uk",
+      "url": "https://catsprotectionshop.co.uk",
+      "filepath": "results\\extracted_logos\\catsprotectionshop.co.uk_2_807b8d5f8e.jpg"
+    },
+    {
+      "domain": "kierpensions.co.uk",
+      "url": "https://kierpensions.co.uk",
+      "filepath": "results\\extracted_logos\\kierpensions.co.uk_0_67753106ee.png"
+    },
+    {
+      "domain": "ecslupsk.pl",
+      "url": "https://ecslupsk.pl",
+      "filepath": "results\\extracted_logos\\ecslupsk.pl_1_200254f157.png"
+    },
+    {
+      "domain": "bakertilly.ci",
+      "url": "https://bakertilly.ci",
+      "filepath": "results\\extracted_logos\\bakertilly.ci_1_b0d09b1a0a.png"
+    },
+    {
+      "domain": "chip.pl",
+      "url": "https://chip.pl",
+      "filepath": "results\\extracted_logos\\chip.pl_0_6b64cdbd80.png"
+    },
+    {
+      "domain": "engie.cl",
+      "url": "https://engie.cl",
+      "filepath": "results\\extracted_logos\\engie.cl_0_88708a8e99.png"
+    },
+    {
+      "domain": "engie.cl",
+      "url": "https://engie.cl",
+      "filepath": "results\\extracted_logos\\engie.cl_1_eff6d0889c.jpg"
+    },
+    {
+      "domain": "engie.cl",
+      "url": "https://engie.cl",
+      "filepath": "results\\extracted_logos\\engie.cl_2_f2989ece5d.png"
+    },
+    {
+      "domain": "bakertilly.ky",
+      "url": "https://bakertilly.ky",
+      "filepath": "results\\extracted_logos\\bakertilly.ky_1_1231e3d5f5.png"
+    },
+    {
+      "domain": "actemium.ch",
+      "url": "https://actemium.ch",
+      "filepath": "results\\extracted_logos\\actemium.ch_0_62838046b9.png"
+    },
+    {
+      "domain": "actemium.ch",
+      "url": "https://actemium.ch",
+      "filepath": "results\\extracted_logos\\actemium.ch_1_a37131a132.png"
+    },
+    {
+      "domain": "actemium.ch",
+      "url": "https://actemium.ch",
+      "filepath": "results\\extracted_logos\\actemium.ch_2_27c4eee2b7.png"
+    },
+    {
+      "domain": "taylorfarmsdeli.com",
+      "url": "https://taylorfarmsdeli.com",
+      "filepath": "results\\extracted_logos\\taylorfarmsdeli.com_0_ba881a181b.png"
+    },
+    {
+      "domain": "grantthornton.com.sv",
+      "url": "https://grantthornton.com.sv",
+      "filepath": "results\\extracted_logos\\grantthornton.com.sv_0_4177378365.png"
+    },
+    {
+      "domain": "sherwin-williams.com.ec",
+      "url": "https://sherwin-williams.com.ec",
+      "filepath": "results\\extracted_logos\\sherwin-williams.com.ec_2_e09640c83d.ico"
+    },
+    {
+      "domain": "fleishmanhillard.cn",
+      "url": "https://fleishmanhillard.cn",
+      "filepath": "results\\extracted_logos\\fleishmanhillard.cn_0_7a0a2074f2.png"
+    },
+    {
+      "domain": "fleishmanhillard.cn",
+      "url": "https://fleishmanhillard.cn",
+      "filepath": "results\\extracted_logos\\fleishmanhillard.cn_1_0b200a9b32.jpg"
+    },
+    {
+      "domain": "fleishmanhillard.cn",
+      "url": "https://fleishmanhillard.cn",
+      "filepath": "results\\extracted_logos\\fleishmanhillard.cn_2_9f53de9142.png"
+    },
+    {
+      "domain": "isover.hu",
+      "url": "https://isover.hu",
+      "filepath": "results\\extracted_logos\\isover.hu_0_32958d77af.jpg"
+    },
+    {
+      "domain": "isover.hu",
+      "url": "https://isover.hu",
+      "filepath": "results\\extracted_logos\\isover.hu_1_f5f9938411.png"
+    },
+    {
+      "domain": "isover.hu",
+      "url": "https://isover.hu",
+      "filepath": "results\\extracted_logos\\isover.hu_2_05680c6090.png"
+    },
+    {
+      "domain": "vkf-renzel.com.tr",
+      "url": "https://vkf-renzel.com.tr",
+      "filepath": "results\\extracted_logos\\vkf-renzel.com.tr_0_42f8e758ee.png"
+    },
+    {
+      "domain": "vkf-renzel.com.tr",
+      "url": "https://vkf-renzel.com.tr",
+      "filepath": "results\\extracted_logos\\vkf-renzel.com.tr_1_f9626ee6dd.jpg"
+    },
+    {
+      "domain": "vkf-renzel.com.tr",
+      "url": "https://vkf-renzel.com.tr",
+      "filepath": "results\\extracted_logos\\vkf-renzel.com.tr_2_efa61a6c75.png"
+    },
+    {
+      "domain": "zktecoma.com",
+      "url": "https://zktecoma.com",
+      "filepath": "results\\extracted_logos\\zktecoma.com_0_c50c31e2af.png"
+    },
+    {
+      "domain": "azets.ie",
+      "url": "https://azets.ie",
+      "filepath": "results\\extracted_logos\\azets.ie_0_8d264534e8.png"
+    },
+    {
+      "domain": "azets.ie",
+      "url": "https://azets.ie",
+      "filepath": "results\\extracted_logos\\azets.ie_1_602b30a5cd.ico"
+    },
+    {
+      "domain": "aamcotulsa-memorial.com",
+      "url": "https://aamcotulsa-memorial.com",
+      "filepath": "results\\extracted_logos\\aamcotulsa-memorial.com_0_50ded8ea9a.png"
+    },
+    {
+      "domain": "cdu-aldenhoven.de",
+      "url": "https://cdu-aldenhoven.de",
+      "filepath": "results\\extracted_logos\\cdu-aldenhoven.de_0_a73b3f480f.png"
+    },
+    {
+      "domain": "cdu-aldenhoven.de",
+      "url": "https://cdu-aldenhoven.de",
+      "filepath": "results\\extracted_logos\\cdu-aldenhoven.de_1_bbcf8052d6.png"
+    },
+    {
+      "domain": "renaulttersa.com.mx",
+      "url": "https://renaulttersa.com.mx",
+      "filepath": "results\\extracted_logos\\renaulttersa.com.mx_0_fb60b401cc.png"
+    },
+    {
+      "domain": "renaulttersa.com.mx",
+      "url": "https://renaulttersa.com.mx",
+      "filepath": "results\\extracted_logos\\renaulttersa.com.mx_1_ed47e8209d.png"
+    },
+    {
+      "domain": "renaulttersa.com.mx",
+      "url": "https://renaulttersa.com.mx",
+      "filepath": "results\\extracted_logos\\renaulttersa.com.mx_2_08d0caf173.png"
+    },
+    {
+      "domain": "modshair-nuernberg.de",
+      "url": "https://modshair-nuernberg.de",
+      "filepath": "results\\extracted_logos\\modshair-nuernberg.de_0_4803ae3b2f.png"
+    },
+    {
+      "domain": "modshair-nuernberg.de",
+      "url": "https://modshair-nuernberg.de",
+      "filepath": "results\\extracted_logos\\modshair-nuernberg.de_2_95dfce52f8.png"
+    },
+    {
+      "domain": "aamcopasadenatx.com",
+      "url": "https://aamcopasadenatx.com",
+      "filepath": "results\\extracted_logos\\aamcopasadenatx.com_0_040986f813.png"
+    },
+    {
+      "domain": "axabreakdown.co.uk",
+      "url": "https://axabreakdown.co.uk",
+      "filepath": "results\\extracted_logos\\axabreakdown.co.uk_1_dfa25e4f1b.png"
+    },
+    {
+      "domain": "axabreakdown.co.uk",
+      "url": "https://axabreakdown.co.uk",
+      "filepath": "results\\extracted_logos\\axabreakdown.co.uk_2_cae281368d.ico"
+    },
+    {
+      "domain": "toysrus.com.sg",
+      "url": "https://toysrus.com.sg",
+      "filepath": "results\\extracted_logos\\toysrus.com.sg_1_fe80c2101f.png"
+    },
+    {
+      "domain": "toysrus.com.sg",
+      "url": "https://toysrus.com.sg",
+      "filepath": "results\\extracted_logos\\toysrus.com.sg_2_120b0198eb.png"
+    },
+    {
+      "domain": "mazda-autohaus-roessel-birkenau.de",
+      "url": "https://mazda-autohaus-roessel-birkenau.de",
+      "filepath": "results\\extracted_logos\\mazda-autohaus-roessel-birkenau.de_0_def3a004d3.png"
+    },
+    {
+      "domain": "ccusa.com.au",
+      "url": "https://ccusa.com.au",
+      "filepath": "results\\extracted_logos\\ccusa.com.au_0_ad3c36625a.jpg"
+    },
+    {
+      "domain": "ccusa.com.au",
+      "url": "https://ccusa.com.au",
+      "filepath": "results\\extracted_logos\\ccusa.com.au_1_49aec724e7.png"
+    },
+    {
+      "domain": "ccusa.hu",
+      "url": "https://ccusa.hu",
+      "filepath": "results\\extracted_logos\\ccusa.hu_0_b863674538.jpg"
+    },
+    {
+      "domain": "ccusa.hu",
+      "url": "https://ccusa.hu",
+      "filepath": "results\\extracted_logos\\ccusa.hu_1_f03afcebf0.png"
+    }
+  ],
+  "unclustered": [
+    {
+      "domain": "plameco-hannover.de",
+      "url": "https://plameco-hannover.de",
+      "filepath": "results\\extracted_logos\\plameco-hannover.de_0_bc7d27db63.png"
+    },
+    {
+      "domain": "synlab.com.tr",
+      "url": "https://synlab.com.tr",
+      "filepath": "results\\extracted_logos\\synlab.com.tr_2_8f8125660e.ico"
+    },
+    {
+      "domain": "baywa-re.es",
+      "url": "https://baywa-re.es",
+      "filepath": "results\\extracted_logos\\baywa-re.es_0_69e3a442dc.png"
+    },
+    {
+      "domain": "baywa-re.es",
+      "url": "https://baywa-re.es",
+      "filepath": "results\\extracted_logos\\baywa-re.es_1_a1fd84e3f7.ico"
+    },
+    {
+      "domain": "pirtek.be",
+      "url": "https://pirtek.be",
+      "filepath": "results\\extracted_logos\\pirtek.be_2_e46e6a517d.png"
+    },
+    {
+      "domain": "berlitz-augsburg.de",
+      "url": "https://berlitz-augsburg.de",
+      "filepath": "results\\extracted_logos\\berlitz-augsburg.de_1_163f6ed5c1.png"
+    },
+    {
+      "domain": "intertongn.es",
+      "url": "https://intertongn.es",
+      "filepath": "results\\extracted_logos\\intertongn.es_2_25288289db.jpg"
+    },
+    {
+      "domain": "zkteco.vn",
+      "url": "https://zkteco.vn",
+      "filepath": "results\\extracted_logos\\zkteco.vn_0_71c96bf455.png"
+    },
+    {
+      "domain": "equans.hu",
+      "url": "https://equans.hu",
+      "filepath": "results\\extracted_logos\\equans.hu_1_4b2ebfdfda.png"
+    },
+    {
+      "domain": "rheine.schule",
+      "url": "https://rheine.schule",
+      "filepath": "results\\extracted_logos\\rheine.schule_1_87388dec69.jpg"
+    },
+    {
+      "domain": "esseskincare.sg",
+      "url": "https://esseskincare.sg",
+      "filepath": "results\\extracted_logos\\esseskincare.sg_1_5ad240a9b7.png"
+    },
+    {
+      "domain": "cdviberica.com",
+      "url": "https://cdviberica.com",
+      "filepath": "results\\extracted_logos\\cdviberica.com_1_b4edec7257.jpg"
+    },
+    {
+      "domain": "toyotanatas.com.tr",
+      "url": "https://toyotanatas.com.tr",
+      "filepath": "results\\extracted_logos\\toyotanatas.com.tr_0_c974acf19b.png"
+    },
+    {
+      "domain": "linde-electronics.com",
+      "url": "https://linde-electronics.com",
+      "filepath": "results\\extracted_logos\\linde-electronics.com_1_83c000b9ff.ico"
+    },
+    {
+      "domain": "sephora.pl",
+      "url": "https://sephora.pl",
+      "filepath": "results\\extracted_logos\\sephora.pl_0_e0cb1c7a95.ico"
+    },
+    {
+      "domain": "catsprotectionshop.co.uk",
+      "url": "https://catsprotectionshop.co.uk",
+      "filepath": "results\\extracted_logos\\catsprotectionshop.co.uk_0_40d85674c0.png"
+    },
+    {
+      "domain": "kierpensions.co.uk",
+      "url": "https://kierpensions.co.uk",
+      "filepath": "results\\extracted_logos\\kierpensions.co.uk_1_64de6100d5.png"
+    },
+    {
+      "domain": "urmet.com.br",
+      "url": "https://urmet.com.br",
+      "filepath": "results\\extracted_logos\\urmet.com.br_0_b09244d232.png"
+    },
+    {
+      "domain": "modshair-nuernberg.de",
+      "url": "https://modshair-nuernberg.de",
+      "filepath": "results\\extracted_logos\\modshair-nuernberg.de_1_7898af0e16.png"
+    }
+  ],
+  "cluster_1": [
+    {
+      "domain": "rsmpoland.pl",
+      "url": "https://rsmpoland.pl",
+      "filepath": "results\\extracted_logos\\rsmpoland.pl_1_e3cca5c008.ico"
+    },
+    {
+      "domain": "rsmthailand.com",
+      "url": "https://rsmthailand.com",
+      "filepath": "results\\extracted_logos\\rsmthailand.com_1_f71f6faebb.png"
+    }
+  ],
+  "cluster_2": [
+    {
+      "domain": "webster.nl",
+      "url": "https://webster.nl",
+      "filepath": "results\\extracted_logos\\webster.nl_1_c5936756d5.png"
+    },
+    {
+      "domain": "bauder.at",
+      "url": "https://bauder.at",
+      "filepath": "results\\extracted_logos\\bauder.at_0_8ee33d3c07.png"
+    },
+    {
+      "domain": "bauder.at",
+      "url": "https://bauder.at",
+      "filepath": "results\\extracted_logos\\bauder.at_1_2c944f2248.png"
+    },
+    {
+      "domain": "bauder.at",
+      "url": "https://bauder.at",
+      "filepath": "results\\extracted_logos\\bauder.at_2_2e11aad8ac.png"
+    }
+  ],
+  "cluster_3": [
+    {
+      "domain": "engie.pt",
+      "url": "https://engie.pt",
+      "filepath": "results\\extracted_logos\\engie.pt_2_e45cd369f9.png"
+    },
+    {
+      "domain": "urmet.com.br",
+      "url": "https://urmet.com.br",
+      "filepath": "results\\extracted_logos\\urmet.com.br_1_cd3a450af7.png"
+    },
+    {
+      "domain": "urmet.com.br",
+      "url": "https://urmet.com.br",
+      "filepath": "results\\extracted_logos\\urmet.com.br_2_d4f70bc83a.png"
+    }
+  ],
+  "cluster_4": [
+    {
+      "domain": "mapfre.pr",
+      "url": "https://mapfre.pr",
+      "filepath": "results\\extracted_logos\\mapfre.pr_1_4ebf76e67c.png"
+    },
+    {
+      "domain": "mapfre.pr",
+      "url": "https://mapfre.pr",
+      "filepath": "results\\extracted_logos\\mapfre.pr_2_30a233a2fa.png"
+    }
+  ]
 }
