@@ -11,3 +11,6 @@ de fapt salvez timpii de load (la cele care dureaza mai mult de 2 secunde step o
 
 pot sa incep incremental cu 0.1 s, apoi 0.2 s apoi 0.3 s apoi 0.4 s apoi 0.5 s si mereu sar peste domeniile care s au incarcat repede 
 cand trec de la un increment la altul
+
+
+python logo_analysis_workflow.py --limit 200
