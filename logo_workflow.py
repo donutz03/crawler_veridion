@@ -3,6 +3,7 @@ import argparse
 import logging
 import time
 import sys
+import csv
 from website_logo_extractor import process_websites
 from logo_grouping import LogoSimilarityAnalyzer
 from parquet_reader import read_websites_from_parquet
@@ -98,18 +99,36 @@ def main():
         websites = websites[:args.limit]
         
         # Step 2: Extract logos from websites
+        result_file = os.path.join(args.output_dir, 'extracted_logos_info.csv')
+        extracted_logos_dir = os.path.join(args.output_dir, 'extracted_logos')
+        
         if not args.skip_extraction:
             logger.info(f"Extracting logos from {len(websites)} websites")
+            # Make sure the directory exists
+            os.makedirs(extracted_logos_dir, exist_ok=True)
+            # Set OUTPUT_DIR in logo_extractor module
+            import website_logo_extractor
+            website_logo_extractor.OUTPUT_DIR = extracted_logos_dir
+            
+            # Process websites
             results = process_websites(websites, max_workers=args.workers, limit=args.limit)
             logger.info(f"Extracted {len(results)} logos")
+            
+            # Ensure CSV is saved in the correct location
+            with open(result_file, 'w', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(['domain', 'url', 'logo_url', 'filepath'])
+                for logo in results:
+                    writer.writerow([logo['domain'], logo['url'], logo['logo_url'], logo['filepath']])
+            logger.info(f"Logo information saved to {result_file}")
         else:
             logger.info("Skipping logo extraction")
         
         # Step 3: Analyze logo similarities
         logger.info("Analyzing logo similarities")
         analyzer = LogoSimilarityAnalyzer(
-            logos_dir=os.path.join(args.output_dir, 'extracted_logos'),
-            results_file="extracted_logos_info.csv"
+            logos_dir=extracted_logos_dir,
+            results_file=result_file
         )
         
         # Run analysis with provided parameters
@@ -122,6 +141,10 @@ def main():
         print("\nLogo Analysis Results:")
         print("=====================")
         
+        if not clustered_logos:
+            print("No logo clusters were found. Check the logs for errors.")
+            return 1
+            
         total_clusters = sum(1 for k in clustered_logos.keys() if k != -1)
         total_logos = sum(len(logos) for logos in clustered_logos.values())
         unclustered = len(clustered_logos.get(-1, []))
@@ -131,18 +154,21 @@ def main():
         print(f"Number of logo clusters: {total_clusters}")
         print(f"Unclustered logos: {unclustered}")
         
-        print("\nTop clusters by size:")
-        sorted_clusters = sorted(
-            [(k, logos) for k, logos in clustered_logos.items() if k != -1],
-            key=lambda x: len(x[1]),
-            reverse=True
-        )
-        
-        for i, (cluster_id, logos) in enumerate(sorted_clusters[:5], 1):
-            domains = ", ".join(logo["domain"] for logo in logos[:3])
-            if len(logos) > 3:
-                domains += f", ... ({len(logos) - 3} more)"
-            print(f"{i}. Cluster {cluster_id}: {len(logos)} logos - {domains}")
+        if total_clusters > 0:
+            print("\nTop clusters by size:")
+            sorted_clusters = sorted(
+                [(k, logos) for k, logos in clustered_logos.items() if k != -1],
+                key=lambda x: len(x[1]),
+                reverse=True
+            )
+            
+            for i, (cluster_id, logos) in enumerate(sorted_clusters[:5], 1):
+                domains = ", ".join(logo["domain"] for logo in logos[:3])
+                if len(logos) > 3:
+                    domains += f", ... ({len(logos) - 3} more)"
+                print(f"{i}. Cluster {cluster_id}: {len(logos)} logos - {domains}")
+        else:
+            print("\nNo clusters were formed. Logos might be too dissimilar or feature extraction failed.")
         
         # Calculate elapsed time
         elapsed_time = time.time() - start_time

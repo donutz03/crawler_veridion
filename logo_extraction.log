@@ -551,3 +551,803 @@
 2025-03-16 10:49:54,695 - LogoSimilarity - INFO - Computed features for 0 logos
 2025-03-16 10:49:54,695 - LogoSimilarity - WARNING - No features provided for clustering
 2025-03-16 10:49:54,696 - LogoAnalysisWorkflow - ERROR - Error in workflow: 'list' object has no attribute 'items'
+2025-03-16 10:55:19,525 - ParquetReader - INFO - Reading websites from Parquet file: logos.snappy.parquet
+2025-03-16 10:55:19,577 - ParquetReader - INFO - Parquet file columns: ['domain']
+2025-03-16 10:55:19,578 - ParquetReader - INFO - Number of records: 4384
+2025-03-16 10:55:19,578 - ParquetReader - INFO - Using column 'domain' for website URLs
+2025-03-16 10:55:19,579 - ParquetReader - INFO - Extracted 4384 website URLs
+2025-03-16 10:55:19,579 - ParquetReader - INFO - Sample websites: ['stanbicbank.co.zw', 'astrazeneca.ua', 'autosecuritas-ct-seysses.fr', 'ovb.ro', 'mazda-autohaus-hellwig-hoyerswerda.de']
+2025-03-16 10:55:19,579 - LogoAnalysisWorkflow - INFO - Read 4384 websites from Parquet file logos.snappy.parquet
+2025-03-16 10:55:19,579 - LogoAnalysisWorkflow - INFO - Extracting logos from 200 websites
+2025-03-16 10:55:19,580 - LogoExtractor - INFO - [0] Processing https://stanbicbank.co.zw (stanbicbank.co.zw)
+2025-03-16 10:55:19,581 - LogoExtractor - INFO - [1] Processing https://astrazeneca.ua (astrazeneca.ua)
+2025-03-16 10:55:19,581 - LogoExtractor - INFO - [2] Processing https://autosecuritas-ct-seysses.fr (autosecuritas-ct-seysses.fr)
+2025-03-16 10:55:19,582 - LogoExtractor - INFO - [3] Processing https://ovb.ro (ovb.ro)
+2025-03-16 10:55:19,582 - LogoExtractor - INFO - [4] Processing https://mazda-autohaus-hellwig-hoyerswerda.de (mazda-autohaus-hellwig-hoyerswerda.de)
+2025-03-16 10:55:19,583 - LogoExtractor - INFO - [5] Processing https://toyota-buchreiter-eisenstadt.at (toyota-buchreiter-eisenstadt.at)
+2025-03-16 10:55:19,583 - LogoExtractor - INFO - [6] Processing https://ebay.cn (ebay.cn)
+2025-03-16 10:55:19,584 - LogoExtractor - INFO - [7] Processing https://greatplacetowork.com.bo (greatplacetowork.com.bo)
+2025-03-16 10:55:19,584 - LogoExtractor - INFO - [8] Processing https://wurth-international.com (wurth-international.com)
+2025-03-16 10:55:19,584 - LogoExtractor - INFO - [9] Processing https://plameco-hannover.de (plameco-hannover.de)
+2025-03-16 10:55:20,021 - LogoExtractor - ERROR - Error processing https://greatplacetowork.com.bo: HTTPSConnectionPool(host='greatplacetowork.com.bo', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1018)')))
+2025-03-16 10:55:20,021 - LogoExtractor - INFO - [10] Processing https://kia-moeller-wunstorf.de (kia-moeller-wunstorf.de)
+2025-03-16 10:55:20,278 - LogoExtractor - INFO - Saved logo to results\extracted_logos\plameco-hannover.de_0_bc7d27db63.png
+2025-03-16 10:55:20,349 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-hellwig-hoyerswerda.de_0_def3a004d3.png
+2025-03-16 10:55:20,350 - LogoExtractor - INFO - [11] Processing https://ccusa.co.nz (ccusa.co.nz)
+2025-03-16 10:55:20,617 - LogoExtractor - INFO - Saved logo to results\extracted_logos\toyota-buchreiter-eisenstadt.at_1_706892305b.jpg
+2025-03-16 10:55:20,673 - LogoExtractor - INFO - Saved logo to results\extracted_logos\plameco-hannover.de_1_00c87cf2ea.ico
+2025-03-16 10:55:20,674 - LogoExtractor - INFO - [12] Processing https://tupperware.at (tupperware.at)
+2025-03-16 10:55:20,731 - LogoExtractor - INFO - Saved logo to results\extracted_logos\toyota-buchreiter-eisenstadt.at_2_a292965f95.png
+2025-03-16 10:55:20,731 - LogoExtractor - INFO - [13] Processing https://zalando.cz (zalando.cz)
+2025-03-16 10:55:20,825 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kia-moeller-wunstorf.de_0_307a8bb9f8.png
+2025-03-16 10:55:20,856 - LogoExtractor - INFO - Saved logo to results\extracted_logos\autosecuritas-ct-seysses.fr_1_986dd63b6c.png
+2025-03-16 10:55:21,034 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kia-moeller-wunstorf.de_1_93a9aba4fc.png
+2025-03-16 10:55:21,164 - LogoExtractor - INFO - Saved logo to results\extracted_logos\autosecuritas-ct-seysses.fr_2_2b72fa8d98.png
+2025-03-16 10:55:21,165 - LogoExtractor - INFO - [14] Processing https://crocs.com.uy (crocs.com.uy)
+2025-03-16 10:55:21,169 - LogoExtractor - ERROR - Error processing https://tupperware.at: HTTPSConnectionPool(host='www.tupperware.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.tupperware.at'. (_ssl.c:1018)")))
+2025-03-16 10:55:21,169 - LogoExtractor - INFO - [15] Processing https://ymcasteuben.org (ymcasteuben.org)
+2025-03-16 10:55:21,178 - LogoExtractor - INFO - Saved logo to results\extracted_logos\wurth-international.com_1_722d3148b0.png
+2025-03-16 10:55:21,179 - LogoExtractor - INFO - [16] Processing https://engie.co.uk (engie.co.uk)
+2025-03-16 10:55:21,259 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kia-moeller-wunstorf.de_2_f734762f09.jpg
+2025-03-16 10:55:21,260 - LogoExtractor - INFO - [17] Processing https://ibc-solar.jp (ibc-solar.jp)
+2025-03-16 10:55:21,285 - LogoExtractor - ERROR - Error processing https://ymcasteuben.org: HTTPSConnectionPool(host='ymcasteuben.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1018)')))
+2025-03-16 10:55:21,285 - LogoExtractor - INFO - [18] Processing https://lidl.com.cy (lidl.com.cy)
+2025-03-16 10:55:21,610 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ovb.ro_0_a4080a0d92.jpg
+2025-03-16 10:55:22,452 - LogoExtractor - INFO - [19] Processing https://nobleprog.mx (nobleprog.mx)
+2025-03-16 10:55:22,516 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ibc-solar.jp_1_53c042afce.png
+2025-03-16 10:55:22,516 - LogoExtractor - INFO - [20] Processing https://freseniusmedicalcare.ca (freseniusmedicalcare.ca)
+2025-03-16 10:55:22,609 - LogoExtractor - INFO - [21] Processing https://synlab.com.tr (synlab.com.tr)
+2025-03-16 10:55:22,678 - LogoExtractor - INFO - Saved logo to results\extracted_logos\freseniusmedicalcare.ca_0_05c2803572.png
+2025-03-16 10:55:22,685 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ovb.ro_1_dde559c74f.jpg
+2025-03-16 10:55:22,720 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ccusa.co.nz_0_b0bfdcd314.jpg
+2025-03-16 10:55:22,725 - LogoExtractor - INFO - Saved logo to results\extracted_logos\freseniusmedicalcare.ca_1_5eba646eac.png
+2025-03-16 10:55:22,725 - LogoExtractor - INFO - [22] Processing https://avis.cr (avis.cr)
+2025-03-16 10:55:23,100 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ovb.ro_2_de27a6bd00.jpg
+2025-03-16 10:55:23,101 - LogoExtractor - INFO - [23] Processing https://ebayglobalshipping.com (ebayglobalshipping.com)
+2025-03-16 10:55:23,458 - LogoExtractor - INFO - Saved logo to results\extracted_logos\crocs.com.uy_1_a6d88f8d2a.jpg
+2025-03-16 10:55:23,459 - LogoExtractor - INFO - Saved logo to results\extracted_logos\synlab.com.tr_1_41be9ed51d.png
+2025-03-16 10:55:23,531 - LogoExtractor - INFO - Saved logo to results\extracted_logos\crocs.com.uy_2_75795fef47.jpg
+2025-03-16 10:55:23,532 - LogoExtractor - INFO - [24] Processing https://cafelasmargaritas.es (cafelasmargaritas.es)
+2025-03-16 10:55:23,628 - LogoExtractor - INFO - Saved logo to results\extracted_logos\synlab.com.tr_2_8f8125660e.ico
+2025-03-16 10:55:23,629 - LogoExtractor - INFO - [25] Processing https://affidea.ba (affidea.ba)
+2025-03-16 10:55:23,694 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ccusa.co.nz_1_cee74f11a0.png
+2025-03-16 10:55:24,178 - LogoExtractor - INFO - Saved logo to results\extracted_logos\cafelasmargaritas.es_1_5815bca375.png
+2025-03-16 10:55:24,280 - LogoExtractor - INFO - [26] Processing https://bakertilly.lu (bakertilly.lu)
+2025-03-16 10:55:24,514 - LogoExtractor - INFO - Saved logo to results\extracted_logos\affidea.ba_2_32d40b2607.png
+2025-03-16 10:55:24,514 - LogoExtractor - INFO - [27] Processing https://spitex-wasseramt.ch (spitex-wasseramt.ch)
+2025-03-16 10:55:24,534 - LogoExtractor - INFO - Saved logo to results\extracted_logos\engie.co.uk_1_783b909501.png
+2025-03-16 10:55:24,535 - LogoExtractor - INFO - [28] Processing https://aamcoanaheim.net (aamcoanaheim.net)
+2025-03-16 10:55:24,738 - LogoExtractor - INFO - Saved logo to results\extracted_logos\nobleprog.mx_0_b5a18d07d7.png
+2025-03-16 10:55:24,870 - LogoExtractor - INFO - [29] Processing https://deheus.com.vn (deheus.com.vn)
+2025-03-16 10:55:25,321 - LogoExtractor - INFO - Saved logo to results\extracted_logos\nobleprog.mx_1_b245d45d71.png
+2025-03-16 10:55:25,401 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bakertilly.lu_1_ff244a1dbb.png
+2025-03-16 10:55:25,603 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bakertilly.lu_2_d3b77a1cce.png
+2025-03-16 10:55:25,604 - LogoExtractor - INFO - [30] Processing https://veolia.com.ru (veolia.com.ru)
+2025-03-16 10:55:25,734 - LogoExtractor - INFO - Saved logo to results\extracted_logos\spitex-wasseramt.ch_1_b24beaea8d.ico
+2025-03-16 10:55:25,735 - LogoExtractor - INFO - [31] Processing https://julis-sh.de (julis-sh.de)
+2025-03-16 10:55:26,057 - LogoExtractor - INFO - [32] Processing https://aamcoconyersga.com (aamcoconyersga.com)
+2025-03-16 10:55:26,319 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ebay.cn_0_2cb81dbc20.png
+2025-03-16 10:55:26,564 - LogoExtractor - INFO - Saved logo to results\extracted_logos\julis-sh.de_0_1ef73e9bf1.png
+2025-03-16 10:55:26,700 - LogoExtractor - INFO - Saved logo to results\extracted_logos\nobleprog.mx_2_c62ad5bc7d.png
+2025-03-16 10:55:26,700 - LogoExtractor - INFO - [33] Processing https://renault-tortosa.es (renault-tortosa.es)
+2025-03-16 10:55:26,817 - LogoExtractor - INFO - Saved logo to results\extracted_logos\julis-sh.de_1_372bff14de.png
+2025-03-16 10:55:26,956 - LogoExtractor - INFO - Saved logo to results\extracted_logos\julis-sh.de_2_ec71ece498.png
+2025-03-16 10:55:26,957 - LogoExtractor - INFO - [34] Processing https://oil-testing.de (oil-testing.de)
+2025-03-16 10:55:27,114 - LogoExtractor - INFO - Saved logo to results\extracted_logos\veolia.com.ru_0_6e1471cab7.png
+2025-03-16 10:55:27,216 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcoanaheim.net_0_64805d534e.png
+2025-03-16 10:55:27,232 - LogoExtractor - INFO - Saved logo to results\extracted_logos\veolia.com.ru_1_6d8ca9694b.png
+2025-03-16 10:55:27,309 - LogoExtractor - INFO - [35] Processing https://baywa-re.es (baywa-re.es)
+2025-03-16 10:55:27,337 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ebay.cn_1_0c8c585332.ico
+2025-03-16 10:55:27,337 - LogoExtractor - INFO - [36] Processing https://menschenfuermenschen.at (menschenfuermenschen.at)
+2025-03-16 10:55:27,339 - LogoExtractor - INFO - Saved logo to results\extracted_logos\deheus.com.vn_0_b5e49035c6.png
+2025-03-16 10:55:27,356 - LogoExtractor - INFO - Saved logo to results\extracted_logos\veolia.com.ru_2_e0943db0dd.ico
+2025-03-16 10:55:27,357 - LogoExtractor - INFO - [37] Processing https://europa-union-sachsen-anhalt.de (europa-union-sachsen-anhalt.de)
+2025-03-16 10:55:27,694 - LogoExtractor - INFO - Saved logo to results\extracted_logos\deheus.com.vn_1_0f51bb3995.png
+2025-03-16 10:55:27,925 - LogoExtractor - INFO - Saved logo to results\extracted_logos\baywa-re.es_0_69e3a442dc.png
+2025-03-16 10:55:28,048 - LogoExtractor - INFO - Saved logo to results\extracted_logos\baywa-re.es_1_a1fd84e3f7.ico
+2025-03-16 10:55:28,048 - LogoExtractor - INFO - [38] Processing https://wurthsaudi.com (wurthsaudi.com)
+2025-03-16 10:55:28,100 - LogoExtractor - INFO - Saved logo to results\extracted_logos\deheus.com.vn_2_e1487a842b.png
+2025-03-16 10:55:28,101 - LogoExtractor - INFO - [39] Processing https://pirtek.be (pirtek.be)
+2025-03-16 10:55:28,397 - LogoExtractor - INFO - [40] Processing https://aamcoseguin.com (aamcoseguin.com)
+2025-03-16 10:55:28,516 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcoconyersga.com_0_ed41534e07.png
+2025-03-16 10:55:28,547 - LogoExtractor - INFO - Saved logo to results\extracted_logos\pirtek.be_0_22bb555a93.png
+2025-03-16 10:55:28,583 - LogoExtractor - INFO - Saved logo to results\extracted_logos\oil-testing.de_0_b13c07f287.png
+2025-03-16 10:55:28,657 - LogoExtractor - INFO - Saved logo to results\extracted_logos\pirtek.be_1_6abaa6e87f.jpg
+2025-03-16 10:55:28,702 - LogoExtractor - INFO - Saved logo to results\extracted_logos\pirtek.be_2_e46e6a517d.png
+2025-03-16 10:55:28,702 - LogoExtractor - INFO - [41] Processing https://bakertilly.es (bakertilly.es)
+2025-03-16 10:55:28,801 - LogoExtractor - INFO - Saved logo to results\extracted_logos\europa-union-sachsen-anhalt.de_0_b87bdfab41.png
+2025-03-16 10:55:28,930 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcoseguin.com_0_03cce7cae7.png
+2025-03-16 10:55:29,053 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ebayglobalshipping.com_1_f12541d0dd.ico
+2025-03-16 10:55:29,054 - LogoExtractor - INFO - [42] Processing https://mazda-autohaus-kaschmieder-waren.de (mazda-autohaus-kaschmieder-waren.de)
+2025-03-16 10:55:29,083 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcoseguin.com_1_ad16f9411a.png 
+2025-03-16 10:55:29,084 - LogoExtractor - INFO - [43] Processing https://zkteco.vn (zkteco.vn)
+2025-03-16 10:55:29,230 - LogoExtractor - INFO - Saved logo to results\extracted_logos\europa-union-sachsen-anhalt.de_1_7858ebc37a.png
+2025-03-16 10:55:29,433 - LogoExtractor - INFO - Saved logo to results\extracted_logos\wurthsaudi.com_0_cecbe1e413.png
+2025-03-16 10:55:29,668 - LogoExtractor - INFO - [44] Processing https://allianz.nl (allianz.nl)
+2025-03-16 10:55:29,694 - LogoExtractor - INFO - [45] Processing https://xella-colloquium.berlin (xella-colloquium.berlin)
+2025-03-16 10:55:29,776 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-kaschmieder-waren.de_0_def3a004d3.png
+2025-03-16 10:55:29,777 - LogoExtractor - INFO - [46] Processing https://unicharm.com.br (unicharm.com.br)
+2025-03-16 10:55:29,780 - LogoExtractor - INFO - Saved logo to results\extracted_logos\europa-union-sachsen-anhalt.de_2_16108e7ed3.png
+2025-03-16 10:55:29,781 - LogoExtractor - INFO - [47] Processing https://berlitz-augsburg.de (berlitz-augsburg.de)
+2025-03-16 10:55:29,843 - LogoExtractor - ERROR - Error processing https://xella-colloquium.berlin: HTTPSConnectionPool(host='xella-colloquium.berlin', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000287B5237110>: Failed to resolve 'xella-colloquium.berlin' ([Errno 11001] getaddrinfo failed)"))
+2025-03-16 10:55:29,844 - LogoExtractor - INFO - [48] Processing https://intertongn.es (intertongn.es)
+2025-03-16 10:55:29,853 - LogoExtractor - ERROR - Error processing https://unicharm.com.br: HTTPSConnectionPool(host='unicharm.com.br', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000287B4CC7890>: Failed to resolve 'unicharm.com.br' ([Errno 11001] getaddrinfo failed)"))
+2025-03-16 10:55:29,853 - LogoExtractor - INFO - [49] Processing https://bmw-motorrad-euromotos-lyon.fr (bmw-motorrad-euromotos-lyon.fr)
+2025-03-16 10:55:29,994 - LogoExtractor - INFO - Saved logo to results\extracted_logos\oil-testing.de_2_a3dc053fed.png
+2025-03-16 10:55:29,995 - LogoExtractor - INFO - [50] Processing https://rsmpoland.pl (rsmpoland.pl)
+2025-03-16 10:55:30,042 - LogoExtractor - INFO - Saved logo to results\extracted_logos\wurthsaudi.com_1_5e3696b7ae.png
+2025-03-16 10:55:30,114 - LogoExtractor - ERROR - Error processing https://stanbicbank.co.zw: HTTPSConnectionPool(host='stanbicbank.co.zw', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000287B4DF1400>, 'Connection to stanbicbank.co.zw timed out. (connect timeout=10)'))
+2025-03-16 10:55:30,142 - LogoExtractor - INFO - [51] Processing https://esseskincare.sg (esseskincare.sg)
+2025-03-16 10:55:30,636 - LogoExtractor - INFO - Saved logo to results\extracted_logos\wurthsaudi.com_2_acdcdf69ce.png
+2025-03-16 10:55:30,636 - LogoExtractor - INFO - [52] Processing https://secureparkinghi.com (secureparkinghi.com)
+2025-03-16 10:55:30,645 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bmw-motorrad-euromotos-lyon.fr_0_6b07067972.jpg
+2025-03-16 10:55:30,669 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bakertilly.es_1_a37d763ddc.png
+2025-03-16 10:55:30,670 - LogoExtractor - INFO - [53] Processing https://trinkgutlippstadt.de (trinkgutlippstadt.de)
+2025-03-16 10:55:30,819 - LogoExtractor - INFO - Saved logo to results\extracted_logos\rsmpoland.pl_0_957ec7d787.webp
+2025-03-16 10:55:30,860 - LogoExtractor - INFO - Saved logo to results\extracted_logos\allianz.nl_1_b12c6e883f.png
+2025-03-16 10:55:30,861 - LogoExtractor - INFO - [54] Processing https://bauder.lt (bauder.lt)
+2025-03-16 10:55:30,895 - LogoExtractor - ERROR - Error processing https://zalando.cz: HTTPSConnectionPool(host='www.zalando.cz', port=443): Read timed out. (read timeout=10)
+2025-03-16 10:55:30,895 - LogoExtractor - INFO - [55] Processing https://savethechildren.ca (savethechildren.ca)
+2025-03-16 10:55:30,926 - LogoExtractor - INFO - Saved logo to results\extracted_logos\rsmpoland.pl_1_e3cca5c008.ico
+2025-03-16 10:55:30,927 - LogoExtractor - INFO - [56] Processing https://mazda-autohaus-lackmann-sendenhorst.de (mazda-autohaus-lackmann-sendenhorst.de)
+2025-03-16 10:55:31,109 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bmw-motorrad-euromotos-lyon.fr_2_f4b68117eb.png
+2025-03-16 10:55:31,110 - LogoExtractor - INFO - [57] Processing https://avoncameroun.com (avoncameroun.com)
+2025-03-16 10:55:31,230 - LogoExtractor - ERROR - Error processing https://avoncameroun.com: HTTPSConnectionPool(host='avoncameroun.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'avoncameroun.com'. (_ssl.c:1018)")))
+2025-03-16 10:55:31,231 - LogoExtractor - INFO - [58] Processing https://menicon.de (menicon.de)
+2025-03-16 10:55:31,332 - LogoExtractor - INFO - Saved logo to results\extracted_logos\trinkgutlippstadt.de_0_4fdb3d4fdd.png
+2025-03-16 10:55:31,526 - LogoExtractor - INFO - Saved logo to results\extracted_logos\trinkgutlippstadt.de_1_91882b54ee.png
+2025-03-16 10:55:31,590 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-lackmann-sendenhorst.de_0_def3a004d3.png
+2025-03-16 10:55:31,591 - LogoExtractor - INFO - [59] Processing https://linde-gas.fi (linde-gas.fi)
+2025-03-16 10:55:32,094 - LogoExtractor - INFO - Saved logo to results\extracted_logos\berlitz-augsburg.de_0_41805a71aa.jpg
+2025-03-16 10:55:32,119 - LogoExtractor - INFO - Saved logo to results\extracted_logos\menicon.de_0_5eab6b7c7b.png
+2025-03-16 10:55:32,231 - LogoExtractor - INFO - Saved logo to results\extracted_logos\secureparkinghi.com_0_0cf276923d.png
+2025-03-16 10:55:32,278 - LogoExtractor - INFO - Saved logo to results\extracted_logos\secureparkinghi.com_1_5204f9e70e.png
+2025-03-16 10:55:32,279 - LogoExtractor - INFO - [60] Processing https://mateco.nl (mateco.nl)
+2025-03-16 10:55:32,459 - LogoExtractor - INFO - Saved logo to results\extracted_logos\menicon.de_1_4f7eab8e63.ico
+2025-03-16 10:55:32,460 - LogoExtractor - INFO - [61] Processing https://svnefird.com (svnefird.com)
+2025-03-16 10:55:32,555 - LogoExtractor - INFO - Saved logo to results\extracted_logos\trinkgutlippstadt.de_2_f848659528.png
+2025-03-16 10:55:32,556 - LogoExtractor - INFO - [62] Processing https://svntrinity.com (svntrinity.com)
+2025-03-16 10:55:32,944 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bauder.lt_1_e4502cc26c.png
+2025-03-16 10:55:32,945 - LogoExtractor - INFO - [63] Processing https://orient-food.sk (orient-food.sk)
+2025-03-16 10:55:32,989 - LogoExtractor - INFO - Saved logo to results\extracted_logos\berlitz-augsburg.de_1_163f6ed5c1.png
+2025-03-16 10:55:32,990 - LogoExtractor - INFO - [64] Processing https://noiseassessments.org (noiseassessments.org)
+2025-03-16 10:55:33,033 - LogoExtractor - ERROR - Error processing https://svnefird.com: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-16 10:55:33,033 - LogoExtractor - INFO - [65] Processing https://equans.hu (equans.hu)
+2025-03-16 10:55:33,052 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linde-gas.fi_0_8b7f021d2d.png
+2025-03-16 10:55:33,198 - LogoExtractor - INFO - Saved logo to results\extracted_logos\zkteco.vn_0_71c96bf455.png
+2025-03-16 10:55:33,273 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linde-gas.fi_1_cae6866bc4.ico
+2025-03-16 10:55:33,274 - LogoExtractor - INFO - [66] Processing https://williamblairfunds.com (williamblairfunds.com)
+2025-03-16 10:55:33,316 - LogoExtractor - INFO - Saved logo to results\extracted_logos\savethechildren.ca_0_1c69fb75ff.png
+2025-03-16 10:55:33,316 - LogoExtractor - INFO - [67] Processing https://mazdaofamarillo.com (mazdaofamarillo.com)
+2025-03-16 10:55:33,398 - LogoExtractor - INFO - Saved logo to results\extracted_logos\svntrinity.com_0_50bb2a3eaf.png
+2025-03-16 10:55:33,461 - LogoExtractor - INFO - Saved logo to results\extracted_logos\svntrinity.com_1_f6932e61ac.png
+2025-03-16 10:55:33,461 - LogoExtractor - INFO - [68] Processing https://mazda-autohaus-roessel-birkenau.de (mazda-autohaus-roessel-birkenau.de)
+2025-03-16 10:55:33,480 - LogoExtractor - ERROR - Error processing https://mazdaofamarillo.com: HTTPSConnectionPool(host='mazdaofamarillo.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mazdaofamarillo.com'. (_ssl.c:1018)")))
+2025-03-16 10:55:33,481 - LogoExtractor - INFO - [69] Processing https://aamcodelran.com (aamcodelran.com)
+2025-03-16 10:55:33,488 - LogoExtractor - INFO - Saved logo to results\extracted_logos\intertongn.es_0_197361a606.png
+2025-03-16 10:55:33,717 - LogoExtractor - INFO - Saved logo to results\extracted_logos\intertongn.es_1_ea2b220ae1.png
+2025-03-16 10:55:33,732 - LogoExtractor - INFO - Saved logo to results\extracted_logos\orient-food.sk_0_c89e5206cc.png
+2025-03-16 10:55:33,920 - LogoExtractor - INFO - Saved logo to results\extracted_logos\zkteco.vn_1_732520d03f.png
+2025-03-16 10:55:33,921 - LogoExtractor - INFO - [70] Processing https://mazda-poznan-voyager.pl (mazda-poznan-voyager.pl)
+2025-03-16 10:55:33,928 - LogoExtractor - INFO - Saved logo to results\extracted_logos\intertongn.es_2_25288289db.jpg
+2025-03-16 10:55:33,929 - LogoExtractor - INFO - [71] Processing https://kapanfastigheter.se (kapanfastigheter.se)
+2025-03-16 10:55:34,017 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mateco.nl_2_872ee31ac8.jpg
+2025-03-16 10:55:34,018 - LogoExtractor - INFO - [72] Processing https://mazda-autohaus-wassing-ahaus-wuellen.de (mazda-autohaus-wassing-ahaus-wuellen.de)
+2025-03-16 10:55:34,086 - LogoExtractor - INFO - Saved logo to results\extracted_logos\orient-food.sk_2_96e1b79988.ico
+2025-03-16 10:55:34,087 - LogoExtractor - INFO - [73] Processing https://rheine.schule (rheine.schule)
+2025-03-16 10:55:34,149 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-roessel-birkenau.de_0_def3a004d3.png
+2025-03-16 10:55:34,150 - LogoExtractor - INFO - [74] Processing https://ford.pl.ua (ford.pl.ua)
+2025-03-16 10:55:34,209 - LogoExtractor - INFO - Saved logo to results\extracted_logos\esseskincare.sg_0_cb96fce6f8.png
+2025-03-16 10:55:34,362 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-poznan-voyager.pl_0_59a9356f2c.png
+2025-03-16 10:55:34,367 - LogoExtractor - INFO - Saved logo to results\extracted_logos\equans.hu_0_4f6916af01.jpg
+2025-03-16 10:55:34,561 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ford.pl.ua_1_42ded9721d.ico
+2025-03-16 10:55:34,562 - LogoExtractor - INFO - [75] Processing https://bioderma.co.za (bioderma.co.za)
+2025-03-16 10:55:34,583 - LogoExtractor - INFO - Saved logo to results\extracted_logos\equans.hu_1_4b2ebfdfda.png
+2025-03-16 10:55:34,619 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kapanfastigheter.se_0_69913c72ac.png
+2025-03-16 10:55:34,620 - LogoExtractor - INFO - [76] Processing https://linexps.com (linexps.com)
+2025-03-16 10:55:34,646 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-poznan-voyager.pl_1_ba5df41eae.png
+2025-03-16 10:55:34,647 - LogoExtractor - INFO - [77] Processing https://kalyanmachines.com (kalyanmachines.com)
+2025-03-16 10:55:34,678 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-wassing-ahaus-wuellen.de_0_def3a004d3.png
+2025-03-16 10:55:34,681 - LogoExtractor - INFO - [78] Processing https://kia-suedmobile-radolfzell.de (kia-suedmobile-radolfzell.de)
+2025-03-16 10:55:34,779 - LogoExtractor - INFO - Saved logo to results\extracted_logos\equans.hu_2_499192f2be.png
+2025-03-16 10:55:34,781 - LogoExtractor - INFO - [79] Processing https://worldvision.ca (worldvision.ca)
+2025-03-16 10:55:34,817 - LogoExtractor - INFO - Saved logo to results\extracted_logos\rheine.schule_1_87388dec69.jpg
+2025-03-16 10:55:34,818 - LogoExtractor - INFO - [80] Processing https://linde-gas.at (linde-gas.at)
+2025-03-16 10:55:35,350 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linexps.com_0_aab2646fa5.png
+2025-03-16 10:55:35,395 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kia-suedmobile-radolfzell.de_0_4123470bd3.png
+2025-03-16 10:55:35,418 - LogoExtractor - WARNING - Failed to get https://worldvision.ca: Status code 404
+2025-03-16 10:55:35,418 - LogoExtractor - INFO - [81] Processing https://renaultsanzhispano.es (renaultsanzhispano.es)
+2025-03-16 10:55:35,427 - LogoExtractor - INFO - Saved logo to results\extracted_logos\esseskincare.sg_1_5ad240a9b7.png
+2025-03-16 10:55:35,444 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linexps.com_1_bc0f019395.png
+2025-03-16 10:55:35,445 - LogoExtractor - INFO - [82] Processing https://avia.ch (avia.ch)
+2025-03-16 10:55:35,622 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kia-suedmobile-radolfzell.de_1_5e0d65824a.png
+2025-03-16 10:55:35,626 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bioderma.co.za_0_688bb7d903.png
+2025-03-16 10:55:35,843 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kia-suedmobile-radolfzell.de_2_562d09105f.jpg
+2025-03-16 10:55:35,844 - LogoExtractor - INFO - [83] Processing https://cdviberica.com (cdviberica.com)
+2025-03-16 10:55:36,029 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bioderma.co.za_1_061e1d2c51.ico
+2025-03-16 10:55:36,031 - LogoExtractor - INFO - [84] Processing https://adecco.cl (adecco.cl)
+2025-03-16 10:55:36,178 - LogoExtractor - INFO - Saved logo to results\extracted_logos\avia.ch_0_958616c4c7.png
+2025-03-16 10:55:36,179 - LogoExtractor - INFO - [85] Processing https://wurth.co (wurth.co)
+2025-03-16 10:55:36,215 - LogoExtractor - INFO - Saved logo to results\extracted_logos\williamblairfunds.com_0_fe84671d7e.png
+2025-03-16 10:55:36,614 - LogoExtractor - INFO - Saved logo to results\extracted_logos\esseskincare.sg_2_133c1305d8.png
+2025-03-16 10:55:36,615 - LogoExtractor - INFO - [86] Processing https://nestle.com.vn (nestle.com.vn)
+2025-03-16 10:55:36,697 - LogoExtractor - ERROR - Error processing https://nestle.com.vn: HTTPSConnectionPool(host='nestle.com.vn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1018)')))
+2025-03-16 10:55:36,698 - LogoExtractor - INFO - [87] Processing https://daikin.ge (daikin.ge)
+2025-03-16 10:55:36,756 - LogoExtractor - INFO - [88] Processing https://ibc-solar.pl (ibc-solar.pl)
+2025-03-16 10:55:36,792 - LogoExtractor - ERROR - Error processing https://daikin.ge: HTTPSConnectionPool(host='daikin.ge', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'daikin.ge'. (_ssl.c:1018)")))
+2025-03-16 10:55:36,793 - LogoExtractor - INFO - [89] Processing https://toyotanatas.com.tr (toyotanatas.com.tr)
+2025-03-16 10:55:37,000 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linde-gas.at_0_b0d6de0e4a.png
+2025-03-16 10:55:37,222 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linde-gas.at_1_fd223abfeb.jpg
+2025-03-16 10:55:37,386 - LogoExtractor - INFO - Saved logo to results\extracted_logos\williamblairfunds.com_1_268160b9d1.png
+2025-03-16 10:55:37,387 - LogoExtractor - INFO - [90] Processing https://mazda-autohaus-henseler-schwedt.de (mazda-autohaus-henseler-schwedt.de)
+2025-03-16 10:55:37,623 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kalyanmachines.com_0_53354a3ed4.png
+2025-03-16 10:55:37,623 - LogoExtractor - INFO - [91] Processing https://aamcobloomfield.com (aamcobloomfield.com)
+2025-03-16 10:55:37,769 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcodelran.com_0_d02cc3d895.png
+2025-03-16 10:55:37,802 - LogoExtractor - INFO - Saved logo to results\extracted_logos\cdviberica.com_1_b4edec7257.jpg
+2025-03-16 10:55:37,864 - LogoExtractor - INFO - Saved logo to results\extracted_logos\cdviberica.com_2_9de38a3797.png
+2025-03-16 10:55:37,865 - LogoExtractor - INFO - [92] Processing https://zalando.dk (zalando.dk)
+2025-03-16 10:55:37,961 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-henseler-schwedt.de_0_def3a004d3.png
+2025-03-16 10:55:37,962 - LogoExtractor - INFO - [93] Processing https://mazda.de (mazda.de)
+2025-03-16 10:55:38,019 - LogoExtractor - INFO - Saved logo to results\extracted_logos\toyotanatas.com.tr_0_c974acf19b.png
+2025-03-16 10:55:38,046 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ibc-solar.pl_1_c139b82797.png
+2025-03-16 10:55:38,047 - LogoExtractor - INFO - [94] Processing https://crocs.co.id (crocs.co.id)
+2025-03-16 10:55:38,390 - LogoExtractor - INFO - Saved logo to results\extracted_logos\renaultsanzhispano.es_1_de3ff4f5dc.png
+2025-03-16 10:55:38,391 - LogoExtractor - INFO - [95] Processing https://daikinkuwait.com (daikinkuwait.com)
+2025-03-16 10:55:38,493 - LogoExtractor - WARNING - Failed to get https://zalando.dk: Status code 403
+2025-03-16 10:55:38,494 - LogoExtractor - INFO - [96] Processing https://bbraun.rs (bbraun.rs)
+2025-03-16 10:55:38,554 - LogoExtractor - ERROR - Error processing https://daikinkuwait.com: HTTPSConnectionPool(host='daikinkuwait.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+2025-03-16 10:55:38,555 - LogoExtractor - INFO - [97] Processing https://daikin.com.sg (daikin.com.sg)
+2025-03-16 10:55:38,604 - LogoExtractor - INFO - Saved logo to results\extracted_logos\toyotanatas.com.tr_2_5d22c9385c.png
+2025-03-16 10:55:38,605 - LogoExtractor - INFO - [98] Processing https://aamcosalemor.com (aamcosalemor.com)
+2025-03-16 10:55:38,664 - LogoExtractor - INFO - [99] Processing https://spitex-regionbirs.ch (spitex-regionbirs.ch)
+2025-03-16 10:55:38,808 - LogoExtractor - ERROR - Error processing https://daikin.com.sg: HTTPSConnectionPool(host='daikin.com.sg', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000287B75902D0>: Failed to resolve 'daikin.com.sg' ([Errno 11001] getaddrinfo failed)"))
+2025-03-16 10:55:38,808 - LogoExtractor - INFO - [100] Processing https://mazda-autohaus-hansmann-kassel.de (mazda-autohaus-hansmann-kassel.de)
+2025-03-16 10:55:38,921 - LogoExtractor - INFO - [101] Processing https://einhell.ba (einhell.ba)
+2025-03-16 10:55:39,004 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda.de_0_294d44f9d1.png
+2025-03-16 10:55:39,005 - LogoExtractor - INFO - [102] Processing https://linexofschererville.com (linexofschererville.com)
+2025-03-16 10:55:39,382 - LogoExtractor - INFO - Saved logo to results\extracted_logos\wurth.co_0_d922a2811b.png
+2025-03-16 10:55:39,382 - LogoExtractor - INFO - [103] Processing https://webster.nl (webster.nl)
+2025-03-16 10:55:39,428 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bbraun.rs_0_a2be0da39a.png
+2025-03-16 10:55:39,443 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-hansmann-kassel.de_0_def3a004d3.png
+2025-03-16 10:55:39,443 - LogoExtractor - INFO - [104] Processing https://flashbay.ca (flashbay.ca)
+2025-03-16 10:55:39,476 - LogoExtractor - ERROR - Error processing https://linexofschererville.com: HTTPSConnectionPool(host='linexofschererville.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-16 10:55:39,476 - LogoExtractor - INFO - [105] Processing https://pingusenglish.com.tr (pingusenglish.com.tr)
+2025-03-16 10:55:39,775 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bbraun.rs_1_e57e98d31a.ico
+2025-03-16 10:55:39,776 - LogoExtractor - INFO - [106] Processing https://compo.de (compo.de)
+2025-03-16 10:55:40,038 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcobloomfield.com_0_36fa080434.png
+2025-03-16 10:55:40,295 - LogoExtractor - INFO - Saved logo to results\extracted_logos\spitex-regionbirs.ch_1_73ee00a024.ico
+2025-03-16 10:55:40,295 - LogoExtractor - INFO - [107] Processing https://aamcowilliamsportpa.com (aamcowilliamsportpa.com)
+2025-03-16 10:55:40,550 - LogoExtractor - INFO - Saved logo to results\extracted_logos\flashbay.ca_0_a88a3b9ba9.png
+2025-03-16 10:55:40,587 - LogoExtractor - INFO - Saved logo to results\extracted_logos\flashbay.ca_1_1f7b89e15b.png
+2025-03-16 10:55:40,639 - LogoExtractor - INFO - Saved logo to results\extracted_logos\flashbay.ca_2_6985fcdc89.png
+2025-03-16 10:55:40,640 - LogoExtractor - INFO - [108] Processing https://pkf-hk.com (pkf-hk.com)
+2025-03-16 10:55:40,671 - LogoExtractor - INFO - Saved logo to results\extracted_logos\compo.de_0_56248d7b64.png
+2025-03-16 10:55:40,679 - LogoExtractor - INFO - Saved logo to results\extracted_logos\webster.nl_0_b9aa028c29.png
+2025-03-16 10:55:40,868 - LogoExtractor - INFO - Saved logo to results\extracted_logos\compo.de_1_003a278bd0.png
+2025-03-16 10:55:40,881 - LogoExtractor - WARNING - Failed to get https://pingusenglish.com.tr: Status code 503
+2025-03-16 10:55:40,882 - LogoExtractor - INFO - [109] Processing https://linde-electronics.com (linde-electronics.com)
+2025-03-16 10:55:40,927 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcosalemor.com_0_09e93e820a.png
+2025-03-16 10:55:41,075 - LogoExtractor - INFO - Saved logo to results\extracted_logos\compo.de_2_7a762440da.png
+2025-03-16 10:55:41,076 - LogoExtractor - INFO - [110] Processing https://pingusenglish.com.tr (pingusenglish.com.tr)
+2025-03-16 10:55:41,172 - LogoExtractor - INFO - Saved logo to results\extracted_logos\einhell.ba_0_7bcfb376db.png
+2025-03-16 10:55:41,210 - LogoExtractor - INFO - [111] Processing https://besins-healthcare.se (besins-healthcare.se)
+2025-03-16 10:55:41,216 - LogoExtractor - WARNING - Failed to get https://pingusenglish.com.tr: Status code 503
+2025-03-16 10:55:41,217 - LogoExtractor - INFO - [112] Processing https://subaru.jp (subaru.jp)
+2025-03-16 10:55:41,356 - LogoExtractor - INFO - Saved logo to results\extracted_logos\webster.nl_1_c5936756d5.png
+2025-03-16 10:55:41,555 - LogoExtractor - INFO - Saved logo to results\extracted_logos\pkf-hk.com_1_58e9de1655.ico
+2025-03-16 10:55:41,555 - LogoExtractor - INFO - [113] Processing https://renaultmerida.com.mx (renaultmerida.com.mx)
+2025-03-16 10:55:41,662 - LogoExtractor - INFO - Saved logo to results\extracted_logos\einhell.ba_1_6f44e7e697.jpg
+2025-03-16 10:55:41,729 - LogoExtractor - INFO - Saved logo to results\extracted_logos\subaru.jp_0_2cb9d14e92.png
+2025-03-16 10:55:42,068 - LogoExtractor - INFO - Saved logo to results\extracted_logos\webster.nl_2_bf5d88cfd2.png
+2025-03-16 10:55:42,069 - LogoExtractor - INFO - [114] Processing https://cvjm-pfalz.de (cvjm-pfalz.de)
+2025-03-16 10:55:42,093 - LogoExtractor - INFO - [115] Processing https://medef-alsace.com (medef-alsace.com)
+2025-03-16 10:55:42,159 - LogoExtractor - INFO - Saved logo to results\extracted_logos\einhell.ba_2_ab1a13a9d5.jpg
+2025-03-16 10:55:42,159 - LogoExtractor - INFO - [116] Processing https://allianz-kuhlemann.de (allianz-kuhlemann.de)
+2025-03-16 10:55:42,259 - LogoExtractor - INFO - Saved logo to results\extracted_logos\subaru.jp_1_4ccd613a1c.png
+2025-03-16 10:55:42,327 - LogoExtractor - INFO - Saved logo to results\extracted_logos\besins-healthcare.se_0_29737c37de.png
+2025-03-16 10:55:42,388 - LogoExtractor - INFO - Saved logo to results\extracted_logos\besins-healthcare.se_1_0099c2a67d.png
+2025-03-16 10:55:42,664 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcowilliamsportpa.com_0_1e992c0077.png
+2025-03-16 10:55:42,986 - LogoExtractor - INFO - Saved logo to results\extracted_logos\subaru.jp_2_b9ac537b3f.png
+2025-03-16 10:55:42,987 - LogoExtractor - INFO - [117] Processing https://tbwa.co.za (tbwa.co.za)
+2025-03-16 10:55:43,014 - LogoExtractor - WARNING - Failed to get https://renaultmerida.com.mx: Status code 403
+2025-03-16 10:55:43,015 - LogoExtractor - INFO - [118] Processing https://veolia.fr (veolia.fr)
+2025-03-16 10:55:43,022 - LogoExtractor - INFO - Saved logo to results\extracted_logos\cvjm-pfalz.de_0_a564d83b7e.png
+2025-03-16 10:55:43,099 - LogoExtractor - INFO - Saved logo to results\extracted_logos\besins-healthcare.se_2_a5b60ed046.png
+2025-03-16 10:55:43,100 - LogoExtractor - INFO - [119] Processing https://engie.pt (engie.pt)
+2025-03-16 10:55:43,150 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linde-electronics.com_0_897bfd7f1e.png
+2025-03-16 10:55:43,312 - LogoExtractor - INFO - Saved logo to results\extracted_logos\cvjm-pfalz.de_1_4887f205bb.png
+2025-03-16 10:55:43,434 - LogoExtractor - INFO - [120] Processing https://subaru.nc (subaru.nc)
+2025-03-16 10:55:43,446 - LogoExtractor - INFO - Saved logo to results\extracted_logos\cvjm-pfalz.de_2_36f25071ff.ico
+2025-03-16 10:55:43,447 - LogoExtractor - INFO - [121] Processing https://peugeot.sk (peugeot.sk)
+2025-03-16 10:55:43,457 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linde-electronics.com_1_83c000b9ff.ico
+2025-03-16 10:55:43,458 - LogoExtractor - INFO - [122] Processing https://siebtechnik-tema.cn (siebtechnik-tema.cn)
+2025-03-16 10:55:43,624 - LogoExtractor - INFO - Saved logo to results\extracted_logos\engie.pt_0_008819486e.png
+2025-03-16 10:55:43,886 - LogoExtractor - INFO - [123] Processing https://santillana.com.hn (santillana.com.hn)
+2025-03-16 10:55:44,097 - LogoExtractor - INFO - Saved logo to results\extracted_logos\tbwa.co.za_2_b73ac01b79.png
+2025-03-16 10:55:44,098 - LogoExtractor - INFO - [124] Processing https://intersport-rent.fr (intersport-rent.fr)
+2025-03-16 10:55:44,132 - LogoExtractor - INFO - Saved logo to results\extracted_logos\engie.pt_2_e45cd369f9.png
+2025-03-16 10:55:44,132 - LogoExtractor - INFO - [125] Processing https://mazdabali.co.id (mazdabali.co.id)
+2025-03-16 10:55:44,255 - LogoExtractor - INFO - Saved logo to results\extracted_logos\veolia.fr_0_b1ac4c09b2.png
+2025-03-16 10:55:44,343 - LogoExtractor - INFO - Saved logo to results\extracted_logos\medef-alsace.com_0_f5ddfabb8e.png
+2025-03-16 10:55:44,485 - LogoExtractor - INFO - Saved logo to results\extracted_logos\peugeot.sk_0_bb8546c8df.png
+2025-03-16 10:55:44,557 - LogoExtractor - INFO - Saved logo to results\extracted_logos\medef-alsace.com_1_20aa750924.png
+2025-03-16 10:55:44,558 - LogoExtractor - INFO - [126] Processing https://rsmthailand.com (rsmthailand.com)
+2025-03-16 10:55:44,631 - LogoExtractor - WARNING - Failed to get https://intersport-rent.fr: Status code 403
+2025-03-16 10:55:44,632 - LogoExtractor - INFO - [127] Processing https://spitex-wiggertal.ch (spitex-wiggertal.ch)
+2025-03-16 10:55:44,762 - LogoExtractor - INFO - Saved logo to results\extracted_logos\peugeot.sk_1_e93c1116a9.png
+2025-03-16 10:55:44,826 - LogoExtractor - INFO - Saved logo to results\extracted_logos\veolia.fr_1_a5f0523a34.png
+2025-03-16 10:55:44,862 - LogoExtractor - INFO - Saved logo to results\extracted_logos\siebtechnik-tema.cn_0_f14cb075c6.png
+2025-03-16 10:55:45,002 - LogoExtractor - INFO - Saved logo to results\extracted_logos\peugeot.sk_2_a2bd2687ff.ico
+2025-03-16 10:55:45,003 - LogoExtractor - INFO - [128] Processing https://aamcocatonsvillemd.com (aamcocatonsvillemd.com)
+2025-03-16 10:55:45,096 - LogoExtractor - INFO - Saved logo to results\extracted_logos\siebtechnik-tema.cn_1_e2f254f46d.jpg
+2025-03-16 10:55:45,227 - LogoExtractor - INFO - Saved logo to results\extracted_logos\veolia.fr_2_a254898571.ico
+2025-03-16 10:55:45,228 - LogoExtractor - INFO - [129] Processing https://strabag-pfs.com (strabag-pfs.com)
+2025-03-16 10:55:45,324 - LogoExtractor - INFO - Saved logo to results\extracted_logos\siebtechnik-tema.cn_2_547b4705ba.jpg
+2025-03-16 10:55:45,325 - LogoExtractor - INFO - [130] Processing https://autosecuritas-barlin.fr (autosecuritas-barlin.fr)
+2025-03-16 10:55:46,114 - LogoExtractor - INFO - Saved logo to results\extracted_logos\santillana.com.hn_0_102fca2938.png
+2025-03-16 10:55:46,154 - LogoExtractor - INFO - Saved logo to results\extracted_logos\rsmthailand.com_0_72d12f2506.png
+2025-03-16 10:55:46,217 - LogoExtractor - INFO - Saved logo to results\extracted_logos\strabag-pfs.com_0_d795ae3c5e.webp
+2025-03-16 10:55:46,229 - LogoExtractor - INFO - Saved logo to results\extracted_logos\rsmthailand.com_1_f71f6faebb.png
+2025-03-16 10:55:46,230 - LogoExtractor - INFO - [131] Processing https://aamco-councilbluffs.com (aamco-councilbluffs.com)
+2025-03-16 10:55:46,428 - LogoExtractor - INFO - Saved logo to results\extracted_logos\spitex-wiggertal.ch_1_c2c4778ce4.ico
+2025-03-16 10:55:46,429 - LogoExtractor - INFO - [132] Processing https://meggle-bakery.com (meggle-bakery.com)
+2025-03-16 10:55:46,599 - LogoExtractor - INFO - Saved logo to results\extracted_logos\strabag-pfs.com_1_c9db8045df.webp
+2025-03-16 10:55:46,724 - LogoExtractor - INFO - Saved logo to results\extracted_logos\santillana.com.hn_1_93485acff4.png
+2025-03-16 10:55:46,750 - LogoExtractor - INFO - Saved logo to results\extracted_logos\autosecuritas-barlin.fr_1_6c63a0752d.png
+2025-03-16 10:55:46,775 - LogoExtractor - INFO - Saved logo to results\extracted_logos\subaru.nc_0_9361ed27b0.png
+2025-03-16 10:55:46,798 - LogoExtractor - INFO - Saved logo to results\extracted_logos\meggle-bakery.com_0_41617651b3.png
+2025-03-16 10:55:46,840 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamco-councilbluffs.com_0_be5d9c7adb.png
+2025-03-16 10:55:46,846 - LogoExtractor - INFO - Saved logo to results\extracted_logos\meggle-bakery.com_1_8787357524.png
+2025-03-16 10:55:46,847 - LogoExtractor - INFO - [133] Processing https://nutriciababy.be (nutriciababy.be)
+2025-03-16 10:55:46,910 - LogoExtractor - INFO - Saved logo to results\extracted_logos\santillana.com.hn_2_33354f885d.png
+2025-03-16 10:55:46,910 - LogoExtractor - INFO - [134] Processing https://pcllawyersfrankston.com.au (pcllawyersfrankston.com.au)
+2025-03-16 10:55:46,964 - LogoExtractor - INFO - Saved logo to results\extracted_logos\strabag-pfs.com_2_3b22f4ae7c.webp
+2025-03-16 10:55:46,964 - LogoExtractor - INFO - [135] Processing https://adra.org.pe (adra.org.pe)
+2025-03-16 10:55:46,981 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamco-councilbluffs.com_1_4994a68a33.jpg
+2025-03-16 10:55:47,037 - LogoExtractor - INFO - Saved logo to results\extracted_logos\autosecuritas-barlin.fr_2_40c8e46bb5.png
+2025-03-16 10:55:47,038 - LogoExtractor - INFO - [136] Processing https://nestle.ch (nestle.ch)
+2025-03-16 10:55:47,097 - LogoExtractor - ERROR - Error processing https://nestle.ch: HTTPSConnectionPool(host='nestle.ch', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1018)')))
+2025-03-16 10:55:47,098 - LogoExtractor - INFO - [137] Processing https://mazda-autohaus-sturne-rochlitz.de (mazda-autohaus-sturne-rochlitz.de)
+2025-03-16 10:55:47,169 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamco-councilbluffs.com_2_719ead9357.jpg
+2025-03-16 10:55:47,170 - LogoExtractor - INFO - [138] Processing https://inductotherm.co.kr (inductotherm.co.kr)
+2025-03-16 10:55:47,311 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcocatonsvillemd.com_0_99a5fb893c.png
+2025-03-16 10:55:47,589 - LogoExtractor - INFO - Saved logo to results\extracted_logos\adra.org.pe_0_03e7dc65a6.png
+2025-03-16 10:55:47,630 - LogoExtractor - INFO - Saved logo to results\extracted_logos\adra.org.pe_1_e88e54a9a8.png
+2025-03-16 10:55:47,671 - LogoExtractor - INFO - Saved logo to results\extracted_logos\adra.org.pe_2_3e0c6a1849.png
+2025-03-16 10:55:47,671 - LogoExtractor - INFO - [139] Processing https://adecco.cl (adecco.cl)
+2025-03-16 10:55:47,734 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-sturne-rochlitz.de_0_def3a004d3.png
+2025-03-16 10:55:47,735 - LogoExtractor - INFO - [140] Processing https://renault.dk (renault.dk)
+2025-03-16 10:55:47,873 - LogoExtractor - INFO - Saved logo to results\extracted_logos\nutriciababy.be_2_e9d32e8d47.png
+2025-03-16 10:55:47,874 - LogoExtractor - INFO - [141] Processing https://wurth.com.uy (wurth.com.uy)
+2025-03-16 10:55:48,245 - LogoExtractor - INFO - [142] Processing https://renaultchiva.com (renaultchiva.com)
+2025-03-16 10:55:48,295 - LogoExtractor - ERROR - Error processing https://wurth.com.uy: HTTPSConnectionPool(host='wurth.com.uy', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1018)')))
+2025-03-16 10:55:48,295 - LogoExtractor - INFO - [143] Processing https://culliganwi.com (culliganwi.com)
+2025-03-16 10:55:48,315 - LogoExtractor - WARNING - Failed to get https://pcllawyersfrankston.com.au: Status code 520
+2025-03-16 10:55:48,315 - LogoExtractor - INFO - [144] Processing https://mazda-autohaus-blank-dinkelsbuehl.de (mazda-autohaus-blank-dinkelsbuehl.de)
+2025-03-16 10:55:48,329 - LogoExtractor - INFO - Saved logo to results\extracted_logos\inductotherm.co.kr_1_9b98e002b1.png
+2025-03-16 10:55:48,330 - LogoExtractor - INFO - [145] Processing https://veolia.ca (veolia.ca)
+2025-03-16 10:55:48,489 - LogoExtractor - INFO - [146] Processing https://vitalimages.com (vitalimages.com)
+2025-03-16 10:55:48,597 - LogoExtractor - WARNING - Failed to get https://crocs.co.id: Status code 406
+2025-03-16 10:55:48,598 - LogoExtractor - INFO - [147] Processing https://amnesty.is (amnesty.is)
+2025-03-16 10:55:48,657 - LogoExtractor - INFO - Saved logo to results\extracted_logos\renault.dk_1_55f37d9de4.png
+2025-03-16 10:55:48,921 - LogoExtractor - INFO - [148] Processing https://meggle.co.jp (meggle.co.jp)
+2025-03-16 10:55:48,988 - LogoExtractor - INFO - Saved logo to results\extracted_logos\renault.dk_2_0fe35211d9.png
+2025-03-16 10:55:48,988 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-blank-dinkelsbuehl.de_0_def3a004d3.png
+2025-03-16 10:55:48,989 - LogoExtractor - INFO - [149] Processing https://engie.cl (engie.cl)
+2025-03-16 10:55:48,989 - LogoExtractor - INFO - [150] Processing https://linde-finance.com (linde-finance.com)
+2025-03-16 10:55:49,226 - LogoExtractor - INFO - Saved logo to results\extracted_logos\meggle.co.jp_0_8787357524.png
+2025-03-16 10:55:49,227 - LogoExtractor - INFO - [151] Processing https://linde.pe (linde.pe)
+2025-03-16 10:55:49,302 - LogoExtractor - ERROR - Error processing https://linde-finance.com: HTTPSConnectionPool(host='linde-finance.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'linde-finance.com'. (_ssl.c:1018)")))
+2025-03-16 10:55:49,303 - LogoExtractor - INFO - [152] Processing https://narscosmetics.es (narscosmetics.es)
+2025-03-16 10:55:49,364 - LogoExtractor - INFO - Saved logo to results\extracted_logos\subaru.nc_1_732a3f84ae.jpg
+2025-03-16 10:55:49,631 - LogoExtractor - INFO - Saved logo to results\extracted_logos\amnesty.is_1_3271173775.png
+2025-03-16 10:55:49,631 - LogoExtractor - INFO - [153] Processing https://brother.com.pe (brother.com.pe)
+2025-03-16 10:55:49,757 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazdabali.co.id_0_72a2bd87cf.png
+2025-03-16 10:55:49,903 - LogoExtractor - INFO - Saved logo to results\extracted_logos\veolia.ca_0_afd0357cce.png
+2025-03-16 10:55:50,178 - LogoExtractor - INFO - [154] Processing https://renaultrycauto.es (renaultrycauto.es)
+2025-03-16 10:55:50,501 - LogoExtractor - INFO - Saved logo to results\extracted_logos\veolia.ca_1_4d637739dc.png
+2025-03-16 10:55:50,740 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linde.pe_0_aa6cb007b2.png
+2025-03-16 10:55:50,890 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazdabali.co.id_1_114f01ddfe.png
+2025-03-16 10:55:50,890 - LogoExtractor - INFO - [155] Processing https://kia-gorny-eislingen.de (kia-gorny-eislingen.de)
+2025-03-16 10:55:50,963 - LogoExtractor - INFO - [156] Processing https://ikea.com.hk (ikea.com.hk)
+2025-03-16 10:55:51,034 - LogoExtractor - INFO - Saved logo to results\extracted_logos\veolia.ca_2_84d187d0c7.png
+2025-03-16 10:55:51,034 - LogoExtractor - INFO - [157] Processing https://mazda-autohaus-becker-homburg-bruchhof.de (mazda-autohaus-becker-homburg-bruchhof.de)
+2025-03-16 10:55:51,141 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linde.pe_1_5229b5d2a5.png
+2025-03-16 10:55:51,351 - LogoExtractor - INFO - [158] Processing https://catsprotectionshop.co.uk (catsprotectionshop.co.uk)
+2025-03-16 10:55:51,451 - LogoExtractor - INFO - Saved logo to results\extracted_logos\linde.pe_2_0c55a1e074.png
+2025-03-16 10:55:51,451 - LogoExtractor - INFO - [159] Processing https://culliganheartland.com (culliganheartland.com)
+2025-03-16 10:55:51,523 - LogoExtractor - INFO - Saved logo to results\extracted_logos\engie.cl_0_88708a8e99.png
+2025-03-16 10:55:51,577 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kia-gorny-eislingen.de_0_3a4d33f3ed.png
+2025-03-16 10:55:51,603 - LogoExtractor - INFO - Saved logo to results\extracted_logos\subaru.nc_2_936d1f7c38.jpg
+2025-03-16 10:55:51,604 - LogoExtractor - INFO - [160] Processing https://wurth-international.com.cn (wurth-international.com.cn)
+2025-03-16 10:55:51,648 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-becker-homburg-bruchhof.de_0_def3a004d3.png
+2025-03-16 10:55:51,649 - LogoExtractor - INFO - [161] Processing https://medef-artois.fr (medef-artois.fr)
+2025-03-16 10:55:51,750 - LogoExtractor - INFO - Saved logo to results\extracted_logos\vitalimages.com_1_395cf04d98.ico
+2025-03-16 10:55:51,751 - LogoExtractor - INFO - [162] Processing https://sephora.pl (sephora.pl)
+2025-03-16 10:55:51,778 - LogoExtractor - INFO - [163] Processing https://daikin-ksa.com (daikin-ksa.com)
+2025-03-16 10:55:51,796 - LogoExtractor - ERROR - Error processing https://medef-artois.fr: HTTPSConnectionPool(host='medef-artois.fr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-16 10:55:51,797 - LogoExtractor - INFO - [164] Processing https://sherwin-williams.com.ec (sherwin-williams.com.ec)
+2025-03-16 10:55:51,804 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kia-gorny-eislingen.de_1_6f9ed7f174.png
+2025-03-16 10:55:51,832 - LogoExtractor - ERROR - Error processing https://wurth-international.com.cn: HTTPSConnectionPool(host='wurth-international.com.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1018)')))
+2025-03-16 10:55:51,832 - LogoExtractor - INFO - [165] Processing https://culligantotalwater.com (culligantotalwater.com)
+2025-03-16 10:55:51,871 - LogoExtractor - INFO - Saved logo to results\extracted_logos\catsprotectionshop.co.uk_0_40d85674c0.png
+2025-03-16 10:55:51,918 - LogoExtractor - ERROR - Error processing https://daikin-ksa.com: HTTPSConnectionPool(host='daikin-ksa.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+2025-03-16 10:55:51,918 - LogoExtractor - INFO - [166] Processing https://ecslupsk.pl (ecslupsk.pl)
+2025-03-16 10:55:52,025 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kia-gorny-eislingen.de_2_14df550d56.png
+2025-03-16 10:55:52,026 - LogoExtractor - INFO - [167] Processing https://kierpensions.co.uk (kierpensions.co.uk)
+2025-03-16 10:55:52,108 - LogoExtractor - INFO - Saved logo to results\extracted_logos\catsprotectionshop.co.uk_1_1081803ceb.png
+2025-03-16 10:55:52,277 - LogoExtractor - INFO - Saved logo to results\extracted_logos\sephora.pl_0_e0cb1c7a95.ico
+2025-03-16 10:55:52,278 - LogoExtractor - INFO - [168] Processing https://bakertilly.ci (bakertilly.ci)
+2025-03-16 10:55:52,400 - LogoExtractor - INFO - Saved logo to results\extracted_logos\catsprotectionshop.co.uk_2_807b8d5f8e.jpg
+2025-03-16 10:55:52,401 - LogoExtractor - INFO - [169] Processing https://allianz-rose.info (allianz-rose.info)
+2025-03-16 10:55:52,467 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kierpensions.co.uk_0_67753106ee.png
+2025-03-16 10:55:52,628 - LogoExtractor - INFO - Saved logo to results\extracted_logos\kierpensions.co.uk_1_64de6100d5.png
+2025-03-16 10:55:52,628 - LogoExtractor - INFO - [170] Processing https://linak.nl (linak.nl)
+2025-03-16 10:55:53,134 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ecslupsk.pl_1_200254f157.png
+2025-03-16 10:55:53,135 - LogoExtractor - ERROR - Error processing https://noiseassessments.org: HTTPSConnectionPool(host='noiseassessments.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x00000287B4CC7750>, 'Connection to noiseassessments.org timed out. (connect timeout=10)'))
+2025-03-16 10:55:53,136 - LogoExtractor - INFO - [171] Processing https://taylorfarmsdeli.com (taylorfarmsdeli.com)
+2025-03-16 10:55:53,238 - LogoExtractor - INFO - [172] Processing https://actemium.ch (actemium.ch)
+2025-03-16 10:55:53,607 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bakertilly.ci_1_b0d09b1a0a.png
+2025-03-16 10:55:53,608 - LogoExtractor - INFO - [173] Processing https://bakertilly.ky (bakertilly.ky)
+2025-03-16 10:55:53,690 - LogoExtractor - INFO - [174] Processing https://chip.pl (chip.pl)
+2025-03-16 10:55:54,120 - LogoExtractor - INFO - Saved logo to results\extracted_logos\chip.pl_0_6b64cdbd80.png
+2025-03-16 10:55:54,120 - LogoExtractor - INFO - [175] Processing https://grantthornton.com.sv (grantthornton.com.sv)
+2025-03-16 10:55:54,165 - LogoExtractor - INFO - Saved logo to results\extracted_logos\engie.cl_1_eff6d0889c.jpg
+2025-03-16 10:55:54,230 - LogoExtractor - INFO - [176] Processing https://bakertilly.com.pa (bakertilly.com.pa)
+2025-03-16 10:55:54,267 - LogoExtractor - INFO - Saved logo to results\extracted_logos\actemium.ch_0_62838046b9.png
+2025-03-16 10:55:54,419 - LogoExtractor - INFO - Saved logo to results\extracted_logos\taylorfarmsdeli.com_0_ba881a181b.png
+2025-03-16 10:55:54,449 - LogoExtractor - INFO - Saved logo to results\extracted_logos\actemium.ch_1_a37131a132.png
+2025-03-16 10:55:54,644 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bakertilly.ky_1_1231e3d5f5.png
+2025-03-16 10:55:54,645 - LogoExtractor - INFO - [177] Processing https://vkf-renzel.com.tr (vkf-renzel.com.tr)
+2025-03-16 10:55:54,806 - LogoExtractor - INFO - Saved logo to results\extracted_logos\actemium.ch_2_27c4eee2b7.png
+2025-03-16 10:55:54,807 - LogoExtractor - INFO - [178] Processing https://fleishmanhillard.cn (fleishmanhillard.cn)
+2025-03-16 10:55:54,893 - LogoExtractor - INFO - Saved logo to results\extracted_logos\engie.cl_2_f2989ece5d.png
+2025-03-16 10:55:54,894 - LogoExtractor - INFO - [179] Processing https://isover.hu (isover.hu)
+2025-03-16 10:55:55,008 - LogoExtractor - INFO - [180] Processing https://bauder.at (bauder.at)
+2025-03-16 10:55:55,207 - LogoExtractor - INFO - [181] Processing https://renaulttersa.com.mx (renaulttersa.com.mx)
+2025-03-16 10:55:55,518 - LogoExtractor - INFO - Saved logo to results\extracted_logos\fleishmanhillard.cn_0_7a0a2074f2.png
+2025-03-16 10:55:55,526 - LogoExtractor - INFO - Saved logo to results\extracted_logos\vkf-renzel.com.tr_0_42f8e758ee.png
+2025-03-16 10:55:55,571 - LogoExtractor - INFO - Saved logo to results\extracted_logos\fleishmanhillard.cn_1_0b200a9b32.jpg
+2025-03-16 10:55:55,575 - LogoExtractor - INFO - [182] Processing https://zktecoma.com (zktecoma.com)
+2025-03-16 10:55:55,650 - LogoExtractor - INFO - Saved logo to results\extracted_logos\fleishmanhillard.cn_2_9f53de9142.png
+2025-03-16 10:55:55,650 - LogoExtractor - INFO - [183] Processing https://aamcotulsa-memorial.com (aamcotulsa-memorial.com)
+2025-03-16 10:55:55,724 - LogoExtractor - INFO - Saved logo to results\extracted_logos\isover.hu_0_32958d77af.jpg
+2025-03-16 10:55:55,792 - LogoExtractor - INFO - Saved logo to results\extracted_logos\vkf-renzel.com.tr_1_f9626ee6dd.jpg
+2025-03-16 10:55:55,874 - LogoExtractor - INFO - Saved logo to results\extracted_logos\grantthornton.com.sv_0_4177378365.png
+2025-03-16 10:55:55,875 - LogoExtractor - INFO - [184] Processing https://azets.ie (azets.ie)
+2025-03-16 10:55:55,938 - LogoExtractor - INFO - Saved logo to results\extracted_logos\isover.hu_1_f5f9938411.png
+2025-03-16 10:55:56,060 - LogoExtractor - INFO - Saved logo to results\extracted_logos\vkf-renzel.com.tr_2_efa61a6c75.png
+2025-03-16 10:55:56,061 - LogoExtractor - INFO - [185] Processing https://lidl.lt (lidl.lt)
+2025-03-16 10:55:56,127 - LogoExtractor - INFO - Saved logo to results\extracted_logos\isover.hu_2_05680c6090.png
+2025-03-16 10:55:56,128 - LogoExtractor - INFO - [186] Processing https://mooresingapore.com (mooresingapore.com)
+2025-03-16 10:55:56,549 - LogoExtractor - INFO - Saved logo to results\extracted_logos\zktecoma.com_0_c50c31e2af.png
+2025-03-16 10:55:56,550 - LogoExtractor - INFO - [187] Processing https://urmet.com.br (urmet.com.br)
+2025-03-16 10:55:56,892 - LogoExtractor - ERROR - Error processing https://mooresingapore.com: HTTPSConnectionPool(host='mooresingapore.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mooresingapore.com'. (_ssl.c:1018)")))
+2025-03-16 10:55:56,892 - LogoExtractor - INFO - [188] Processing https://ccusa.com.au (ccusa.com.au)
+2025-03-16 10:55:56,901 - LogoExtractor - INFO - Saved logo to results\extracted_logos\sherwin-williams.com.ec_2_e09640c83d.ico
+2025-03-16 10:55:56,902 - LogoExtractor - INFO - [189] Processing https://toysrus.com.sg (toysrus.com.sg)
+2025-03-16 10:55:57,039 - LogoExtractor - INFO - Saved logo to results\extracted_logos\azets.ie_0_8d264534e8.png
+2025-03-16 10:55:57,133 - LogoExtractor - INFO - Saved logo to results\extracted_logos\urmet.com.br_0_b09244d232.png
+2025-03-16 10:55:57,305 - LogoExtractor - INFO - Saved logo to results\extracted_logos\urmet.com.br_1_cd3a450af7.png
+2025-03-16 10:55:57,466 - LogoExtractor - INFO - Saved logo to results\extracted_logos\urmet.com.br_2_d4f70bc83a.png
+2025-03-16 10:55:57,466 - LogoExtractor - INFO - [190] Processing https://aamcopasadenatx.com (aamcopasadenatx.com)
+2025-03-16 10:55:57,579 - LogoExtractor - INFO - Saved logo to results\extracted_logos\azets.ie_1_602b30a5cd.ico
+2025-03-16 10:55:57,580 - LogoExtractor - INFO - [191] Processing https://manpowergroup.no (manpowergroup.no)
+2025-03-16 10:55:57,674 - LogoExtractor - INFO - Saved logo to results\extracted_logos\renaulttersa.com.mx_0_fb60b401cc.png
+2025-03-16 10:55:57,852 - LogoExtractor - INFO - [192] Processing https://mapfre.pr (mapfre.pr)
+2025-03-16 10:55:58,049 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcotulsa-memorial.com_0_50ded8ea9a.png
+2025-03-16 10:55:58,290 - LogoExtractor - INFO - [193] Processing https://medef-bearnetsoule.com (medef-bearnetsoule.com)
+2025-03-16 10:55:58,447 - LogoExtractor - INFO - Saved logo to results\extracted_logos\renaulttersa.com.mx_1_ed47e8209d.png
+2025-03-16 10:55:58,599 - LogoExtractor - ERROR - Error processing https://medef-bearnetsoule.com: HTTPSConnectionPool(host='medef-bearnetsoule.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2025-03-16 10:55:58,600 - LogoExtractor - INFO - [194] Processing https://moore.swiss (moore.swiss)
+2025-03-16 10:55:58,607 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bauder.at_0_8ee33d3c07.png
+2025-03-16 10:55:59,022 - LogoExtractor - INFO - Saved logo to results\extracted_logos\renaulttersa.com.mx_2_08d0caf173.png
+2025-03-16 10:55:59,022 - LogoExtractor - INFO - [195] Processing https://ccusa.hu (ccusa.hu)
+2025-03-16 10:55:59,068 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bauder.at_1_2c944f2248.png
+2025-03-16 10:55:59,219 - LogoExtractor - INFO - [196] Processing https://modshair-nuernberg.de (modshair-nuernberg.de)
+2025-03-16 10:55:59,417 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mapfre.pr_1_4ebf76e67c.png
+2025-03-16 10:55:59,466 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ccusa.hu_0_b863674538.jpg
+2025-03-16 10:55:59,500 - LogoExtractor - INFO - Saved logo to results\extracted_logos\bauder.at_2_2e11aad8ac.png
+2025-03-16 10:55:59,501 - LogoExtractor - INFO - [197] Processing https://cdu-aldenhoven.de (cdu-aldenhoven.de)
+2025-03-16 10:55:59,621 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ccusa.hu_1_f03afcebf0.png
+2025-03-16 10:55:59,749 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ccusa.com.au_0_ad3c36625a.jpg
+2025-03-16 10:55:59,767 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mapfre.pr_2_30a233a2fa.png
+2025-03-16 10:55:59,768 - LogoExtractor - INFO - [198] Processing https://axabreakdown.co.uk (axabreakdown.co.uk)
+2025-03-16 10:55:59,807 - LogoExtractor - INFO - Saved logo to results\extracted_logos\aamcopasadenatx.com_0_040986f813.png
+2025-03-16 10:55:59,961 - LogoExtractor - INFO - [199] Processing https://mazda-autohaus-roessel-birkenau.de (mazda-autohaus-roessel-birkenau.de)
+2025-03-16 10:56:00,133 - LogoExtractor - INFO - Saved logo to results\extracted_logos\modshair-nuernberg.de_0_4803ae3b2f.png
+2025-03-16 10:56:00,168 - LogoExtractor - INFO - Saved logo to results\extracted_logos\cdu-aldenhoven.de_0_a73b3f480f.png
+2025-03-16 10:56:00,285 - LogoExtractor - INFO - Saved logo to results\extracted_logos\cdu-aldenhoven.de_1_bbcf8052d6.png
+2025-03-16 10:56:00,316 - LogoExtractor - INFO - Saved logo to results\extracted_logos\modshair-nuernberg.de_1_7898af0e16.png
+2025-03-16 10:56:00,465 - LogoExtractor - INFO - Saved logo to results\extracted_logos\mazda-autohaus-roessel-birkenau.de_0_def3a004d3.png
+2025-03-16 10:56:00,535 - LogoExtractor - INFO - Saved logo to results\extracted_logos\modshair-nuernberg.de_2_95dfce52f8.png
+2025-03-16 10:56:00,728 - LogoExtractor - INFO - Saved logo to results\extracted_logos\axabreakdown.co.uk_1_dfa25e4f1b.png
+2025-03-16 10:56:00,929 - LogoExtractor - INFO - Saved logo to results\extracted_logos\axabreakdown.co.uk_2_cae281368d.ico
+2025-03-16 10:56:00,945 - LogoExtractor - INFO - Saved logo to results\extracted_logos\toysrus.com.sg_1_fe80c2101f.png
+2025-03-16 10:56:01,006 - LogoExtractor - INFO - Saved logo to results\extracted_logos\toysrus.com.sg_2_120b0198eb.png
+2025-03-16 10:56:01,029 - LogoExtractor - INFO - Saved logo to results\extracted_logos\ccusa.com.au_1_49aec724e7.png
+2025-03-16 10:56:03,246 - LogoExtractor - ERROR - Error processing https://linak.nl: HTTPSConnectionPool(host='www.linak.nl', port=443): Read timed out. (read timeout=10)
+2025-03-16 10:56:04,525 - LogoExtractor - ERROR - Error processing https://bakertilly.com.pa: HTTPSConnectionPool(host='bakertilly.com.pa', port=443): Read timed out. (read timeout=10)
+2025-03-16 10:56:09,775 - LogoAnalysisWorkflow - INFO - Extracted 275 logos
+2025-03-16 10:56:09,778 - LogoAnalysisWorkflow - INFO - Logo information saved to results\extracted_logos_info.csv
+2025-03-16 10:56:09,778 - LogoAnalysisWorkflow - INFO - Analyzing logo similarities
+2025-03-16 10:56:09,802 - LogoSimilarity - INFO - Loaded information about 275 logos
+2025-03-16 10:56:10,028 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-hellwig-hoyerswerda.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:10,039 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\plameco-hannover.de_0_bc7d27db63.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:10,052 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\plameco-hannover.de_1_00c87cf2ea.ico: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:10,067 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\toyota-buchreiter-eisenstadt.at_1_706892305b.jpg: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:10,081 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\toyota-buchreiter-eisenstadt.at_2_a292965f95.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:10,234 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\autosecuritas-ct-seysses.fr_1_986dd63b6c.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:10,257 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\autosecuritas-ct-seysses.fr_2_2b72fa8d98.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:10,269 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\wurth-international.com_1_722d3148b0.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:10,280 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kia-moeller-wunstorf.de_0_307a8bb9f8.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:10,292 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kia-moeller-wunstorf.de_1_93a9aba4fc.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:10,304 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kia-moeller-wunstorf.de_2_f734762f09.jpg: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:10,319 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ibc-solar.jp_1_53c042afce.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:10,330 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\freseniusmedicalcare.ca_0_05c2803572.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:10,341 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\freseniusmedicalcare.ca_1_5eba646eac.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:10,487 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ovb.ro_0_a4080a0d92.jpg: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:10,626 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ovb.ro_1_dde559c74f.jpg: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:10,760 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ovb.ro_2_de27a6bd00.jpg: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:10,815 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\crocs.com.uy_1_a6d88f8d2a.jpg: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:10,865 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\crocs.com.uy_2_75795fef47.jpg: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:10,876 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\synlab.com.tr_1_41be9ed51d.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:10,887 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\synlab.com.tr_2_8f8125660e.ico: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:10,901 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\cafelasmargaritas.es_1_5815bca375.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:10,904 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\affidea.ba_2_32d40b2607.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:10,917 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\engie.co.uk_1_783b909501.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:11,095 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bakertilly.lu_1_ff244a1dbb.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,200 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bakertilly.lu_2_d3b77a1cce.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,216 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\spitex-wasseramt.ch_1_b24beaea8d.ico: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:11,227 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ccusa.co.nz_0_b0bfdcd314.jpg: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,239 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ccusa.co.nz_1_cee74f11a0.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:11,251 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\nobleprog.mx_0_b5a18d07d7.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:11,272 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\nobleprog.mx_1_b245d45d71.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:11,283 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\nobleprog.mx_2_c62ad5bc7d.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,322 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\julis-sh.de_0_1ef73e9bf1.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:11,478 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\julis-sh.de_1_372bff14de.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:11,493 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\julis-sh.de_2_ec71ece498.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,504 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ebay.cn_0_2cb81dbc20.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:11,515 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ebay.cn_1_0c8c585332.ico: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,525 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\veolia.com.ru_0_6e1471cab7.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:11,544 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\veolia.com.ru_1_6d8ca9694b.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:11,554 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\veolia.com.ru_2_e0943db0dd.ico: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:11,566 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\baywa-re.es_0_69e3a442dc.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:11,577 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\baywa-re.es_1_a1fd84e3f7.ico: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:11,588 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\deheus.com.vn_0_b5e49035c6.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,599 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\deheus.com.vn_1_0f51bb3995.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:11,614 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\deheus.com.vn_2_e1487a842b.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:11,626 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcoanaheim.net_0_64805d534e.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:11,638 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\pirtek.be_0_22bb555a93.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,651 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\pirtek.be_1_6abaa6e87f.jpg: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:11,663 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\pirtek.be_2_e46e6a517d.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:11,674 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ebayglobalshipping.com_1_f12541d0dd.ico: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:11,685 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcoseguin.com_0_03cce7cae7.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:11,697 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcoseguin.com_1_ad16f9411a.png : invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:11,712 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcoconyersga.com_0_ed41534e07.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:11,724 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-kaschmieder-waren.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:11,738 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\europa-union-sachsen-anhalt.de_0_b87bdfab41.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:11,751 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\europa-union-sachsen-anhalt.de_1_7858ebc37a.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,768 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\europa-union-sachsen-anhalt.de_2_16108e7ed3.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,787 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\oil-testing.de_0_b13c07f287.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:11,798 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\oil-testing.de_2_a3dc053fed.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:11,809 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\wurthsaudi.com_0_cecbe1e413.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:11,819 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\wurthsaudi.com_1_5e3696b7ae.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:11,832 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\wurthsaudi.com_2_acdcdf69ce.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:11,844 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bakertilly.es_1_a37d763ddc.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,848 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\allianz.nl_1_b12c6e883f.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:11,861 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\rsmpoland.pl_0_957ec7d787.webp: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:11,872 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\rsmpoland.pl_1_e3cca5c008.ico: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:11,885 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bmw-motorrad-euromotos-lyon.fr_0_6b07067972.jpg: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:11,897 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bmw-motorrad-euromotos-lyon.fr_2_f4b68117eb.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:11,911 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-lackmann-sendenhorst.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:11,922 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\secureparkinghi.com_0_0cf276923d.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:11,932 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\secureparkinghi.com_1_5204f9e70e.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:11,943 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\menicon.de_0_5eab6b7c7b.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:11,953 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\menicon.de_1_4f7eab8e63.ico: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:11,991 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\trinkgutlippstadt.de_0_4fdb3d4fdd.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,009 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\trinkgutlippstadt.de_1_91882b54ee.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,021 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\trinkgutlippstadt.de_2_f848659528.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,032 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bauder.lt_1_e4502cc26c.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,042 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\berlitz-augsburg.de_0_41805a71aa.jpg: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:12,052 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\berlitz-augsburg.de_1_163f6ed5c1.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:12,063 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linde-gas.fi_0_8b7f021d2d.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,075 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linde-gas.fi_1_cae6866bc4.ico: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,085 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\savethechildren.ca_0_1c69fb75ff.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,104 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\svntrinity.com_0_50bb2a3eaf.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:12,118 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\svntrinity.com_1_f6932e61ac.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,130 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\zkteco.vn_0_71c96bf455.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,143 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\zkteco.vn_1_732520d03f.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,155 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\intertongn.es_0_197361a606.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:12,166 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\intertongn.es_1_ea2b220ae1.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:12,176 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\intertongn.es_2_25288289db.jpg: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,212 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mateco.nl_2_872ee31ac8.jpg: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,259 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\orient-food.sk_0_c89e5206cc.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,272 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\orient-food.sk_2_96e1b79988.ico: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,285 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-roessel-birkenau.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,295 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ford.pl.ua_1_42ded9721d.ico: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:12,307 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kapanfastigheter.se_0_69913c72ac.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:12,318 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-poznan-voyager.pl_0_59a9356f2c.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,329 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-poznan-voyager.pl_1_ba5df41eae.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,342 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-wassing-ahaus-wuellen.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,355 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\equans.hu_0_4f6916af01.jpg: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,366 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\equans.hu_1_4b2ebfdfda.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,377 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\equans.hu_2_499192f2be.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,388 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\rheine.schule_1_87388dec69.jpg: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,402 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linexps.com_0_aab2646fa5.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,414 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linexps.com_1_bc0f019395.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,418 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kia-suedmobile-radolfzell.de_0_4123470bd3.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,422 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kia-suedmobile-radolfzell.de_1_5e0d65824a.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,433 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kia-suedmobile-radolfzell.de_2_562d09105f.jpg: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,450 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bioderma.co.za_0_688bb7d903.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:12,462 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bioderma.co.za_1_061e1d2c51.ico: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,465 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\avia.ch_0_958616c4c7.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,476 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\esseskincare.sg_0_cb96fce6f8.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,487 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\esseskincare.sg_1_5ad240a9b7.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,498 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\esseskincare.sg_2_133c1305d8.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,511 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\williamblairfunds.com_0_fe84671d7e.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:12,521 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\williamblairfunds.com_1_268160b9d1.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,531 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kalyanmachines.com_0_53354a3ed4.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,552 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\cdviberica.com_1_b4edec7257.jpg: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:12,617 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\cdviberica.com_2_9de38a3797.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:12,633 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-henseler-schwedt.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,637 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ibc-solar.pl_1_c139b82797.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,647 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\renaultsanzhispano.es_1_de3ff4f5dc.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,677 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\toyotanatas.com.tr_0_c974acf19b.png: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 2 has 2 dimension(s)
+2025-03-16 10:56:12,689 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\toyotanatas.com.tr_2_5d22c9385c.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,700 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linde-gas.at_0_b0d6de0e4a.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:12,726 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linde-gas.at_1_fd223abfeb.jpg: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:12,738 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcodelran.com_0_d02cc3d895.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,750 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda.de_0_294d44f9d1.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,782 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\wurth.co_0_d922a2811b.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:12,796 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-hansmann-kassel.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,808 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bbraun.rs_0_a2be0da39a.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:12,817 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bbraun.rs_1_e57e98d31a.ico: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,829 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\spitex-regionbirs.ch_1_73ee00a024.ico: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:12,841 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\flashbay.ca_0_a88a3b9ba9.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:12,858 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\flashbay.ca_1_1f7b89e15b.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:12,873 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\flashbay.ca_2_6985fcdc89.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:12,887 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\compo.de_0_56248d7b64.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,900 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\compo.de_1_003a278bd0.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:12,913 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\compo.de_2_7a762440da.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,925 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcobloomfield.com_0_36fa080434.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,935 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\pkf-hk.com_1_58e9de1655.ico: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,948 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\webster.nl_0_b9aa028c29.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:12,981 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\webster.nl_1_c5936756d5.png: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 2 has 2 dimension(s)
+2025-03-16 10:56:12,992 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\webster.nl_2_bf5d88cfd2.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,005 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcosalemor.com_0_09e93e820a.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:13,017 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\einhell.ba_0_7bcfb376db.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,063 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\einhell.ba_1_6f44e7e697.jpg: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,089 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\einhell.ba_2_ab1a13a9d5.jpg: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,101 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\subaru.jp_0_2cb9d14e92.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:13,114 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\subaru.jp_1_4ccd613a1c.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,125 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\subaru.jp_2_b9ac537b3f.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:13,177 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\besins-healthcare.se_0_29737c37de.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:13,230 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\besins-healthcare.se_1_0099c2a67d.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:13,242 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\besins-healthcare.se_2_a5b60ed046.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:13,253 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\cvjm-pfalz.de_0_a564d83b7e.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:13,264 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\cvjm-pfalz.de_1_4887f205bb.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:13,274 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\cvjm-pfalz.de_2_36f25071ff.ico: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,278 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linde-electronics.com_0_897bfd7f1e.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:13,288 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linde-electronics.com_1_83c000b9ff.ico: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:13,300 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcowilliamsportpa.com_0_1e992c0077.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:13,312 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\tbwa.co.za_2_b73ac01b79.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,325 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\engie.pt_0_008819486e.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:13,351 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\engie.pt_2_e45cd369f9.png: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 2 has 2 dimension(s)
+2025-03-16 10:56:13,366 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\medef-alsace.com_0_f5ddfabb8e.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,378 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\medef-alsace.com_1_20aa750924.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,388 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\peugeot.sk_0_bb8546c8df.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:13,399 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\peugeot.sk_1_e93c1116a9.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:13,411 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\peugeot.sk_2_a2bd2687ff.ico: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:13,421 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\veolia.fr_0_b1ac4c09b2.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,423 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\veolia.fr_1_a5f0523a34.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:13,426 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\veolia.fr_2_a254898571.ico: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:13,439 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\siebtechnik-tema.cn_0_f14cb075c6.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,460 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\siebtechnik-tema.cn_1_e2f254f46d.jpg: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,482 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\siebtechnik-tema.cn_2_547b4705ba.jpg: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,487 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\rsmthailand.com_0_72d12f2506.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:13,496 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\rsmthailand.com_1_f71f6faebb.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:13,508 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\spitex-wiggertal.ch_1_c2c4778ce4.ico: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:13,557 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\meggle-bakery.com_0_41617651b3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,569 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\meggle-bakery.com_1_8787357524.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,581 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\santillana.com.hn_0_102fca2938.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,593 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\santillana.com.hn_1_93485acff4.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,604 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\santillana.com.hn_2_33354f885d.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:13,616 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\strabag-pfs.com_0_d795ae3c5e.webp: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:13,629 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\strabag-pfs.com_1_c9db8045df.webp: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,642 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\strabag-pfs.com_2_3b22f4ae7c.webp: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,804 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\autosecuritas-barlin.fr_1_6c63a0752d.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:13,827 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\autosecuritas-barlin.fr_2_40c8e46bb5.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,839 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamco-councilbluffs.com_0_be5d9c7adb.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:13,853 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamco-councilbluffs.com_1_4994a68a33.jpg: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:13,872 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamco-councilbluffs.com_2_719ead9357.jpg: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:13,889 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\adra.org.pe_0_03e7dc65a6.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,017 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\adra.org.pe_1_e88e54a9a8.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:14,031 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\adra.org.pe_2_3e0c6a1849.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,043 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-sturne-rochlitz.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,095 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\nutriciababy.be_2_e9d32e8d47.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:14,107 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\inductotherm.co.kr_1_9b98e002b1.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:14,120 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcocatonsvillemd.com_0_99a5fb893c.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:14,162 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\renault.dk_1_55f37d9de4.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,205 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\renault.dk_2_0fe35211d9.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:14,220 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-blank-dinkelsbuehl.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,224 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\meggle.co.jp_0_8787357524.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:14,235 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\amnesty.is_1_3271173775.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,246 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazdabali.co.id_0_72a2bd87cf.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,260 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazdabali.co.id_1_114f01ddfe.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,273 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\veolia.ca_0_afd0357cce.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,276 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\veolia.ca_1_4d637739dc.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:14,312 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\veolia.ca_2_84d187d0c7.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:14,323 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linde.pe_0_aa6cb007b2.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:14,335 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linde.pe_1_5229b5d2a5.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:14,352 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\linde.pe_2_0c55a1e074.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:14,365 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\subaru.nc_0_9361ed27b0.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,416 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\subaru.nc_1_732a3f84ae.jpg: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:14,468 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\subaru.nc_2_936d1f7c38.jpg: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:14,482 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-becker-homburg-bruchhof.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,494 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\vitalimages.com_1_395cf04d98.ico: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,497 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kia-gorny-eislingen.de_0_3a4d33f3ed.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,500 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kia-gorny-eislingen.de_1_6f9ed7f174.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,513 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kia-gorny-eislingen.de_2_14df550d56.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:14,523 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\sephora.pl_0_e0cb1c7a95.ico: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:14,537 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\catsprotectionshop.co.uk_0_40d85674c0.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:14,551 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\catsprotectionshop.co.uk_1_1081803ceb.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:14,569 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\catsprotectionshop.co.uk_2_807b8d5f8e.jpg: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,590 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kierpensions.co.uk_0_67753106ee.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,602 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\kierpensions.co.uk_1_64de6100d5.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,613 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ecslupsk.pl_1_200254f157.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:14,618 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bakertilly.ci_1_b0d09b1a0a.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,630 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\chip.pl_0_6b64cdbd80.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:14,635 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bakertilly.ky_1_1231e3d5f5.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,646 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\actemium.ch_0_62838046b9.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,655 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\actemium.ch_1_a37131a132.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:14,667 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\actemium.ch_2_27c4eee2b7.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,678 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\engie.cl_0_88708a8e99.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:14,844 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\engie.cl_1_eff6d0889c.jpg: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:14,866 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\engie.cl_2_f2989ece5d.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:14,877 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\taylorfarmsdeli.com_0_ba881a181b.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:14,890 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\fleishmanhillard.cn_0_7a0a2074f2.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,050 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\fleishmanhillard.cn_1_0b200a9b32.jpg: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:15,063 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\fleishmanhillard.cn_2_9f53de9142.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:15,074 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\grantthornton.com.sv_0_4177378365.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:15,085 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\vkf-renzel.com.tr_0_42f8e758ee.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:15,101 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\vkf-renzel.com.tr_1_f9626ee6dd.jpg: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:15,123 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\vkf-renzel.com.tr_2_efa61a6c75.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:15,134 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\isover.hu_0_32958d77af.jpg: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:15,146 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\isover.hu_1_f5f9938411.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:15,157 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\isover.hu_2_05680c6090.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:15,167 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\zktecoma.com_0_c50c31e2af.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:15,178 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\sherwin-williams.com.ec_2_e09640c83d.ico: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,192 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\urmet.com.br_0_b09244d232.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:15,271 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\urmet.com.br_1_cd3a450af7.png: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 2 has 2 dimension(s)
+2025-03-16 10:56:15,344 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\urmet.com.br_2_d4f70bc83a.png: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 2 has 2 dimension(s)
+2025-03-16 10:56:15,357 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\azets.ie_0_8d264534e8.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:15,368 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\azets.ie_1_602b30a5cd.ico: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,381 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\renaulttersa.com.mx_0_fb60b401cc.png: invalid literal for int() with base 10: 'a'
+2025-03-16 10:56:15,392 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\renaulttersa.com.mx_1_ed47e8209d.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,404 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\renaulttersa.com.mx_2_08d0caf173.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,417 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcotulsa-memorial.com_0_50ded8ea9a.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,495 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bauder.at_0_8ee33d3c07.png: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 2 has 2 dimension(s)
+2025-03-16 10:56:15,542 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bauder.at_1_2c944f2248.png: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 2 has 2 dimension(s)
+2025-03-16 10:56:15,577 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\bauder.at_2_2e11aad8ac.png: all the input arrays must have same number of dimensions, but the array at index 0 has 1 dimension(s) and the array at index 2 has 2 dimension(s)
+2025-03-16 10:56:15,591 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mapfre.pr_1_4ebf76e67c.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,594 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mapfre.pr_2_30a233a2fa.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,608 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\cdu-aldenhoven.de_0_a73b3f480f.png: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:15,620 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\cdu-aldenhoven.de_1_bbcf8052d6.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:15,624 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\mazda-autohaus-roessel-birkenau.de_0_def3a004d3.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:15,635 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\modshair-nuernberg.de_0_4803ae3b2f.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:15,660 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\modshair-nuernberg.de_1_7898af0e16.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:15,675 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\modshair-nuernberg.de_2_95dfce52f8.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:15,690 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\axabreakdown.co.uk_1_dfa25e4f1b.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:15,700 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\axabreakdown.co.uk_2_cae281368d.ico: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,716 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\aamcopasadenatx.com_0_040986f813.png: invalid literal for int() with base 10: 'c'
+2025-03-16 10:56:15,731 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\toysrus.com.sg_1_fe80c2101f.png: invalid literal for int() with base 10: 'b'
+2025-03-16 10:56:15,748 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\toysrus.com.sg_2_120b0198eb.png: invalid literal for int() with base 10: 'f'
+2025-03-16 10:56:15,753 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ccusa.com.au_0_ad3c36625a.jpg: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:15,766 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ccusa.com.au_1_49aec724e7.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:15,770 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ccusa.hu_0_b863674538.jpg: invalid literal for int() with base 10: 'e'
+2025-03-16 10:56:15,773 - LogoSimilarity - ERROR - Error computing features for results\extracted_logos\ccusa.hu_1_f03afcebf0.png: invalid literal for int() with base 10: 'd'
+2025-03-16 10:56:15,774 - LogoSimilarity - INFO - Computed features for 0 logos
+2025-03-16 10:56:15,774 - LogoSimilarity - WARNING - No features provided for clustering
+2025-03-16 10:56:15,774 - LogoSimilarity - WARNING - No clusters to visualize
+2025-03-16 10:56:15,774 - LogoSimilarity - WARNING - No clusters to save

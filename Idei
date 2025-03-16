@@ -13,4 +13,4 @@ pot sa incep incremental cu 0.1 s, apoi 0.2 s apoi 0.3 s apoi 0.4 s apoi 0.5 s s
 cand trec de la un increment la altul
 
 
-python logo_workflow.py --limit 200
+python logo_workflow.py --parquet logos.snappy.parquet --output-dir results --limit 200

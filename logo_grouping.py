@@ -32,6 +32,11 @@ class LogoSimilarityAnalyzer:
     def load_logo_data(self):
         """Load information about extracted logos."""
         try:
+            if not os.path.exists(self.results_file):
+                logger.error(f"Logo data file not found: {self.results_file}")
+                self.logo_data = []
+                return
+                
             with open(self.results_file, 'r') as f:
                 reader = csv.DictReader(f)
                 self.logo_data = list(reader)
@@ -167,15 +172,18 @@ class LogoSimilarityAnalyzer:
     
     def cluster_logos(self, features, epsilon=0.3, min_samples=2):
         """Cluster logos based on feature similarity."""
-        if not features:
+        if not features or len(features) == 0:
             logger.warning("No features provided for clustering")
-            return []
+            return {}
         
         # Extract feature vectors
         feature_vectors = np.array([f['features'] for f in features])
         
         # Normalize feature vectors
-        feature_vectors = feature_vectors / np.linalg.norm(feature_vectors, axis=1, keepdims=True)
+        norms = np.linalg.norm(feature_vectors, axis=1, keepdims=True)
+        # Avoid division by zero
+        norms[norms == 0] = 1.0
+        feature_vectors = feature_vectors / norms
         
         # Use DBSCAN for clustering
         dbscan = DBSCAN(eps=epsilon, min_samples=min_samples, metric='cosine')
@@ -191,6 +199,10 @@ class LogoSimilarityAnalyzer:
     
     def visualize_clusters(self, clustered_logos, output_dir="logo_clusters"):
         """Visualize the clusters by creating montage images."""
+        if not clustered_logos:
+            logger.warning("No clusters to visualize")
+            return
+            
         os.makedirs(output_dir, exist_ok=True)
         
         for cluster_id, logos in clustered_logos.items():
@@ -234,6 +246,13 @@ class LogoSimilarityAnalyzer:
         """Save clustering results to a JSON file."""
         results = {}
         
+        if not clustered_logos:
+            logger.warning("No clusters to save")
+            results["error"] = "No clusters found"
+            with open(output_file, 'w') as f:
+                json.dump(results, f, indent=2)
+            return
+            
         for cluster_id, logos in clustered_logos.items():
             if cluster_id == -1:
                 cluster_name = "unclustered"
