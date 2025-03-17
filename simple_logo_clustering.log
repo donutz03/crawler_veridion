@@ -1,0 +1,9 @@
+2025-03-17 14:58:22,205 - SimpleLogoClustering - INFO - Loading logos from extracted_logos
+2025-03-17 14:58:22,324 - SimpleLogoClustering - INFO - Found 2818 logo files
+2025-03-17 14:58:22,324 - SimpleLogoClustering - INFO - Extracting color histogram features from logos
+2025-03-17 14:58:39,251 - SimpleLogoClustering - INFO - Successfully extracted features from 2818 logos
+2025-03-17 14:58:39,252 - SimpleLogoClustering - INFO - Clustering 2818 logos with DBSCAN
+2025-03-17 14:58:39,475 - SimpleLogoClustering - INFO - Found 260 clusters, with 1638 unclustered logos
+2025-03-17 14:58:39,476 - SimpleLogoClustering - INFO - Visualizing clusters
+2025-03-17 14:59:52,149 - SimpleLogoClustering - INFO - Saved cluster data to cluster_results\logo_clusters.csv
+2025-03-17 14:59:52,157 - SimpleLogoClustering - INFO - Saved cluster summary to cluster_results\cluster_summary.csv

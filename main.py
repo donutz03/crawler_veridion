@@ -27,3 +27,5 @@ def citeste_parquet(fisier_parquet):
 if __name__ == "__main__":
     fisier_parquet = "logos.snappy.parquet"
     citeste_parquet(fisier_parquet)
+
+#python logo_clustering.py --input-dir extracted_logos --output-dir cluster_results
