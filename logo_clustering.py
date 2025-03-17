@@ -2,7 +2,7 @@ import os
 import numpy as np
 import cv2
 import pandas as pd
-from sklearn.cluster import DBSCAN, AgglomerativeClustering
+from sklearn.cluster import AgglomerativeClustering
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
@@ -141,7 +141,7 @@ class ImprovedLogoClusterAnalyzer:
         logger.info(f"Successfully extracted features from {len(features_list)} logos")
         return np.array(features_list), valid_logos
     
-    def cluster_logos(self, features, valid_logos, clustering_method='dbscan'):
+    def cluster_logos(self, features, valid_logos, clustering_method='hierarchical'):
         """Cluster logos using different methods."""
         logger.info(f"Clustering {len(features)} logos using {clustering_method}")
         
@@ -157,12 +157,8 @@ class ImprovedLogoClusterAnalyzer:
         pca = PCA(n_components=min(10, features.shape[1]))
         reduced_features = pca.fit_transform(scaled_features)
         
-        # Different clustering approaches
-        if clustering_method == 'dbscan':
-            # More flexible DBSCAN parameters
-            db = DBSCAN(eps=0.3, min_samples=2, metric='euclidean')
-            clusters = db.fit_predict(reduced_features)
-        elif clustering_method == 'hierarchical':
+       
+        if clustering_method == 'hierarchical':
             # Hierarchical clustering with predetermined number of clusters
             n_clusters = max(3, int(len(features) * 0.1))  # Dynamic cluster count
             db = AgglomerativeClustering(n_clusters=n_clusters)
@@ -180,7 +176,7 @@ class ImprovedLogoClusterAnalyzer:
         logger.info(f"Found {n_clusters} clusters, with {unclustered} unclustered logos")
         return clustered_logos
     
-    def analyze(self, clustering_method='dbscan'):
+    def analyze(self, clustering_method='hierarchical'):
         """Run the complete clustering analysis pipeline."""
         # Load logos
         logo_files = self.load_logos()
@@ -313,8 +309,8 @@ def main():
                       help='Directory containing logos')
     parser.add_argument('--output-dir', '-o', default='cluster_results',
                       help='Directory to save clustering results')
-    parser.add_argument('--method', '-m', choices=['dbscan', 'hierarchical'], 
-                      default='dbscan', help='Clustering method')
+    parser.add_argument('--method', '-m', choices=['hierarchical'], 
+                      default='hierarchical', help='Clustering method')
     
     args = parser.parse_args()
     

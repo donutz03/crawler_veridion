@@ -31,4 +31,4 @@ if __name__ == "__main__":
  
 
 #ordine: python a2.py, apoi python advanced-logo-similarity.py --input company_logos --output logo_clusters, apoi 
-#python logo_clustering.py --input-dir logo_clusters/unique --output-dir cluster_results
+# python logo_clustering.py -m hierarchical
