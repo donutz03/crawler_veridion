@@ -1335,3 +1335,39 @@
 2025-03-17 16:21:03,554 - LogoClustering - INFO - Visualizing clusters
 2025-03-17 16:21:05,280 - LogoClustering - INFO - Saved cluster data to cluster_results\logo_clusters.csv
 2025-03-17 16:21:05,288 - LogoClustering - INFO - Saved cluster summary to cluster_results\cluster_summary.csv
+2025-03-17 16:39:37,160 - LogoClustering - INFO - Loading logos from logo_clusters/unique
+2025-03-17 16:39:37,176 - LogoClustering - INFO - Found 410 logo files
+2025-03-17 16:39:37,176 - LogoClustering - INFO - Extracting advanced features from logos
+2025-03-17 16:39:43,023 - LogoClustering - INFO - Successfully extracted features from 410 logos
+2025-03-17 16:39:43,023 - LogoClustering - INFO - Clustering 410 logos using dbscan
+2025-03-17 16:39:43,076 - LogoClustering - INFO - Found 2 clusters, with 397 unclustered logos
+2025-03-17 16:39:43,076 - LogoClustering - INFO - Visualizing clusters
+2025-03-17 16:39:43,735 - LogoClustering - INFO - Saved cluster data to cluster_results\logo_clusters.csv
+2025-03-17 16:39:43,738 - LogoClustering - INFO - Saved cluster summary to cluster_results\cluster_summary.csv
+2025-03-17 16:40:07,463 - LogoClustering - INFO - Loading logos from logo_clusters/unique
+2025-03-17 16:40:07,476 - LogoClustering - INFO - Found 410 logo files
+2025-03-17 16:40:07,476 - LogoClustering - INFO - Extracting advanced features from logos
+2025-03-17 16:40:13,132 - LogoClustering - INFO - Successfully extracted features from 410 logos
+2025-03-17 16:40:13,133 - LogoClustering - INFO - Clustering 410 logos using hierarchical
+2025-03-17 16:40:13,322 - LogoClustering - INFO - Found 41 clusters, with 0 unclustered logos
+2025-03-17 16:40:13,322 - LogoClustering - INFO - Visualizing clusters
+2025-03-17 16:40:34,402 - LogoClustering - INFO - Saved cluster data to cluster_results\logo_clusters.csv
+2025-03-17 16:40:34,405 - LogoClustering - INFO - Saved cluster summary to cluster_results\cluster_summary.csv
+2025-03-17 16:42:29,735 - LogoClustering - INFO - Loading logos from logo_clusters/unique
+2025-03-17 16:42:29,751 - LogoClustering - INFO - Found 410 logo files
+2025-03-17 16:42:29,751 - LogoClustering - INFO - Extracting advanced features from logos
+2025-03-17 16:42:35,643 - LogoClustering - INFO - Successfully extracted features from 410 logos
+2025-03-17 16:42:35,643 - LogoClustering - INFO - Clustering 410 logos using dbscan
+2025-03-17 16:42:35,681 - LogoClustering - INFO - Found 2 clusters, with 397 unclustered logos
+2025-03-17 16:42:35,681 - LogoClustering - INFO - Visualizing clusters
+2025-03-17 16:42:36,394 - LogoClustering - INFO - Saved cluster data to cluster_results\logo_clusters.csv
+2025-03-17 16:42:36,397 - LogoClustering - INFO - Saved cluster summary to cluster_results\cluster_summary.csv
+2025-03-17 16:42:47,798 - LogoClustering - INFO - Loading logos from logo_clusters/unique
+2025-03-17 16:42:47,810 - LogoClustering - INFO - Found 410 logo files
+2025-03-17 16:42:47,810 - LogoClustering - INFO - Extracting advanced features from logos
+2025-03-17 16:42:53,530 - LogoClustering - INFO - Successfully extracted features from 410 logos
+2025-03-17 16:42:53,531 - LogoClustering - INFO - Clustering 410 logos using hierarchical
+2025-03-17 16:42:53,572 - LogoClustering - INFO - Found 41 clusters, with 0 unclustered logos
+2025-03-17 16:42:53,572 - LogoClustering - INFO - Visualizing clusters
+2025-03-17 16:43:15,066 - LogoClustering - INFO - Saved cluster data to cluster_results\logo_clusters.csv
+2025-03-17 16:43:15,068 - LogoClustering - INFO - Saved cluster summary to cluster_results\cluster_summary.csv
