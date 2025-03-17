@@ -28,4 +28,7 @@ if __name__ == "__main__":
     fisier_parquet = "logos.snappy.parquet"
     citeste_parquet(fisier_parquet)
 
-#python logo_clustering.py --input-dir extracted_logos --output-dir cluster_results
+ 
+
+#ordine: python a2.py, apoi python advanced-logo-similarity.py --input company_logos --output logo_clusters, apoi 
+#python logo_clustering.py --input-dir logo_clusters/unique --output-dir cluster_results

@@ -1326,3 +1326,12 @@
 2025-03-17 15:01:03,722 - LogoClustering - INFO - Visualizing clusters
 2025-03-17 15:02:32,146 - LogoClustering - INFO - Saved cluster data to cluster_results\logo_clusters.csv
 2025-03-17 15:02:32,150 - LogoClustering - INFO - Saved cluster summary to cluster_results\cluster_summary.csv
+2025-03-17 16:20:58,627 - LogoClustering - INFO - Loading logos from logo_clusters/unique
+2025-03-17 16:20:58,644 - LogoClustering - INFO - Found 410 logo files
+2025-03-17 16:20:58,645 - LogoClustering - INFO - Extracting features from logos
+2025-03-17 16:21:03,366 - LogoClustering - INFO - Successfully extracted features from 410 logos
+2025-03-17 16:21:03,367 - LogoClustering - INFO - Clustering 410 logos with DBSCAN (eps=0.5, min_samples=2)
+2025-03-17 16:21:03,554 - LogoClustering - INFO - Found 3 clusters, with 393 unclustered logos
+2025-03-17 16:21:03,554 - LogoClustering - INFO - Visualizing clusters
+2025-03-17 16:21:05,280 - LogoClustering - INFO - Saved cluster data to cluster_results\logo_clusters.csv
+2025-03-17 16:21:05,288 - LogoClustering - INFO - Saved cluster summary to cluster_results\cluster_summary.csv

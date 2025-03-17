@@ -1,0 +1,10 @@
+2025-03-17 15:31:06,902 - LogoDeduplicator - INFO - Found 2818 image files
+2025-03-17 15:31:14,947 - LogoDeduplicator - INFO - Successfully processed 2818 images
+2025-03-17 15:31:37,875 - LogoDeduplicator - INFO - Found 1436 unique logos and 1382 duplicates
+2025-03-17 15:31:37,875 - LogoDeduplicator - INFO - Unique logos copied to deduplication_results\unique
+2025-03-17 15:31:37,876 - LogoDeduplicator - INFO - Full report saved to deduplication_results\duplication_report.txt
+2025-03-17 15:33:05,220 - LogoDeduplicator - INFO - Found 2818 image files
+2025-03-17 15:33:12,251 - LogoDeduplicator - INFO - Successfully processed 2818 images
+2025-03-17 15:33:32,461 - LogoDeduplicator - INFO - Found 1310 unique logos and 1508 duplicates
+2025-03-17 15:33:32,461 - LogoDeduplicator - INFO - Unique logos copied to deduplication_results\unique
+2025-03-17 15:33:32,462 - LogoDeduplicator - INFO - Full report saved to deduplication_results\duplication_report.txt

@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger("LogoClustering")
 
 class LogoClusterAnalyzer:
-    def __init__(self, logos_dir="extracted_logos", results_dir="cluster_results"):
+    def __init__(self, logos_dir="logo_clusters/unique", results_dir="cluster_results"):
         self.logos_dir = logos_dir
         self.results_dir = results_dir
         os.makedirs(results_dir, exist_ok=True)
@@ -302,8 +302,8 @@ class LogoClusterAnalyzer:
 
 def main():
     parser = argparse.ArgumentParser(description='Cluster logo images based on visual similarity')
-    parser.add_argument('--input-dir', '-i', default='extracted_logos',
-                      help='Directory containing extracted logos (default: extracted_logos)')
+    parser.add_argument('--input-dir', '-i', default='logo_clusters/unique',
+                      help='Directory containing extracted logos (default: logo_clusters/unique)')
     parser.add_argument('--output-dir', '-o', default='cluster_results',
                       help='Directory to save clustering results (default: cluster_results)')
     parser.add_argument('--epsilon', '-e', type=float, default=0.5,

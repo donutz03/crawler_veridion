@@ -1,0 +1,36 @@
+2025-03-17 15:36:56,560 - LogoSimilarityAnalyzer - INFO - Found 2818 image files
+2025-03-17 15:36:56,565 - LogoSimilarityAnalyzer - INFO - Processing images and extracting features...
+2025-03-17 15:37:05,442 - LogoSimilarityAnalyzer - INFO - Successfully processed 2818 images
+2025-03-17 15:37:05,443 - LogoSimilarityAnalyzer - INFO - Computing pairwise similarities...
+2025-03-17 15:40:50,766 - LogoSimilarityAnalyzer - INFO - Grouping similar logos...
+2025-03-17 15:40:53,552 - LogoSimilarityAnalyzer - INFO - Found 1434 unique logo groups and 1384 similar logos
+2025-03-17 15:40:53,552 - LogoSimilarityAnalyzer - INFO - Unique logos copied to similarity_results\unique
+2025-03-17 15:40:53,553 - LogoSimilarityAnalyzer - INFO - Grouped logos copied to similarity_results\groups
+2025-03-17 15:40:53,553 - LogoSimilarityAnalyzer - INFO - Full report saved to similarity_results\similarity_report.txt
+2025-03-17 15:57:50,210 - LogoSimilarityAnalyzer - INFO - Found 2542 image files
+2025-03-17 15:58:17,768 - LogoSimilarityAnalyzer - INFO - Formed 1040 initial domain groups based on naming patterns
+2025-03-17 15:58:17,768 - LogoSimilarityAnalyzer - INFO - Processing images and extracting features...
+2025-03-17 15:58:41,843 - LogoSimilarityAnalyzer - INFO - Successfully processed 2542 images
+2025-03-17 15:58:41,843 - LogoSimilarityAnalyzer - INFO - Forming final logo clusters...
+2025-03-17 15:58:46,343 - LogoSimilarityAnalyzer - INFO - Found 1529 logo clusters and 1013 similar logos
+2025-03-17 15:58:46,343 - LogoSimilarityAnalyzer - INFO - Unique logos copied to logo_clusters\unique
+2025-03-17 15:58:46,344 - LogoSimilarityAnalyzer - INFO - Grouped logos copied to logo_clusters\groups
+2025-03-17 15:58:46,344 - LogoSimilarityAnalyzer - INFO - Full report saved to logo_clusters\logo_clusters_report.txt
+2025-03-17 15:59:39,738 - LogoSimilarityAnalyzer - INFO - Found 2542 image files
+2025-03-17 15:59:39,739 - LogoSimilarityAnalyzer - INFO - Processing images and extracting features...
+2025-03-17 15:59:47,795 - LogoSimilarityAnalyzer - INFO - Successfully processed 2542 images
+2025-03-17 15:59:47,795 - LogoSimilarityAnalyzer - INFO - Computing pairwise similarities...
+2025-03-17 16:02:57,072 - LogoSimilarityAnalyzer - INFO - Grouping similar logos...
+2025-03-17 16:02:59,695 - LogoSimilarityAnalyzer - INFO - Found 1338 unique logo groups and 1204 similar logos
+2025-03-17 16:02:59,695 - LogoSimilarityAnalyzer - INFO - Unique logos copied to logo_clusters\unique
+2025-03-17 16:02:59,696 - LogoSimilarityAnalyzer - INFO - Grouped logos copied to logo_clusters\groups
+2025-03-17 16:02:59,696 - LogoSimilarityAnalyzer - INFO - Full report saved to logo_clusters\similarity_report.txt
+2025-03-17 16:17:57,048 - LogoSimilarityAnalyzer - INFO - Found 411 image files
+2025-03-17 16:17:57,048 - LogoSimilarityAnalyzer - INFO - Processing images and extracting features...
+2025-03-17 16:18:00,907 - LogoSimilarityAnalyzer - INFO - Successfully processed 411 images
+2025-03-17 16:18:00,907 - LogoSimilarityAnalyzer - INFO - Computing pairwise similarities...
+2025-03-17 16:18:05,674 - LogoSimilarityAnalyzer - INFO - Grouping similar logos...
+2025-03-17 16:18:05,979 - LogoSimilarityAnalyzer - INFO - Found 410 unique logo groups and 1 similar logos
+2025-03-17 16:18:05,979 - LogoSimilarityAnalyzer - INFO - Unique logos copied to logo_clusters\unique
+2025-03-17 16:18:05,979 - LogoSimilarityAnalyzer - INFO - Grouped logos copied to logo_clusters\groups
+2025-03-17 16:18:05,979 - LogoSimilarityAnalyzer - INFO - Full report saved to logo_clusters\similarity_report.txt
